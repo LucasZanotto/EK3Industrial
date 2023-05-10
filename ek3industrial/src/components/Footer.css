@@ -1,0 +1,14 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F2F2F2;
+  padding: 20px;
+}
+.footer-left {
+  margin-right: auto;
+}
+.footer-right {
+  margin-left: auto;
+}

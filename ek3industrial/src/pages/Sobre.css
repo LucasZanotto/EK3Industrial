@@ -1,0 +1,46 @@
+* {
+  font-family: sans-serif;
+}
+
+.seila {
+  background-color: aqua;
+  display: flex;
+}
+
+.title-1 {
+  text-align: center;
+  background-color: purple;
+  padding: 20px;
+  color: rgb(235, 235, 235);
+}
+
+.info-1 {
+  /* background-color: rgb(0, 128, 117); */
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: justify;
+}
+
+.info-1 h2 {
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.info-2 img {
+  padding-top: 5%;
+}
+
+.info-2 p {
+  margin: 0;
+}
+
+.info-3 {
+  padding-top: 10%;
+}
+
+.grid-1 {
+  display: flex;
+  padding-right: 2%;
+  margin-bottom: 10%;
+}
+
