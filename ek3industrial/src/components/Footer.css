@@ -12,3 +12,7 @@ footer {
 .footer-right {
   margin-left: auto;
 }
+
+* {
+  color: #212529
+}

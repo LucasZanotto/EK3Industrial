@@ -12,7 +12,7 @@ export default function Footer() {
       <img src={imageInvi} width="200px" />
     </div>
     <div className="footer-center">
-      <p><strong>EK3 Engenharia Industrial, todos os direitos reservados aqui.</strong></p>
+      <p><strong>EK3 Engenharia Industrial, todos os direitos reservados.</strong></p>
       <p>Rua Saul Brandalise, 1100. CEP: 89560-162. Videira/SC. Brasil</p>
     </div>
     <div className="footer-right">

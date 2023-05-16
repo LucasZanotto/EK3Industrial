@@ -44,6 +44,13 @@ export default function Header() {
                 </h4>
               </Link>
             </li>
+            <li className="nav-item">
+              <Link to="/cultura" className="nav-link">
+              <h4>
+                Cultura
+                </h4>
+              </Link>
+            </li>
             {/* <li className="nav-item">
               <Link to="/local" className="nav-link">
                 Localização

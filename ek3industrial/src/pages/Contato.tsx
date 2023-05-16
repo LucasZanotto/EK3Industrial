@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import Header from "../components/Header";
 import imageEmpre from "../assets/engenhariaEmp.jpeg";
 import imageInsta from "../assets/instagram.png";
@@ -12,12 +12,50 @@ import { Link } from "react-router-dom";
 import { useHistory } from 'react-router-dom';
 
 export default function Contato(){
-  window.scrollTo(0, 0);
+  const [name, setName] = useState("");
+  const [sobrenome, setSobrenome] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [company, setCompany] = useState("");
+  const [message, setMessage] = useState("");
+  // window.scrollTo(0, 0);
   const history = useHistory();
 
   function handleClick() {
     history.go('/areas');
   }
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const formData = new FormData();
+    formData.append("Nome", name + ' ' + sobrenome);
+    formData.append("Email", email);
+    formData.append("Telefone", phone);
+    formData.append("Companhia", company);
+    formData.append("Mensagem", message);
+
+    const response = await fetch("https://formspree.io/f/moqzbpyg", {
+      method: "POST",
+      body: formData,
+      headers: {
+        Accept: "application/json",
+      },
+    });
+
+    if (response.ok) {
+      // Processar resposta bem-sucedida
+      console.log("Email enviado com sucesso!");
+    } else {
+      // Processar resposta de erro
+      console.log("Erro ao enviar o email.");
+    }
+    setName('')
+    setSobrenome('')
+    setEmail('')
+    setPhone('')
+    setCompany('')
+    setMessage('')
+  };
   return (
     <div>
     <Header/>
@@ -40,11 +78,81 @@ export default function Contato(){
     </div>
     <div className="container-23">
       <h2>Contate-nos</h2>
-      <h4><strong>Interessado em conhecer mais sobre a EK3 Engenharia Industrial?</strong></h4>
-      <Link to="/sobre">
-       <button onClick={() => handleClick}><strong>Saiba mais</strong></button>
-      </Link>
+      <h4><strong>Descubra como podemos transformar seus projetos em realidade. Entre em contato conosco e juntos construiremos um futuro de excelência para você.</strong></h4>
     </div>
+    <form onSubmit={handleSubmit} className="contact-form">
+  <div className="form-row">
+    <div className="form-group">
+      <label htmlFor="name">Nome</label>
+      <input
+        type="text"
+        id="name"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+        placeholder="Nome"
+        required
+      />
+    </div>
+    <div className="form-group">
+      <label htmlFor="sobrenome">Sobrenome</label>
+      <input
+        type="text"
+        id="sobrenome"
+        value={sobrenome}
+        onChange={(e) => setSobrenome(e.target.value)}
+        placeholder="Sobrenome"
+        required
+      />
+    </div>
+  </div>
+  <div className="form-row">
+    <div className="form-group">
+      <label htmlFor="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        placeholder="Email"
+        required
+      />
+    </div>
+    <div className="form-group">
+      <label htmlFor="phone">Telefone</label>
+      <input
+        type="text"
+        id="phone"
+        value={phone}
+        onChange={(e) => setPhone(e.target.value)}
+        placeholder="Telefone"
+        required
+      />
+    </div>
+  </div>
+  <div className="form-group">
+    <label htmlFor="company">Nome da companhia</label>
+    <input
+      type="text"
+      id="company"
+      value={company}
+      onChange={(e) => setCompany(e.target.value)}
+      placeholder="Nome da companhia"
+      required
+    />
+  </div>
+  <div className="form-group">
+    <label htmlFor="message">Mensagem</label>
+    <textarea
+      id="message"
+      value={message}
+      onChange={(e) => setMessage(e.target.value)}
+      placeholder="Mensagem"
+      required
+    ></textarea>
+  </div>
+  <button type="submit">Enviar</button>
+</form>
+
     <Footer />
     </div>
   )

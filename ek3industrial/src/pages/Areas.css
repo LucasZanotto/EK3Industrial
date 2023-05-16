@@ -1,6 +1,6 @@
 .titles-1 {
   text-align: center;
-  background-color: purple;
+  background-color: aqua;
   padding: 20px;
 }
 
@@ -8,7 +8,7 @@
   padding: 5%;
   /* background-color: aqua; */
   display: flex;
-  background-color: aqua;
+  background-color: white;
   align-items: center;
   justify-content: center;
 }
@@ -21,7 +21,7 @@
 .container-3 {
   display: flex;
   padding: 5%;
-  background-color: aqua;
+  background-color: white;
   align-items: center;
   justify-content: center;
 }
@@ -34,8 +34,8 @@
 .container-2 {
   display: flex;
   padding: 5%;
-  background-color: purple;
-  color: white;
+  background-color: white;
+  color: gray;
   align-items: center;
   justify-content: center;
 } 
@@ -44,3 +44,5 @@
   padding: 5%;
   width: auto;
 }
+
+/* 990px x 1px  renderizar com block*/
