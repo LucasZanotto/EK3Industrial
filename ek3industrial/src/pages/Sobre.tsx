@@ -41,7 +41,7 @@ export default function Sobre() {
           <p>
             A EK3 contribui para o desenvolvimento e Evolução da sua empresa.
           </p>
-          <h2>
+          <h2 className="imageCity">
           <img src={imageVideira} width="100%" height="550vh" style={{paddingBottom: "5%"}} />
             <strong>A EK3 ENGENHARIA INDUSTRIAL</strong>
           </h2>
