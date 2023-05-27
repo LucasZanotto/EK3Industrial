@@ -100,12 +100,20 @@
 }
 
 .container-23 {
-  padding: 10%;
-  padding-top: 10%;
-  /* background-color: #26A7B6; */
-  padding-bottom: 5%;
+  padding-top: 1%;
+  padding-right: 5%;
+  padding-left: 5%;
+  text-align: center;
+  /* padding-top: ; */
+  padding-bottom: 3%;
   color: black;
   font-style: italic;
+  
+}
+
+.container-23 h1 {
+  padding-bottom: 1%;
+  background-color: #26A7B6;
 }
 
 /* .container-23 button {

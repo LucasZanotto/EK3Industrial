@@ -10,8 +10,8 @@ import imageSlogan from "../assets/Captura de tela de 2023-04-20 20-17-57.png";
 import imageInsta from "../assets/instagram.png";
 import imageBranco from "../assets/ek3branco.png";
 import imageWhats from "../assets/whatsapp.png";
-import imageCoach from "../assets/Coaching.jpg"
-import imageTyping from "../assets/type2.jpg";
+import imageCoach from "../assets/imageEmpreend.jpg";
+import imageTyping from "../assets/imageProj.jpg";
 import imageAtua from "../assets/areasDeAt.jpg";
 import imageSobre from "../assets/thisisengineering-raeng-1sk5Y2MK79Q-unsplash.jpg"
 import imageGlobo from "../assets/brian-mcgowan-0A450BR1JWk-unsplash.jpg"
@@ -20,14 +20,17 @@ import imageAgriculture from "../assets/roberto-bernardi-haXsyxD9Yg8-unsplash.jp
 import imageChemicals from "../assets/ant-rozetsky-io7dX_1EFCg-unsplash.jpg"
 import imageFood from "../assets/arshad-pooloo-FK3s0hRpMNM-unsplash.jpg"
 import imageInfra from "../assets/troy-mortier-6OVv680DNag-unsplash.jpg"
-import imagePharma from "../assets/glsun-mall-WNX6uk-1LV4-unsplash.jpg"
 import imageManu from "../assets/christopher-burns-8KfCR12oeUM-unsplash.jpg"
 import imageElec from "../assets/jason-blackeye-zAITDJYV09w-unsplash.jpg"
 import imageRefil from "../assets/victor-2PJMDIgK9EA-unsplash.jpg"
-import imageChem from "../assets/artur-voznenko-rwPIQQPz1ew-unsplash.jpg"
+import imageChem from "../assets/Empreendimentos.jpg"
 import imageCosmetic from "../assets/element5-digital-ceWgSMd8rvQ-unsplash.jpg"
-import imageEmp from "../assets/tierra-mallorca-rgJ1J8SDEAY-unsplash.jpg"
-import imageCult from "../assets/helena-lopes-PGnqT0rXWLs-unsplash.jpg"
+import imageEmp from "../assets/imageEmpreen.jpg";
+import imageCult from "../assets/imageCult2.jpeg"
+import imagePrincipal from "../assets/fotoPrincipal.jpg"
+import imageCell from "../assets/celulose.jpg"
+import imageGenerator from "../assets/generatorEnergy.jpg"
+import imagePharma from "../assets/pharma.jpg"
 import "./Home.css";
 import { Link } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
@@ -41,8 +44,8 @@ export default function Home() {
       <Header />
       <div className="header-init">
         <div>
-        <h1 className="header-letters"><strong>A escolha certa para o seu sucesso</strong></h1>
-        <h2 className="header-letters-2"><strong>Conte conosco </strong></h2>
+        <h1 className="header-letters"><strong>A escolha certa para a sua</strong></h1>
+        <h2 className="header-letters-2"><strong>Agilidade Operacional</strong></h2>
         </div>
       </div>
       <div className="areas-att">
@@ -95,12 +98,12 @@ Conte conosco para transformar suas ideias em realidade.</strong></h3>
       </Carousel>
       <div className="container-25">
       <h2><strong>Cultura da EK3</strong></h2>
-      <img  src={imageCult} alt="Third slide" width="50%" style={{borderRadius: "15px"}}/>
       <h3><strong>Descubra como estamos moldando o futuro e impulsionando o progresso.</strong>
       <br/>
-      <Link to="/cultura">
+       <Link to="/cultura">
       <button>Saiba mais</button>
       </Link>
+      <img  src={imageCult} alt="Foto de Helena Lopes na Unsplash" width="50%"/>
       </h3>
     </div>
     <div className="container48">
@@ -116,7 +119,7 @@ Conte conosco para transformar suas ideias em realidade.</strong></h3>
   </div>
   
   <div style={{ position: "relative", display: "inline-block", marginRight: "3%" }}>
-    <img src={imageChem} alt="Foto de Artur Voznenko na Unsplash" width="20%" style={{ borderRadius: "5px" }}/>
+    <img src={imageChem} alt="Foto de Artur Voznenko na Unsplash" width="20%" style={{ borderRadius: "5px", opacity: "70%" }}/>
     <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -280%)" }}>
       <h3 style={{fontWeight: "bold", color: "white" }}><strong>Química</strong></h3>
     </div>
@@ -129,10 +132,16 @@ Conte conosco para transformar suas ideias em realidade.</strong></h3>
     </div>
   </div>
   
-  <div style={{ position: "relative", display: "inline-block" }}>
+  <div style={{ position: "relative", display: "inline-block",  marginRight: "3%"  }}>
     <img src={imageInfra} alt="Foto de Troy Mortier na Unsplash" width="20%" style={{ borderRadius: "5px" }}/>
     <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -280%)" }}>
     <h3 style={{fontWeight: "bold" }}><strong>Governamental</strong></h3>
+    </div>
+  </div>
+  <div style={{ position: "relative", display: "inline-block" }}>
+    <img src={imageGenerator} alt="Foto de Tyler Casey na Unsplash" width="20%" style={{ borderRadius: "5px" }}/>
+    <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -280%)" }}>
+    <h3 style={{fontWeight: "bold" }}><strong>Energética</strong></h3>
     </div>
   </div>
     </div>
@@ -158,33 +167,39 @@ Conte conosco para transformar suas ideias em realidade.</strong></h3>
     </div>
   </div>
   
-  <div style={{ position: "relative", display: "inline-block" }}>
+  <div style={{ position: "relative", display: "inline-block", marginRight: "3%"  }}>
     <img src={imageRefil} alt="Foto de Victor na Unsplash" width="20%" style={{ borderRadius: "5px" }}/>
     <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -280%)" }}>
-    <h3 style={{fontWeight: "bold" }}><strong>Refinação</strong></h3>
+    <h3 style={{fontWeight: "bold" }}><strong>Refinaria</strong></h3>
+    </div>
+  </div>
+
+  <div style={{ position: "relative", display: "inline-block" }}>
+    <img src={imageCell} alt="Foto de Bank Phrom na Unsplash" width="20%" style={{ borderRadius: "5px", opacity: "70%" }}/>
+    <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -280%)" }}>
+    <h3 style={{fontWeight: "bold" }}><strong>Celulose</strong></h3>
     </div>
   </div>
     </div>
-    <div className="container-25">
+    <div className="container-25" style={{paddingBottom:"0%"}}>
       <h2><strong>Sobre nós</strong></h2>
-      <img  src={imageSobre} alt="Third slide" width="50%" style={{borderRadius: "15px"}}/>
       <h3><strong>Conheça nossa história e junte-se à nossa jornada.</strong>
       <br/>
       <Link to="/sobre">
       <button>Saiba mais</button>
       </Link>
       </h3>
+      <img  src={imageSobre} alt="Third slide"/>
     </div>
-    <div className="container-29">
-    <img  src={imageGlobo} alt="Third slide" width="auto"/>
-    <h3>
-      Localização
-      <br />
-      <br />
-      <strong style={{color: "white"}}>Descubra o que o mundo tem a oferecer</strong></h3>
-    <Link to="/contato">
+    <div className="container-25" style={{paddingBottom:"0%"}}>
+      <h2><strong>Localização</strong></h2>
+      <h3><strong>Descubra o que o mundo tem a oferecer.</strong>
+      <br/>
+      <Link to="/contato">
       <button>Saiba mais</button>
       </Link>
+      </h3>
+      <img  src={imageGlobo} alt="Third slide"/>
     </div>
       <Footer/>
     </div>

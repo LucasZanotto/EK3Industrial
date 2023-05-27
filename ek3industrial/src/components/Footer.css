@@ -3,7 +3,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #F2F2F2;
+  /* background-color: #F2F2F2; */
   padding: 20px;
 }
 .footer-left {
