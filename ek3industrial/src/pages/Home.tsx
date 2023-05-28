@@ -16,21 +16,22 @@ import imageAtua from "../assets/areasDeAt.jpg";
 import imageSobre from "../assets/thisisengineering-raeng-1sk5Y2MK79Q-unsplash.jpg"
 import imageGlobo from "../assets/brian-mcgowan-0A450BR1JWk-unsplash.jpg"
 import imagePrin from "../assets/thisisengineering-raeng-SyRlD4s_amw-unsplash.jpg"
-import imageAgriculture from "../assets/roberto-bernardi-haXsyxD9Yg8-unsplash.jpg"
+import imageAgriculture from "../assets/Agronegócios.jpg"
 import imageChemicals from "../assets/ant-rozetsky-io7dX_1EFCg-unsplash.jpg"
-import imageFood from "../assets/arshad-pooloo-FK3s0hRpMNM-unsplash.jpg"
-import imageInfra from "../assets/troy-mortier-6OVv680DNag-unsplash.jpg"
+import imageFood from "../assets/Alimenticia.jpg"
+import imageInfra from "../assets/governamental (1).jpg"
 import imageManu from "../assets/christopher-burns-8KfCR12oeUM-unsplash.jpg"
 import imageElec from "../assets/jason-blackeye-zAITDJYV09w-unsplash.jpg"
 import imageRefil from "../assets/victor-2PJMDIgK9EA-unsplash.jpg"
-import imageChem from "../assets/Empreendimentos.jpg"
-import imageCosmetic from "../assets/element5-digital-ceWgSMd8rvQ-unsplash.jpg"
+import imageChem from "../assets/quimica (2).jpg"
+import imageCosmetic from "../assets/cosmetica.jpg"
 import imageEmp from "../assets/imageEmpreen.jpg";
 import imageCult from "../assets/imageCult2.jpeg"
 import imagePrincipal from "../assets/fotoPrincipal.jpg"
-import imageCell from "../assets/celulose.jpg"
-import imageGenerator from "../assets/generatorEnergy.jpg"
-import imagePharma from "../assets/pharma.jpg"
+import imageCell from "../assets/textil.jpg"
+import imageGenerator from "../assets/geracao de energia.jpg"
+import imagePharma from "../assets/farmaceutica.jpg"
+import imageHead from "../assets/headlogo.png"
 import "./Home.css";
 import { Link } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
@@ -112,7 +113,7 @@ Conte conosco para transformar suas ideias em realidade.</strong></h3>
     </div>
     <div className="container50">
     <div className="sty50" style={{ position: "relative", display: "inline-block", marginRight: "3%" }}>
-    <img src={imageAgriculture} alt="Foto de roberto bernardi na Unsplash" style={{ borderRadius: "5px" }}/>
+    <img src={imageAgriculture} alt="Foto de roberto bernardi na Unsplash" style={{ borderRadius: "5px", opacity: "70%" }}/>
     <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -280%)" }}>
     <h3 style={{fontWeight: "bold" }}><strong>Agronegócio</strong></h3>
     </div>
@@ -133,7 +134,7 @@ Conte conosco para transformar suas ideias em realidade.</strong></h3>
   </div>
   
   <div style={{ position: "relative", display: "inline-block",  marginRight: "3%"  }}>
-    <img src={imageInfra} alt="Foto de Troy Mortier na Unsplash" width="20%" style={{ borderRadius: "5px" }}/>
+    <img src={imageInfra} alt="Foto de Troy Mortier na Unsplash" width="20%" style={{ borderRadius: "5px", opacity: "70%" }}/>
     <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -280%)" }}>
     <h3 style={{fontWeight: "bold" }}><strong>Governamental</strong></h3>
     </div>
@@ -177,7 +178,7 @@ Conte conosco para transformar suas ideias em realidade.</strong></h3>
   <div style={{ position: "relative", display: "inline-block" }}>
     <img src={imageCell} alt="Foto de Bank Phrom na Unsplash" width="20%" style={{ borderRadius: "5px", opacity: "70%" }}/>
     <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -280%)" }}>
-    <h3 style={{fontWeight: "bold" }}><strong>Celulose</strong></h3>
+    <h3 style={{fontWeight: "bold" }}><strong>Textil</strong></h3>
     </div>
   </div>
     </div>
