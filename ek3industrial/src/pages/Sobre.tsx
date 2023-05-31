@@ -4,6 +4,9 @@ import imageEmpre from "../assets/engenhariaEmp.jpeg";
 import imageInsta from "../assets/1161953_instagram_icon.png";
 import imageWhats from "../assets/843786_whatsapp_icon.png";
 import imageVideira from "../assets/videiraInt.jpg";
+import imageSobre from "../assets/Captura de tela de 2023-05-31 17-23-08.png";
+import imageCult from "../assets/imageCult2.jpeg";
+import imageCoach from "../assets/Foto consultoria _ treinamento 2.jpg";
 import "./Sobre.css";
 import Footer from "../components/Footer";
 
@@ -18,6 +21,9 @@ export default function Sobre() {
         </h1>
       </div>
       <div className="grid-1">
+        <div>
+          <img src={imageVideira} />
+        </div>
         <div className="info-1">
           <h2>
             <strong>HISTÓRIA</strong>
@@ -41,8 +47,11 @@ export default function Sobre() {
           <p>
             A EK3 contribui para o desenvolvimento e Evolução da sua empresa.
           </p>
+        </div>
+      </div>
+      <div className="grid-1">
+        <div className="info-1">
           <h2 className="imageCity">
-          <img src={imageVideira} width="100%" height="550vh" style={{paddingBottom: "5%"}} />
             <strong>A EK3 ENGENHARIA INDUSTRIAL</strong>
           </h2>
           <p>
@@ -59,55 +68,46 @@ export default function Sobre() {
           <p>- Consultoria e treinamento</p>
           <p>- Projetos industriais e engenharia</p>
           <p>- Empreendimentos</p>
-          <h2>
-            <strong>MOTIVO DA CRIAÇÃO</strong>
-          </h2>
-          <p>
-            Algumas pessoas tem a ânsia de sair do Brasil para conhecer, para
-            estudar, para trabalhar ou mesmo para viver novas e diferentes
-            experiências culturais.
-          </p>
-          <p>
-            A equipe da EK3 fez o contrário, após quase 20 anos atuando no
-            exterior, retorna ao Brasil com uma bagagem carregada de
-            conhecimentos multidisciplinares, técnicos, tecnológicos, comerciais
-            e gerenciais, que podem contribuir para o crescimento da sua
-            empresa.
-          </p>
-          <p>
-            Nos instalamos em Videira Santa Catarina, cidade natal da fundadora
-            e polo industrial da região meio oeste catarinense, região altamente
-            desenvolvida e berço de grandes potencias na indústria brasileira.
-          </p>
-          <p>
-            Chegamos para auxiliar no desenvolvimento dos seus projetos de
-            engenharia, nosso portfólio é vasto e nossa equipe preparada para
-            atuar em diversas frentes industriais.
-          </p>
-          <p>A EK3 oferece agilidade operacional para a sua indústria.</p>
-          <h2>
-            <strong>MOTIVAÇÃO</strong>
-          </h2>
-          <p>
-            Santa Catarina vem alcançando um crescimento histórico, muito acima
-            da média nos segmentos industriais. O oeste catarinense possui uma
-            economia diversificada e empresas fortes, difundidas na gestão e
-            resultados.
-          </p>
-          <p>
-            O meio-oeste catarinense, região onde estamos instalados, está em
-            destaque da diversidade econômica, somos privilegiados devido a
-            extensão territorial e as variadas atividades industriais que
-            impulsionam a economia estadual e nacional.
-          </p>
-          <p>
-            A EK3 quer fazer parte deste momento histórico. Crescer e fazer
-            outras empresas crescerem através de processos industriais efetivos
-            e personalizados.
-          </p>
-          <p>Entre e contato e sabia como podemos auxiliar a sua empresa.</p>
+          </div>
+          <div>
+            <img src={imageSobre} />
+          </div>
+      </div>
+      <div className="grid-1">
+        <div>
+          <img src={imageCult}/>
+        </div>
+        <div className="info-1">
+        <h2><strong>MOTIVO DA CRIAÇÃO</strong></h2>
+<p>Algumas pessoas tem a ânsia de sair do Brasil para conhecer, para estudar, para trabalhar ou mesmo para viver
+novas e diferentes experiências culturais.</p>
+<p>A equipe da EK3 fez o contrário, após quase 20 anos atuando no exterior, retorna ao Brasil com uma
+bagagem carregada de conhecimentos multidisciplinares, técnicos, tecnológicos, comerciais e gerenciais,
+que podem contribuir para o crescimento da sua empresa.</p>
+<p>Nos instalamos em Videira Santa Catarina, cidade natal da fundadora e polo industrial da região meio oeste
+catarinense, região altamente desenvolvida e berço de grandes potencias na indústria brasileira.</p>
+<p>Chegamos para auxiliar no desenvolvimento dos seus projetos de engenharia, nosso portfólio é vasto e
+nossa equipe preparada para atuar em diversas frentes industriais.</p>
+<p>A EK3 oferece agilidade operacional para a sua indústria.</p>
         </div>
       </div>
+      <div className="grid-1">
+        <div className="info-1">
+        <h2><strong>MOTIVAÇÃO</strong></h2>
+<p>Santa Catarina vem alcançando um crescimento histórico, muito acima da média nos segmentos industriais.
+O oeste catarinense possui uma economia diversificada e empresas fortes, difundidas na gestão e
+resultados.</p>
+<p>O meio-oeste catarinense, região onde estamos instalados, está em destaque da diversidade econômica,
+somos privilegiados devido a extensão territorial e as variadas atividades industriais que impulsionam a
+economia estadual e nacional.</p>
+<p>A EK3 quer fazer parte deste momento histórico. Crescer e fazer outras empresas crescerem através de
+processos industriais efetivos e personalizados.</p>
+<p>Entre e contato e sabia como podemos auxiliar a sua empresa.</p>
+        </div>
+        <div>
+          <img src={imageCoach}/>
+        </div>
+        </div>
       <Footer />
     </div>
   );

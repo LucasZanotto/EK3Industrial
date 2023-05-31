@@ -3,9 +3,10 @@ import Header from "../components/Header";
 import imageEmpre from "../assets/engenhariaEmp.jpeg";
 import imageInsta from "../assets/instagram.png";
 import imageWhats from "../assets/whatsapp.png";
-import imageContato from "../assets/contact.jpg"
+// import imageContato from "../assets/contact.jpg"
 import googleMap from "../assets/googleMap.png"
 import imageVideira from "../assets/videiraInt.jpg"
+import imageContato from "../assets/telework-5046230.jpg"
 import "./Contato.css";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
@@ -140,7 +141,7 @@ export default function Contato(){
 
     <div className="container-20">
       <div className="container-22">
-      <img  src={imageVideira} alt="Third slide" width="600" style={{borderRadius: "1px 75px"}}/>
+      <img  src={imageContato} alt="Third slide" width="600" style={{borderRadius: "1px 75px"}}/>
       </div>
       <div className="container-21">
       <h3><strong>Sede da corporação</strong></h3>
