@@ -5,8 +5,10 @@ import imageInsta from "../assets/1161953_instagram_icon.png";
 import imageWhats from "../assets/843786_whatsapp_icon.png";
 import imageVideira from "../assets/videiraInt.jpg";
 import imageSobre from "../assets/Captura de tela de 2023-05-31 17-23-08.png";
-import imageCult from "../assets/imageCult2.jpeg";
+import imageCult from "../assets/Captura de tela de 2023-06-13 21-33-29.png";
 import imageCoach from "../assets/Foto consultoria _ treinamento 2.jpg";
+import ek3Logo from "../assets/ek3Invi.png";
+import ek3Logo1 from "../assets/Captura de tela de 2023-06-13 19-37-56.png";
 import "./Sobre.css";
 import Footer from "../components/Footer";
 
@@ -16,13 +18,14 @@ export default function Sobre() {
     <div>
       <Header />
       <div className="title-1">
-        <h1>
-          <strong>Sobre nós</strong>
-        </h1>
-      </div>
+  <h1 className="display-4 fw-bold">SOBRE NÓS</h1>
+  <hr className="my-4" />
+</div>
       <div className="grid-1">
         <div>
-          <img src={imageVideira} />
+          <div>
+          <img src={ek3Logo1} />
+          </div>
         </div>
         <div className="info-1">
           <h2>
@@ -77,8 +80,8 @@ export default function Sobre() {
         <div>
           <img src={imageCult}/>
         </div>
-        <div className="info-1">
-        <h2><strong>MOTIVO DA CRIAÇÃO</strong></h2>
+        <div className="info-1" style={{marginLeft:"10%"}}>
+        <h2><strong>LOCALIZAÇÃO</strong></h2>
 <p>Algumas pessoas tem a ânsia de sair do Brasil para conhecer, para estudar, para trabalhar ou mesmo para viver
 novas e diferentes experiências culturais.</p>
 <p>A equipe da EK3 fez o contrário, após quase 20 anos atuando no exterior, retorna ao Brasil com uma

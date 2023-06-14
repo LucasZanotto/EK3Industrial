@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import imageInvi from "../assets/MarcaIv.png";
 import ek3Logo2 from "../assets/ek3logo2.png";
+import ek3Logo1 from "../assets/Captura de tela de 2023-06-13 19-37-56.png";
 import "./Header.css";
 
 export default function Header() {
@@ -9,7 +10,7 @@ export default function Header() {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand">
-          <img src={ek3Logo2} alt="logo" className="logo" />
+          <img src={ek3Logo1} alt="logo" className="logo" />
         </Link>
         <button
           className="navbar-toggler"

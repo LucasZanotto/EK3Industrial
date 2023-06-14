@@ -5,6 +5,7 @@ import imageWhats from "../assets/843786_whatsapp_icon.png";
 import imageFace from "../assets/iconFace.png";
 import imageMail from "../assets/iconMail.png"
 import ek3Logo2 from "../assets/ek3logo2.png";
+import ek3Logo1 from "../assets/Captura de tela de 2023-06-13 19-37-56.png";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 
@@ -12,7 +13,7 @@ export default function Footer() {
   return (
     <footer>
     <div className="footer-left">
-      <img src={ek3Logo2} width="200px" />
+      <img src={ek3Logo1}/>
     </div>
     <div className="footer-center">
       <p><strong>© Copyright 2023 EK3 Engenharia Industrial, todos os direitos reservados.</strong></p>

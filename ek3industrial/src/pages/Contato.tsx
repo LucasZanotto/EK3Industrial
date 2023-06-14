@@ -61,8 +61,10 @@ export default function Contato(){
     <div>
     <Header/>
     <div className="title-1">
-    <h1><strong>Contato</strong></h1>
-    </div>
+  <h1 className="display-4 fw-bold">CONTATO</h1>
+  <hr className="my-4" />
+</div>
+<div className="container-back">
     <div className="container-23">
       <h4><strong>Descubra como podemos transformar seus projetos em realidade. Entre em contato conosco e juntos construiremos um futuro de excelência para você.</strong></h4>
     </div>
@@ -138,10 +140,11 @@ export default function Contato(){
   </div>
   <button type="submit">Enviar</button>
 </form>
+</div>
 
     <div className="container-20">
       <div className="container-22">
-      <img  src={imageContato} alt="Third slide" width="600" style={{borderRadius: "1px 75px"}}/>
+      <img  src={imageVideira} alt="Third slide" width="600" style={{borderRadius: "1px 75px"}}/>
       </div>
       <div className="container-21">
       <h3><strong>Sede da corporação</strong></h3>

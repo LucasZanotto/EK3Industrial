@@ -171,3 +171,14 @@
 .contact-form button:hover {
   background-color: #45bdca;
 }
+
+.container-back {
+  background-image: url("../assets/telework-5046230.jpg");
+  height: 90vh;
+  background-size: cover;
+  opacity: 1;
+}
+
+.container-back img {
+  opacity: 70%;
+}

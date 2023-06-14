@@ -28,11 +28,11 @@ import imageCosmetic from "../assets/cosmetica.jpg";
 import imageEmp from "../assets/empreendimentos.jpg";
 import imageCult from "../assets/imageCult2.jpeg";
 import imagePrincipal from "../assets/fotoPrincipal.jpg";
-import imageCell from "../assets/textil.jpg";
+import imageCell from "../assets/Captura de tela de 2023-06-13 20-33-26.png";
 import imageGenerator from "../assets/geracao de energia.jpg";
 import imagePharma from "../assets/glsun-mall-WNX6uk-1LV4-unsplash.jpg";
 import imageHead from "../assets/headlogo.png";
-import imageEstrutural from "../assets/Captura de tela de 2023-05-31 17-00-24.png"
+import imageEstrutural from "../assets/greg-sellentin-SOBE-JRyRww-unsplash.jpg";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
@@ -56,14 +56,12 @@ export default function Home() {
       </div>
       <div className="areas-att">
         <h2>
-          <strong>Áreas de Atuação</strong>
+          Áreas de Atuação
         </h2>
         <h3>
-          <strong>
             A EK3 Engenharia Industrial é a escolha ideal para suas necessidades
-            em projetos de engenharia, topografia, laudos técnicos e muito mais.
+            em projetos de engenharia e industrial, auditorias, laudos técnicos e muito mais.
             Conte conosco para transformar suas ideias em realidade.
-          </strong>
         </h3>
       </div>
       <Carousel>
@@ -111,10 +109,10 @@ export default function Home() {
       </Carousel>
       <div className="container-25" style={{ paddingBottom: "3%" }}>
         <h2>
-          <strong>Cultura da EK3</strong>
+          Cultura da EK3
         </h2>
         <h3>
-          <strong>Descubra como estamos moldando o futuro e impulsionando o progresso.</strong>
+          Descubra como estamos moldando o futuro e impulsionando o progresso.
           <br />
           <Link to="/sobre">
             <button>Saiba mais</button>
@@ -124,13 +122,13 @@ export default function Home() {
       </div>
       <div className="container48">
         <h2>
-          <strong>Industrias</strong>
+          Indústrias
         </h2>
         <h3>
-          <strong>
-            Adaptamos às necessidades de indústrias para todos os segmentos e
-            portes, em busca de impulsionar o seu sucesso.
-          </strong>
+            Adaptamos às necessidades de
+indústrias para todos os segmentos e
+portes, contribuindo para o desenvolvimento
+e Evolução da sua empresa.
         </h3>
       </div>
       <div className="container50">
@@ -152,7 +150,7 @@ export default function Home() {
               position: "absolute",
               top: "50%",
               left: "50%",
-              transform: "translate(-50%, -280%)",
+              transform: "translate(-50%, -200%)",
             }}
           >
             <h3 style={{ fontWeight: "bold" }}>
@@ -179,7 +177,7 @@ export default function Home() {
               position: "absolute",
               top: "50%",
               left: "50%",
-              transform: "translate(-50%, -280%)",
+              transform: "translate(-50%, -200%)",
             }}
           >
             <h3 style={{ fontWeight: "bold", color: "white" }}>
@@ -206,7 +204,7 @@ export default function Home() {
               position: "absolute",
               top: "50%",
               left: "50%",
-              transform: "translate(-50%, -280%)",
+              transform: "translate(-50%, -200%)",
             }}
           >
             <h3 style={{ fontWeight: "bold" }}>
@@ -233,7 +231,7 @@ export default function Home() {
               position: "absolute",
               top: "50%",
               left: "50%",
-              transform: "translate(-50%, -280%)",
+              transform: "translate(-50%, -200%)",
             }}
           >
             <h3 style={{ fontWeight: "bold" }}>
@@ -261,11 +259,11 @@ export default function Home() {
               position: "absolute",
               top: "50%",
               left: "50%",
-              transform: "translate(-50%, -280%)",
+              transform: "translate(-45%, -75%)",
             }}
           >
             <h3 style={{ fontWeight: "bold" }}>
-              <strong>Energética</strong>
+              <strong>Geração de Energia</strong>
             </h3>
           </div>
         </div>
@@ -288,11 +286,11 @@ export default function Home() {
               position: "absolute",
               top: "50%",
               left: "50%",
-              transform: "translate(-50%, -280%)",
+              transform: "translate(-45%, -75%)",
             }}
           >
             <h3 style={{ fontWeight: "bold" }}>
-              <strong>Farmacêutica</strong>
+              <strong>Farma / Life Sciences</strong>
             </h3>
           </div>
         </div>
@@ -315,7 +313,7 @@ export default function Home() {
               position: "absolute",
               top: "50%",
               left: "50%",
-              transform: "translate(-50%, -280%)",
+              transform: "translate(-50%, -200%)",
             }}
           >
             <h3 style={{ fontWeight: "bold" }}>
@@ -342,7 +340,7 @@ export default function Home() {
               position: "absolute",
               top: "50%",
               left: "50%",
-              transform: "translate(-50%, -280%)",
+              transform: "translate(-50%, -200%)",
             }}
           >
             <h3 style={{ fontWeight: "bold" }}>
@@ -370,7 +368,7 @@ export default function Home() {
               position: "absolute",
               top: "50%",
               left: "50%",
-              transform: "translate(-50%, -280%)",
+              transform: "translate(-50%, -200%)",
             }}
           >
             <h3 style={{ fontWeight: "bold" }}>
@@ -396,7 +394,7 @@ export default function Home() {
               position: "absolute",
               top: "50%",
               left: "50%",
-              transform: "translate(-50%, -280%)",
+              transform: "translate(-50%, -200%)",
             }}
           >
             <h3 style={{ fontWeight: "bold" }}>
@@ -422,11 +420,11 @@ export default function Home() {
               position: "absolute",
               top: "50%",
               left: "50%",
-              transform: "translate(-50%, -280%)",
+              transform: "translate(-45%, -115%)",
             }}
           >
             <h3 style={{ fontWeight: "bold" }}>
-              <strong>Celulose</strong>
+              <strong>Papel & Celulose</strong>
             </h3>
           </div>
         </div>
@@ -448,21 +446,19 @@ export default function Home() {
               position: "absolute",
               top: "50%",
               left: "50%",
-              transform: "translate(-50%, -280%)",
+              transform: "translate(-50%, -200%)",
             }}
           >
             <h3 style={{ fontWeight: "bold" }}>
-              <strong>Estrutural</strong>
+              <strong>Infraestrutura</strong>
             </h3>
           </div>
         </div>
       </div>
       <div className="container-25" style={{ paddingBottom: "0%" }}>
-        <h2>
-          <strong>Sobre nós</strong>
+        <h2>Sobre nós
         </h2>
-        <h3>
-          <strong>Conheça nossa história e junte-se à nossa jornada.</strong>
+        <h3 style={{marginTop: "100px"}}>Conheça nossa história e junte-se à nossa jornada.
           <br />
           <Link to="/sobre">
             <button>Saiba mais</button>
@@ -471,8 +467,7 @@ export default function Home() {
         <img src={imageSobre} alt="Third slide" />
       </div>
       <div className="container-25" style={{ paddingBottom: "0%" }}>
-        <h2>
-          <strong>Localização</strong>
+        <h2>Localização
         </h2>
         <h3>
           <strong style={{color: "white"}}>Descubra o que o mundo tem a oferecer.</strong>
