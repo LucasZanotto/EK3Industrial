@@ -1,9 +1,3 @@
-/* .titles-1 {
-  text-align: center;
-  background-color: aqua;
-  padding: 20px;
-} */
-
 .container-1 {
   /* padding: 5%; */
   /* background-color: aqua; */
@@ -41,28 +35,7 @@
   justify-content: center;
 } 
 
-.image-2 {
-  /* padding: 5%; */
-  width: auto;
-}
-
-.container-1 .image-1 img,
-.container-2 .image-2 img,
-.container-3 .image-3 img {
-  height: 45vh; /* Defina a altura desejada para as imagens */
-  width: auto; /* A largura será ajustada automaticamente para manter a proporção */
-  border-radius: 15px;
-}
-
-.container-2 .image-2 img {
-  margin-left: 22%;
-  height: 60vh;
-  width: auto;
-}
-
 .conteudo-2 {
   padding-left: -5%;
   margin-left: -11%;
 }
-
-/* 990px x 1px  renderizar com block*/

@@ -1,46 +1,30 @@
 import React from "react";
 import Header from "../components/Header";
 import { Carousel } from "react-bootstrap";
-import imageInvi from "../assets/MarcaIv.png";
-import imageIndus from "../assets/industrial.png";
-import imagePlan from "../assets/engenhariaPlan.jpeg";
-import imageEmpre from "../assets/Empreendimentos.jpg";
-import imageGear from "../assets/1904675_configuration_edit_gear_options_preferences_icon.png";
-import imageSlogan from "../assets/Captura de tela de 2023-04-20 20-17-57.png";
-import imageInsta from "../assets/instagram.png";
-import imageBranco from "../assets/ek3branco.png";
-import imageWhats from "../assets/whatsapp.png";
 import imageCoach from "../assets/Foto consultoria _ treinamento 2.jpg";
 import imageTyping from "../assets/imageProj.jpg";
-import imageAtua from "../assets/areasDeAt.jpg";
 import imageSobre from "../assets/Captura de tela de 2023-05-31 17-23-08.png";
 import imageGlobo from "../assets/brian-mcgowan-0A450BR1JWk-unsplash.jpg";
-import imagePrin from "../assets/thisisengineering-raeng-SyRlD4s_amw-unsplash.jpg";
 import imageAgriculture from "../assets/Agronegócios.jpg";
-import imageChemicals from "../assets/ant-rozetsky-io7dX_1EFCg-unsplash.jpg";
 import imageFood from "../assets/arno-senoner-8V56CnwVJRE-unsplash.jpg";
 import imageInfra from "../assets/troy-mortier-6OVv680DNag-unsplash.jpg";
 import imageManu from "../assets/christopher-burns-8KfCR12oeUM-unsplash.jpg";
-import imageElec from "../assets/jason-blackeye-zAITDJYV09w-unsplash.jpg";
 import imageRefil from "../assets/Refinaria.jpg";
 import imageChem from "../assets/quimica (2).jpg";
 import imageCosmetic from "../assets/cosmetica.jpg";
 import imageEmp from "../assets/empreendimentos.jpg";
 import imageCult from "../assets/imageCult2.jpeg";
-import imagePrincipal from "../assets/fotoPrincipal.jpg";
 import imageCell from "../assets/Captura de tela de 2023-06-13 20-33-26.png";
 import imageGenerator from "../assets/geracao de energia.jpg";
 import imagePharma from "../assets/glsun-mall-WNX6uk-1LV4-unsplash.jpg";
-import imageHead from "../assets/headlogo.png";
 import imageEstrutural from "../assets/greg-sellentin-SOBE-JRyRww-unsplash.jpg";
+import imageCelulose from "../assets/celulose.jpg";
 import "./Home.css";
 import { Link } from "react-router-dom";
-import { Row, Col } from "react-bootstrap";
 import Footer from "../components/Footer";
-// import gridImg from '../assets/gridImg.png';
 
 export default function Home() {
-  // window.scrollTo(0, 0);
+  window.scrollTo(0, 0);
   return (
     <div>
       <Header />
@@ -55,20 +39,22 @@ export default function Home() {
         </div>
       </div>
       <div className="areas-att">
-        <h2>
-          Áreas de Atuação
-        </h2>
         <h3>
-            A EK3 Engenharia Industrial é a escolha ideal para suas necessidades
-            em projetos de engenharia e industrial, auditorias, laudos técnicos e muito mais.
-            Conte conosco para transformar suas ideias em realidade.
+          <strong>Áreas de Atuação</strong>
         </h3>
+        <p>
+          A EK3 Engenharia Industrial é a escolha ideal para suas necessidades
+          em projetos de engenharia e industrial, auditorias, laudos técnicos e
+          muito mais. Conte conosco para transformar suas ideias em realidade.
+        </p>
       </div>
       <Carousel>
         <Carousel.Item>
           <img className="d-block w-100" src={imageTyping} alt="First slide" />
           <Carousel.Caption className="marketing-1">
-            <h3>Projetos industriais e Engenharia</h3>
+            <h3>
+              <strong>Projetos industriais e Engenharia</strong>
+            </h3>
             <p>
               Transforme sua ideia em realidade com nossa expertise em projetos
               industriais e engenharia.
@@ -81,7 +67,9 @@ export default function Home() {
         <Carousel.Item>
           <img className="d-block w-100" src={imageCoach} alt="Second slide" />
           <Carousel.Caption className="marketing-1">
-            <h3>Consultoria e Treinamentos</h3>
+            <h3>
+              <strong>Consultoria e Treinamentos</strong>
+            </h3>
             <p>
               Aprimore suas habilidades e leve seu negócio ao próximo nível com
               nossos serviços de consultoria e treinamentos.
@@ -95,7 +83,9 @@ export default function Home() {
           <img className="d-block w-100" src={imageEmp} alt="Third slide" />
           <Carousel.Caption>
             <div className="marketing-1">
-              <h3>Empreendimentos</h3>
+              <h3>
+                <strong>Empreendimentos</strong>
+              </h3>
               <p>
                 Seja o próximo empreendedor de sucesso com nossos serviços de
                 suporte e mentoria.
@@ -108,35 +98,32 @@ export default function Home() {
         </Carousel.Item>
       </Carousel>
       <div className="container-25" style={{ paddingBottom: "3%" }}>
-        <h2>
-          Cultura da EK3
-        </h2>
         <h3>
+          <strong>Cultura da EK3</strong>
+        </h3>
+        <p>
           Descubra como estamos moldando o futuro e impulsionando o progresso.
           <br />
-          <Link to="/sobre">
+          <Link to="/cultura">
             <button>Saiba mais</button>
           </Link>
-        </h3>
+        </p>
         <img src={imageCult} alt="Third slide" />
       </div>
       <div className="container48">
-        <h2>
-          Indústrias
-        </h2>
         <h3>
-            Adaptamos às necessidades de
-indústrias para todos os segmentos e
-portes, contribuindo para o desenvolvimento
-e Evolução da sua empresa.
+          <strong>Indústrias</strong>
         </h3>
+        <p>
+          Adaptamos às necessidades de indústrias para todos os segmentos e
+          portes, contribuindo para o desenvolvimento e Evolução da sua empresa.
+        </p>
       </div>
       <div className="container50">
         <div
           className="sty50"
           style={{
             position: "relative",
-            display: "inline-block",
             marginRight: "3%",
           }}
         >
@@ -160,9 +147,9 @@ e Evolução da sua empresa.
         </div>
 
         <div
+          className="sty50"
           style={{
             position: "relative",
-            display: "inline-block",
             marginRight: "3%",
           }}
         >
@@ -187,9 +174,9 @@ e Evolução da sua empresa.
         </div>
 
         <div
+          className="sty50"
           style={{
             position: "relative",
-            display: "inline-block",
             marginRight: "3%",
           }}
         >
@@ -214,9 +201,9 @@ e Evolução da sua empresa.
         </div>
 
         <div
+          className="sty50"
           style={{
             position: "relative",
-            display: "inline-block",
             marginRight: "3%",
           }}
         >
@@ -245,7 +232,6 @@ e Evolução da sua empresa.
           className="sty50"
           style={{
             position: "relative",
-            display: "inline-block",
             marginRight: "3%",
           }}
         >
@@ -271,7 +257,6 @@ e Evolução da sua empresa.
           className="sty50"
           style={{
             position: "relative",
-            display: "inline-block",
             marginRight: "3%",
           }}
         >
@@ -296,9 +281,9 @@ e Evolução da sua empresa.
         </div>
 
         <div
+          className="sty50"
           style={{
             position: "relative",
-            display: "inline-block",
             marginRight: "3%",
           }}
         >
@@ -323,16 +308,15 @@ e Evolução da sua empresa.
         </div>
 
         <div
+          className="sty50"
           style={{
             position: "relative",
-            display: "inline-block",
             marginRight: "3%",
           }}
         >
           <img
             src={imageCosmetic}
             alt="Foto de Jason Blackeye na Unsplash"
-            width="20%"
             style={{ borderRadius: "5px", opacity: "70%" }}
           />
           <div
@@ -350,11 +334,10 @@ e Evolução da sua empresa.
         </div>
       </div>
       <div className="container50">
-      <div
+        <div
           className="sty50"
           style={{
             position: "relative",
-            display: "inline-block",
             marginRight: "3%",
           }}
         >
@@ -377,16 +360,15 @@ e Evolução da sua empresa.
           </div>
         </div>
         <div
+          className="sty50"
           style={{
             position: "relative",
-            display: "inline-block",
             marginRight: "3%",
           }}
         >
           <img
             src={imageRefil}
             alt="Foto de Victor na Unsplash"
-            width="20%"
             style={{ borderRadius: "5px", opacity: "70%" }}
           />
           <div
@@ -403,16 +385,15 @@ e Evolução da sua empresa.
           </div>
         </div>
         <div
+          className="sty50"
           style={{
             position: "relative",
-            display: "inline-block",
             marginRight: "3%",
           }}
         >
           <img
-            src={imageManu}
+            src={imageCelulose}
             alt="Foto de Christopher Burns na Unsplash"
-            width="20%"
             style={{ borderRadius: "5px", opacity: "70%" }}
           />
           <div
@@ -429,16 +410,15 @@ e Evolução da sua empresa.
           </div>
         </div>
         <div
+          className="sty50"
           style={{
             position: "relative",
-            display: "inline-block",
             marginRight: "3%",
           }}
         >
           <img
             src={imageEstrutural}
             alt="Foto de Christopher Burns na Unsplash"
-            width="20%"
             style={{ borderRadius: "5px", opacity: "70%" }}
           />
           <div
@@ -456,26 +436,29 @@ e Evolução da sua empresa.
         </div>
       </div>
       <div className="container-25" style={{ paddingBottom: "0%" }}>
-        <h2>Sobre nós
-        </h2>
-        <h3 style={{marginTop: "100px"}}>Conheça nossa história e junte-se à nossa jornada.
+        <h3>
+          <strong>Quem somos</strong>
+        </h3>
+        <p>
+          Conheça nossa história e junte-se à nossa jornada.
           <br />
           <Link to="/sobre">
             <button>Saiba mais</button>
           </Link>
-        </h3>
+        </p>
         <img src={imageSobre} alt="Third slide" />
       </div>
-      <div className="container-25" style={{ paddingBottom: "0%" }}>
-        <h2>Localização
-        </h2>
+      <div className="container-25">
         <h3>
-          <strong style={{color: "white"}}>Descubra o que o mundo tem a oferecer.</strong>
+          <strong>Localização</strong>
+        </h3>
+        <p>
+          Descubra o que o mundo tem a oferecer.
           <br />
           <Link to="/contato">
             <button>Saiba mais</button>
           </Link>
-        </h3>
+        </p>
         <img src={imageGlobo} alt="Third slide" />
       </div>
       <Footer />

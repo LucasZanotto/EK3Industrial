@@ -9,15 +9,15 @@
 
 .title-1 {
   background-color: #f8f9fa; /* Cor de fundo */
-  padding: 20px;
+  margin-top: 2%;
   text-align: center;
 }
 
 .title-1 h1 {
-  font-size: 36px; /* Tamanho da fonte */
+  /* font-size: 36px; Tamanho da fonte */
   color: #333; /* Cor do texto */
   text-transform: uppercase; /* Transformar o texto em maiúsculas */
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .title-1 hr {

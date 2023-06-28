@@ -126,8 +126,8 @@
 } */
 
 .contact-form {
-  max-width: 400px;
-  margin: 0 auto;
+  /* max-width: 400px; */
+  text-align: center;
 }
 
 .form-row {
@@ -173,7 +173,7 @@
 }
 
 .container-back {
-  background-image: url("../assets/telework-5046230.jpg");
+  /* background-image: url("../assets/telework-5046230.jpg"); */
   height: 90vh;
   background-size: cover;
   opacity: 1;
@@ -182,3 +182,28 @@
 .container-back img {
   opacity: 70%;
 }
+
+.container-22 img {
+  width: 70vh;
+}
+
+ /* style={{borderRadius: "1px 75px"}} */
+
+
+ @media (max-width: 768px) {
+  .button-sub {
+    /* Outros estilos do botão */
+    margin-bottom: 20px; /* Ajuste o valor conforme desejado */
+  }
+
+  .container-20 {
+    display: block;
+  }
+
+  .container-22 img {
+    margin-top: 100%;
+    width: 100%;
+  }
+
+ }
+
