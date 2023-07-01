@@ -15,7 +15,7 @@ export default function Areas(){
   return (
     <div>
       <Header />
-      <div className="title-1">
+      <div className="title-1" style={{marginBottom:"5%"}}>
               <h2 className="fw-bold">Áreas de atuação</h2>
             </div>
       <div className="container-fluid">
@@ -63,7 +63,7 @@ entre outros</li>
           </div>
         </div>
       </div>
-      <div className="container-fluid">
+      <div className="container-fluid back-gray">
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-6 col-md-12 order-lg-2 order-md-1 mb-4">
             <div className="title-2">

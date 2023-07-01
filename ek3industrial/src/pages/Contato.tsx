@@ -64,6 +64,7 @@ export default function Contato(){
   <h2 className="fw-bold">Contato</h2>
   {/* <hr className="my-4" /> */}
 </div>
+<div className="container-banner">
 <div className="container-back">
     <div className="container-23">
       <p><strong>Se você tem um futuro projeto ou está pronto para começar o planejamento dos seus investimentos
@@ -158,7 +159,8 @@ export default function Contato(){
         <a href="https://api.whatsapp.com/send?phone=5549991156353" target="_blank" style={{color: "black"}}><p>+55 49 99115-6353</p></a>
     </div>
     </div>
-    <Footer className="footer" />
+    </div>
+    <Footer/>
     </div>
   )
 }

@@ -174,9 +174,13 @@
 
 .container-back {
   /* background-image: url("../assets/telework-5046230.jpg"); */
-  height: 90vh;
+  height: 50vh;
   background-size: cover;
-  opacity: 1;
+  /* opacity: 70%; */
+}
+
+.container-banner {
+  background-image: url("../assets/telework-5046230.jpg");
 }
 
 .container-back img {
@@ -187,13 +191,18 @@
   width: 70vh;
 }
 
+.container-back {
+  padding-bottom: 45%;
+}
+
  /* style={{borderRadius: "1px 75px"}} */
 
 
- @media (max-width: 768px) {
+ @media (max-width: 1300px) {
   .button-sub {
     /* Outros estilos do botão */
-    margin-bottom: 20px; /* Ajuste o valor conforme desejado */
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   .container-20 {
@@ -204,6 +213,20 @@
     margin-top: 100%;
     width: 100%;
   }
+
+  .container-back {
+    /* background-image: url("../assets/telework-5046230.jpg"); */
+    height: 50vh;
+    /* background-size: cover; */
+    /* opacity: 70%; */
+    /* margin-bottom: 45%; */
+    /* padding-bottom: 1px; */
+  }
+
+  .container-banner {
+    background-image: url();
+  }
+
 
  }
 

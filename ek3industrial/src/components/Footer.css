@@ -31,4 +31,11 @@ footer {
   display: block;
   text-align: center;
   }
+  .footer-left img {
+    height: 4vh;
+    margin-bottom: 4%;
+  }
+  .footer-right {
+    padding-bottom: 15%;
+  }
 }

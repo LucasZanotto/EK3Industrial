@@ -26,32 +26,32 @@ export default function Sobre() {
             <div>
               <h3><strong>HISTÓRIA</strong></h3>
           <p>
-            Nosso nome foi criado a partir das iniciais da fundadora e o número
-            3 representa os três pilares principais que nos regem: Engenharia,
-            Empreendedorismo e Empoderamento.
+            Nosso nome foi criado a partir das iniciais da fundadora e o número <strong>3 </strong> 
+            representa os três pilares principais que nos regem: <strong>Engenharia,
+            Empreendedorismo e Empoderamento.</strong>
           </p>
           <p>
-            Além disso, a letra E também representa nosso foco de atuação:
-            Experiência ampla, Ética, Eficiência, Expertise e Excelência nos
+            Além disso, a letra <strong>E</strong> também representa nosso foco de atuação:
+            <strong> Experiência</strong> ampla, <strong>Ética, Eficiência, Expertise e Excelência</strong> nos
             segmentos de engenharia química e industrial.
           </p>
           <p>
-            A EK3 nasce com um grande diferencial, a capacitação técnica e
-            gerencial de equipe nos levam a um patamar diferenciado devido a
+            A <strong>EK3</strong> nasce com um grande diferencial, a <strong>capacitação técnica</strong> e
+            <strong> gerencial de equipe</strong> nos levam a um patamar diferenciado devido a
             nossa experiência nacional e internacional no mercado de projetos
             industriais.
           </p>
           <p>
-            A EK3 contribui para o desenvolvimento e Evolução da sua empresa.
+            A <strong>EK3</strong> contribui para o desenvolvimento e <strong>Evolução</strong> da sua empresa.
           </p>
           </div>
           </div>
           <div className="col-lg-6 col-md-12 mb-4">
-            <img src={ek3Logo1} alt="Consultoria e Treinamento" className="img-fluid rounded" />
+            <img src={ek3Logo} alt="Consultoria e Treinamento" className="img-fluid rounded" />
           </div>
         </div>
       </div>
-      <div className="container-fluid">
+      <div className="container-fluid back-gray">
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-6 col-md-12 order-lg-2 order-md-1 mb-4">
             <div className="title-2">
@@ -87,16 +87,16 @@ vincular tudo isso dentro do trabalho com nossos clientes. Nossos três <strong>
           <div className="col-lg-6 col-md-12 mb-4">
             <div>
               <h3><strong>LOCALIZAÇÃO</strong></h3>
-<p>Algumas pessoas tem a ânsia de sair do Brasil para conhecer, para estudar, para trabalhar ou mesmo para viver
-novas e diferentes experiências culturais.</p>
+<p>Algumas pessoas tem a ânsia de sair do Brasil para <strong>conhecer</strong>, para <strong>estudar</strong>, para <strong>trabalhar</strong> ou mesmo para <strong>viver </strong>
+ novas e diferentes experiências culturais.</p>
 <p>A equipe da EK3 fez o contrário, após quase 20 anos atuando no exterior, retorna ao Brasil com uma
-bagagem carregada de conhecimentos multidisciplinares, técnicos, tecnológicos, comerciais e gerenciais,
-que podem contribuir para o crescimento da sua empresa.</p>
-<p>Nos instalamos em Videira Santa Catarina, cidade natal da fundadora e polo industrial da região meio oeste
-catarinense, região altamente desenvolvida e berço de grandes potencias na indústria brasileira.</p>
-<p>Chegamos para auxiliar no desenvolvimento dos seus projetos de engenharia, nosso portfólio é vasto e
-nossa equipe preparada para atuar em diversas frentes industriais.</p>
-<p>A EK3 oferece agilidade operacional para a sua indústria.</p>
+bagagem carregada de conhecimentos <strong>multidisciplinares, técnicos, tecnológicos, comerciais e gerenciais, </strong>
+que podem contribuir para o <strong>crescimento</strong> da sua empresa.</p>
+<p>Nos instalamos em Videira Santa Catarina, cidade natal da fundadora e <strong>polo industrial</strong> da região meio oeste
+catarinense, região altamente desenvolvida e berço de grandes <strong>potencias</strong> na indústria brasileira.</p>
+<p>Chegamos para auxiliar no <strong>desenvolvimento</strong> dos seus projetos de <strong>engenharia</strong>, nosso <strong>portfólio</strong> é vasto e
+nossa equipe preparada para atuar em diversas <strong>frentes industriais</strong>.</p>
+<p>A EK3 oferece <strong>agilidade operacional</strong> para a sua indústria.</p>
 </div>
           </div>
           <div className="col-lg-6 col-md-12 mb-4">
@@ -104,19 +104,19 @@ nossa equipe preparada para atuar em diversas frentes industriais.</p>
           </div>
         </div>
       </div>
-      <div className="container-fluid">
+      <div className="container-fluid back-gray">
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-6 col-md-12 order-lg-2 order-md-1 mb-4">
             <div className="title-2">
               <h3><strong>MOTIVAÇÃO</strong></h3>
 <p>Santa Catarina vem alcançando um crescimento histórico, muito acima da média nos segmentos industriais.
-O oeste catarinense possui uma economia diversificada e empresas fortes, difundidas na gestão e
-resultados.</p>
+O oeste catarinense possui uma economia diversificada e empresas fortes, difundidas na <strong>gestão</strong> e
+<strong> resultados</strong>.</p>
 <p>O meio-oeste catarinense, região onde estamos instalados, está em destaque da diversidade econômica,
-somos privilegiados devido a extensão territorial e as variadas atividades industriais que impulsionam a
+somos privilegiados devido a <strong>extensão territorial</strong> e as <strong>variadas atividades industriais</strong> que impulsionam a
 economia estadual e nacional.</p>
-<p>A EK3 quer fazer parte deste momento histórico. Crescer e fazer outras empresas crescerem através de
-processos industriais efetivos e personalizados.</p>
+<p>A EK3 quer fazer parte deste momento histórico. <strong>Crescer</strong> e fazer outras empresas crescerem através de
+ <strong> processos industriais</strong> efetivos e personalizados.</p>
 <p>Entre e contato e sabia como podemos auxiliar a sua empresa.</p>
 </div>
           </div>

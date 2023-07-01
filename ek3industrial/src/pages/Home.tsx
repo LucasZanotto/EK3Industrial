@@ -101,14 +101,23 @@ export default function Home() {
         <h3>
           <strong>Cultura da EK3</strong>
         </h3>
+        <img src={imageCult} alt="Third slide" />
+        <div
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -30%)",
+            }}
+          >
         <p>
-          Descubra como estamos moldando o futuro e impulsionando o progresso.
+          <strong>Descubra como estamos moldando o futuro e impulsionando o progresso.</strong>
           <br />
           <Link to="/cultura">
             <button>Saiba mais</button>
           </Link>
         </p>
-        <img src={imageCult} alt="Third slide" />
+        </div>
       </div>
       <div className="container48">
         <h3>
@@ -127,22 +136,17 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
+          <h3 style={{ fontWeight: "bold" }}>
+              <strong>Agronegócio</strong>
+            </h3>
           <img
             src={imageAgriculture}
             alt="Foto de roberto bernardi na Unsplash"
             style={{ borderRadius: "5px", opacity: "70%" }}
           />
           <div
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -200%)",
-            }}
+          className="card-industry"
           >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Agronegócio</strong>
-            </h3>
           </div>
         </div>
 
@@ -153,6 +157,9 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
+           <h3 style={{ fontWeight: "bold", color: "white" }}>
+              <strong>Química</strong>
+            </h3>
           <img
             src={imageChem}
             alt="Foto de Artur Voznenko na Unsplash"
@@ -167,9 +174,6 @@ export default function Home() {
               transform: "translate(-50%, -200%)",
             }}
           >
-            <h3 style={{ fontWeight: "bold", color: "white" }}>
-              <strong>Química</strong>
-            </h3>
           </div>
         </div>
 
@@ -180,6 +184,9 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
+          <h3 style={{ fontWeight: "bold" }}>
+              <strong>Alimentícia</strong>
+            </h3>
           <img
             src={imageFood}
             alt="Foto de Arshad Pooloo na Unsplash"
@@ -194,9 +201,6 @@ export default function Home() {
               transform: "translate(-50%, -200%)",
             }}
           >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Alimentícia</strong>
-            </h3>
           </div>
         </div>
 
@@ -207,6 +211,9 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
+          <h3 style={{ fontWeight: "bold" }}>
+            <strong>Governamental</strong>
+          </h3>
           <img
             src={imageInfra}
             alt="Foto de Troy Mortier na Unsplash"
@@ -221,9 +228,6 @@ export default function Home() {
               transform: "translate(-50%, -200%)",
             }}
           >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Governamental</strong>
-            </h3>
           </div>
         </div>
       </div>
@@ -235,6 +239,9 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
+            <h3 style={{ fontWeight: "bold" }}>
+              <strong>Geração de Energia</strong>
+            </h3>
           <img
             src={imageGenerator}
             alt="Foto de roberto bernardi na Unsplash"
@@ -248,9 +255,6 @@ export default function Home() {
               transform: "translate(-45%, -75%)",
             }}
           >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Geração de Energia</strong>
-            </h3>
           </div>
         </div>
         <div
@@ -260,6 +264,9 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
+            <h3 style={{ fontWeight: "bold" }}>
+              <strong>Farma / Life Sciences</strong>
+            </h3>
           <img
             src={imagePharma}
             alt="Foto de Glsun Mall na Unsplash"
@@ -274,9 +281,6 @@ export default function Home() {
               transform: "translate(-45%, -75%)",
             }}
           >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Farma / Life Sciences</strong>
-            </h3>
           </div>
         </div>
 
@@ -287,6 +291,9 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
+              <h3 style={{ fontWeight: "bold" }}>
+                <strong>Fabricação</strong>
+              </h3>
           <img
             src={imageManu}
             alt="Foto de Christopher Burns na Unsplash"
@@ -301,9 +308,6 @@ export default function Home() {
               transform: "translate(-50%, -200%)",
             }}
           >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Fabricação</strong>
-            </h3>
           </div>
         </div>
 
@@ -314,6 +318,9 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
+            <h3 style={{ fontWeight: "bold" }}>
+              <strong>Cosmética</strong>
+            </h3>
           <img
             src={imageCosmetic}
             alt="Foto de Jason Blackeye na Unsplash"
@@ -327,9 +334,6 @@ export default function Home() {
               transform: "translate(-50%, -200%)",
             }}
           >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Cosmética</strong>
-            </h3>
           </div>
         </div>
       </div>
@@ -341,6 +345,9 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
+            <h3 style={{ fontWeight: "bold" }}>
+              <strong>Textil</strong>
+            </h3>
           <img
             src={imageCell}
             alt="Foto de roberto bernardi na Unsplash"
@@ -354,9 +361,6 @@ export default function Home() {
               transform: "translate(-50%, -200%)",
             }}
           >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Textil</strong>
-            </h3>
           </div>
         </div>
         <div
@@ -366,6 +370,9 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
+          <h3 style={{ fontWeight: "bold" }}>
+            <strong>Refinaria</strong>
+          </h3>
           <img
             src={imageRefil}
             alt="Foto de Victor na Unsplash"
@@ -379,9 +386,6 @@ export default function Home() {
               transform: "translate(-50%, -200%)",
             }}
           >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Refinaria</strong>
-            </h3>
           </div>
         </div>
         <div
@@ -391,6 +395,9 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
+          <h3 style={{ fontWeight: "bold" }}>
+            <strong>Papel & Celulose</strong>
+          </h3>
           <img
             src={imageCelulose}
             alt="Foto de Christopher Burns na Unsplash"
@@ -404,9 +411,6 @@ export default function Home() {
               transform: "translate(-45%, -115%)",
             }}
           >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Papel & Celulose</strong>
-            </h3>
           </div>
         </div>
         <div
@@ -416,6 +420,9 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
+            <h3 style={{ fontWeight: "bold" }}>
+              <strong>Infraestrutura</strong>
+            </h3>
           <img
             src={imageEstrutural}
             alt="Foto de Christopher Burns na Unsplash"
@@ -429,37 +436,49 @@ export default function Home() {
               transform: "translate(-50%, -200%)",
             }}
           >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Infraestrutura</strong>
-            </h3>
           </div>
         </div>
       </div>
-      <div className="container-25" style={{ paddingBottom: "0%" }}>
+      <div className="container-25">
+         <h3> <strong>Quem somos</strong></h3>
+      <img src={imageSobre} alt="Third slide" />
         <h3>
-          <strong>Quem somos</strong>
         </h3>
+        <div
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -30%)",
+            }}
+          >
         <p>
-          Conheça nossa história e junte-se à nossa jornada.
+        <strong>Conheça nossa história e junte-se à nossa jornada.</strong>
           <br />
           <Link to="/sobre">
             <button>Saiba mais</button>
           </Link>
         </p>
-        <img src={imageSobre} alt="Third slide" />
+        </div>
       </div>
-      <div className="container-25">
-        <h3>
-          <strong>Localização</strong>
-        </h3>
+      <div className="container-25"><h3><strong>Localização</strong></h3>
+        <img src={imageGlobo} alt="Third slide" />
+        <div
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -30%)",
+            }}
+          >
         <p>
-          Descubra o que o mundo tem a oferecer.
+          <strong style={{color:"white"}}>Descubra o que o mundo tem a oferecer.</strong>
           <br />
           <Link to="/contato">
             <button>Saiba mais</button>
           </Link>
         </p>
-        <img src={imageGlobo} alt="Third slide" />
+        </div>
       </div>
       <Footer />
     </div>

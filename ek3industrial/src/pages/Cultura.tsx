@@ -12,7 +12,7 @@ export default function Cultura(){
     <div className="title-1">
   <h2 className="fw-bold">Cultura</h2>
   {/* <hr className="my-4" /> */}
-  <div className="container-25" style={{ paddingBottom: "3%" }}>
+  <div className="container-29" style={{ paddingBottom: "3%" }}>
         <img src={imageCult} alt="Third slide" />
       </div>
 </div>
