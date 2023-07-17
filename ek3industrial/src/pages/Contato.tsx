@@ -7,6 +7,7 @@ import imageWhats from "../assets/whatsapp.png";
 import googleMap from "../assets/googleMap.png"
 import imageVideira from "../assets/videiraInt.jpg"
 import imageContato from "../assets/telework-5046230.jpg"
+import imageEscritorio from "../assets/mockup-escritorio-ek3-1.png"
 import "./Contato.css";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
@@ -71,7 +72,16 @@ export default function Contato(){
          internos para o próximo ano, estamos prontos para colaborar com você. Por favor preencha o formulário 
          abaixo, para que possamos conhecê-lo um pouco melhor.</strong></p>
     </div>
-    <form onSubmit={handleSubmit} className="contact-form">
+   
+    </div>
+</div>
+<div>
+  <img src={imageEscritorio} className="imagem-destaque" alt="Escritório" />
+</div>
+
+<div className="container-contact">
+  <div className="container-left">
+  <form onSubmit={handleSubmit} className="contact-form">
   <div className="form-row">
     <div className="form-group">
       <label htmlFor="name">Nome</label>
@@ -143,9 +153,8 @@ export default function Contato(){
   </div>
   <button className="" type="submit">Enviar</button>
 </form>
-</div>
-
-    <div className="container-20">
+  </div>
+  <div className="container-20">
       <div className="container-22">
       <img  src={imageVideira} alt="Third slide" className=""/>
       </div>
@@ -159,7 +168,7 @@ export default function Contato(){
         <a href="https://api.whatsapp.com/send?phone=5549991156353" target="_blank" style={{color: "black"}}><p>+55 49 99115-6353</p></a>
     </div>
     </div>
-    </div>
+</div>
     <Footer/>
     </div>
   )

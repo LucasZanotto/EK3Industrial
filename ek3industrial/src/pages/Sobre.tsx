@@ -18,13 +18,12 @@ export default function Sobre() {
     <div>
       <Header />
       <div className="title-1">
-              <h2 className="fw-bold">Quem somos</h2>
+              <h2 className="fw-bold">HISTÓRIA</h2>
             </div>
       <div className="container-fluid">
         <div className="row align-items-center justify-content-center">
-          <div className="col-lg-6 col-md-12 mb-4">
-            <div>
-              <h3><strong>HISTÓRIA</strong></h3>
+          <div>
+            <div className="container-center">
           <p>
             Nosso nome foi criado a partir das iniciais da fundadora e o número <strong>3 </strong> 
             representa os três pilares principais que nos regem: <strong>Engenharia,
@@ -52,7 +51,7 @@ export default function Sobre() {
         </div>
       </div>
       <div className="container-fluid back-gray">
-        <div className="row align-items-center justify-content-center">
+        <div className="row align-items-center justify-content-center" style={{backgroundColor:"#F9F9F9"}}>
           <div className="col-lg-6 col-md-12 order-lg-2 order-md-1 mb-4">
             <div className="title-2">
               <h3><strong>A EK3 ENGENHARIA INDUSTRIAL</strong></h3>
@@ -104,7 +103,7 @@ nossa equipe preparada para atuar em diversas <strong>frentes industriais</stron
           </div>
         </div>
       </div>
-      <div className="container-fluid back-gray">
+      <div className="container-fluid back-gray" style={{backgroundColor:"#F9F9F9"}}>
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-6 col-md-12 order-lg-2 order-md-1 mb-4">
             <div className="title-2">

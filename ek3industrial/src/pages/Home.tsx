@@ -1,9 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 import Header from "../components/Header";
 import { Carousel } from "react-bootstrap";
 import imageCoach from "../assets/Foto consultoria _ treinamento 2.jpg";
 import imageTyping from "../assets/imageProj.jpg";
-import imageSobre from "../assets/Captura de tela de 2023-05-31 17-23-08.png";
+import imageSobre from "../assets/Captura de tela de 2023-07-11 17-38-27.png";
 import imageGlobo from "../assets/brian-mcgowan-0A450BR1JWk-unsplash.jpg";
 import imageAgriculture from "../assets/Agronegócios.jpg";
 import imageFood from "../assets/arno-senoner-8V56CnwVJRE-unsplash.jpg";
@@ -24,18 +24,24 @@ import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 
 export default function Home() {
-  window.scrollTo(0, 0);
+  // window.scrollTo(0, 0);
+
+  const [showAllImages, setShowAllImages] = useState(false);
+
+  const handleShowAllImages = () => {
+    setShowAllImages(!showAllImages);
+  };
   return (
     <div>
       <Header />
       <div className="header-init">
         <div>
-          <h1 className="header-letters">
+          <h2 className="header-letters">
             <strong>A escolha certa para a sua</strong>
-          </h1>
-          <h2 className="header-letters-2">
-            <strong>Agilidade Operacional</strong>
           </h2>
+          <h1 className="header-letters-2">
+            <strong>Agilidade Operacional</strong>
+          </h1>
         </div>
       </div>
       <div className="areas-att">
@@ -97,28 +103,48 @@ export default function Home() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <div className="container-25" style={{ paddingBottom: "3%" }}>
+      <div className="container48">
         <h3>
-          <strong>Cultura da EK3</strong>
+          <strong>Conheça um pouco mais sobre a EK3</strong>
         </h3>
-        <img src={imageCult} alt="Third slide" />
-        <div
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -30%)",
-            }}
-          >
         <p>
-          <strong>Descubra como estamos moldando o futuro e impulsionando o progresso.</strong>
-          <br />
+          Adaptamos às necessidades de indústrias para todos os segmentos e
+          portes, contribuindo para o desenvolvimento e Evolução da sua empresa.
+        </p>
+      </div>
+      <div className="container-cards">
+        <div className="cards-div">
+          <div>
+          <img src={imageCult} />
+          </div>
+          <h3>Cultura</h3>
+          <p> <strong>Descubra como estamos moldando o futuro e impulsionando o progresso.</strong></p>
           <Link to="/cultura">
             <button>Saiba mais</button>
           </Link>
-        </p>
+        </div>
+        <div className="cards-div">
+        <div>
+          <img src={imageSobre} />
+          </div>
+          <h3>Quem somos</h3>
+          <p> <strong>Conheça nossa história e junte-se à nossa jornada.</strong></p>
+          <Link to="/sobre">
+            <button>Saiba mais</button>
+          </Link>
+        </div>
+        <div className="cards-div">
+        <div>
+          <img src={imageGlobo} />
+          </div>
+          <h3>Localização</h3>
+          <p> <strong>Descubra o que o mundo tem a oferecer.</strong></p>
+          <Link to="/contato">
+            <button>Saiba mais</button>
+          </Link>
         </div>
       </div>
+      
       <div className="container48">
         <h3>
           <strong>Indústrias</strong>
@@ -157,7 +183,7 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
-           <h3 style={{ fontWeight: "bold", color: "white" }}>
+           <h3 style={{ fontWeight: "bold"}}>
               <strong>Química</strong>
             </h3>
           <img
@@ -231,7 +257,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="container50">
+      {showAllImages && (<div><div className="container51" style={{display: "block"}}>
         <div
           className="sty50"
           style={{
@@ -337,7 +363,215 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="container50">
+      <div className="container51" style={{display: "block"}}>
+        <div
+          className="sty50"
+          style={{
+            position: "relative",
+            marginRight: "3%",
+          }}
+        >
+            <h3 style={{ fontWeight: "bold" }}>
+              <strong>Textil</strong>
+            </h3>
+          <img
+            src={imageCell}
+            alt="Foto de roberto bernardi na Unsplash"
+            style={{ borderRadius: "5px", opacity: "70%" }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -200%)",
+            }}
+          >
+          </div>
+        </div>
+        <div
+          className="sty50"
+          style={{
+            position: "relative",
+            marginRight: "3%",
+          }}
+        >
+          <h3 style={{ fontWeight: "bold" }}>
+            <strong>Refinaria</strong>
+          </h3>
+          <img
+            src={imageRefil}
+            alt="Foto de Victor na Unsplash"
+            style={{ borderRadius: "5px", opacity: "70%" }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -200%)",
+            }}
+          >
+          </div>
+        </div>
+        <div
+          className="sty50"
+          style={{
+            position: "relative",
+            marginRight: "3%",
+          }}
+        >
+          <h3 style={{ fontWeight: "bold" }}>
+            <strong>Papel & Celulose</strong>
+          </h3>
+          <img
+            src={imageCelulose}
+            alt="Foto de Christopher Burns na Unsplash"
+            style={{ borderRadius: "5px", opacity: "70%" }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-45%, -115%)",
+            }}
+          >
+          </div>
+        </div>
+        <div
+          className="sty50"
+          style={{
+            position: "relative",
+            marginRight: "3%",
+          }}
+        >
+            <h3 style={{ fontWeight: "bold" }}>
+              <strong>Infraestrutura</strong>
+            </h3>
+          <img
+            src={imageEstrutural}
+            alt="Foto de Christopher Burns na Unsplash"
+            style={{ borderRadius: "5px", opacity: "70%" }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -200%)",
+            }}
+          >
+          </div>
+        </div>
+      </div></div>)}
+      <div className="container51">
+        <div
+          className="sty50"
+          style={{
+            position: "relative",
+            marginRight: "3%",
+          }}
+        >
+            <h3 style={{ fontWeight: "bold" }}>
+              <strong>Geração de Energia</strong>
+            </h3>
+          <img
+            src={imageGenerator}
+            alt="Foto de roberto bernardi na Unsplash"
+            style={{ borderRadius: "5px", opacity: "70%" }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-45%, -75%)",
+            }}
+          >
+          </div>
+        </div>
+        <div
+          className="sty50"
+          style={{
+            position: "relative",
+            marginRight: "3%",
+          }}
+        >
+            <h3 style={{ fontWeight: "bold" }}>
+              <strong>Farma / Life Sciences</strong>
+            </h3>
+          <img
+            src={imagePharma}
+            alt="Foto de Glsun Mall na Unsplash"
+            width="20%"
+            style={{ borderRadius: "5px", opacity: "70%" }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-45%, -75%)",
+            }}
+          >
+          </div>
+        </div>
+
+        <div
+          className="sty50"
+          style={{
+            position: "relative",
+            marginRight: "3%",
+          }}
+        >
+              <h3 style={{ fontWeight: "bold" }}>
+                <strong>Fabricação</strong>
+              </h3>
+          <img
+            src={imageManu}
+            alt="Foto de Christopher Burns na Unsplash"
+            width="20%"
+            style={{ borderRadius: "5px", opacity: "70%" }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -200%)",
+            }}
+          >
+          </div>
+        </div>
+
+        <div
+          className="sty50"
+          style={{
+            position: "relative",
+            marginRight: "3%",
+          }}
+        >
+            <h3 style={{ fontWeight: "bold" }}>
+              <strong>Cosmética</strong>
+            </h3>
+          <img
+            src={imageCosmetic}
+            alt="Foto de Jason Blackeye na Unsplash"
+            style={{ borderRadius: "5px", opacity: "70%" }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -200%)",
+            }}
+          >
+          </div>
+        </div>
+      </div>
+      <div className="container51">
         <div
           className="sty50"
           style={{
@@ -439,47 +673,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="container-25">
-         <h3> <strong>Quem somos</strong></h3>
-      <img src={imageSobre} alt="Third slide" />
-        <h3>
-        </h3>
-        <div
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -30%)",
-            }}
-          >
-        <p>
-        <strong>Conheça nossa história e junte-se à nossa jornada.</strong>
-          <br />
-          <Link to="/sobre">
-            <button>Saiba mais</button>
-          </Link>
-        </p>
-        </div>
-      </div>
-      <div className="container-25"><h3><strong>Localização</strong></h3>
-        <img src={imageGlobo} alt="Third slide" />
-        <div
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -30%)",
-            }}
-          >
-        <p>
-          <strong style={{color:"white"}}>Descubra o que o mundo tem a oferecer.</strong>
-          <br />
-          <Link to="/contato">
-            <button>Saiba mais</button>
-          </Link>
-        </p>
-        </div>
-      </div>
+      <div className="show-more-button">
+            <button onClick={handleShowAllImages}>Veja mais</button>
+          </div>
       <Footer />
     </div>
   );

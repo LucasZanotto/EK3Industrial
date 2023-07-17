@@ -2,6 +2,13 @@
   font-family: sans-serif;
 }
 
+.container-center {
+  /* background-color: #26A7B6; */
+  margin-top: 3%;
+  text-align: center;
+  
+}
+
 .seila {
   background-color: #26A7B6;
   display: flex;
@@ -77,5 +84,5 @@
 }
 
 .back-gray {
-  background-color: rgb(233, 231, 231);
+  background-color: #fff;
 }

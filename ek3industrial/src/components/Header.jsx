@@ -29,32 +29,32 @@ export default function Header() {
           <ul className="navbar-nav ms-auto d-flex justify-content-end">
             <li className="nav-item">
               <Link to="/" className="nav-link">
-                <h5 className="mb-0">Início</h5>
+                <h6 className="mb-0"><strong>INÍCIO</strong></h6>
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/sobre" className="nav-link">
-                <h5 className="mb-0">Quem somos</h5>
+                <h6 className="mb-0"><strong>QUEM SOMOS</strong></h6>
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/areas" className="nav-link">
-                <h5 className="mb-0">Áreas de atuação</h5>
+                <h6 className="mb-0"><strong>ÁREAS DE ATUAÇÃO</strong></h6>
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/cultura" className="nav-link">
-                <h5 className="mb-0">Cultura</h5>
+                <h6 className="mb-0"><strong>CULTURA</strong></h6>
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/escolha" className="nav-link">
-                <h5 className="mb-0">Por que escolher a EK3?</h5>
+                <h6 className="mb-0"><strong>POR QUE A EK3?</strong></h6>
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/contato" className="nav-link">
-                <h5 className="mb-0">Contato</h5>
+                <h6 className="mb-0"><strong>CONTATO</strong></h6>
               </Link>
             </li>
           </ul>

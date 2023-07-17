@@ -21,7 +21,7 @@ function App() {
         <Route exact path="/sobre" component={ Sobre } />
         <Route exact path="/areas" component={ Areas } />
         <Route exact path="/cultura" component={ Cultura } />
-        <Route exact path="/escolha" component={ Escolha } />
+        <Route exact path="/escolha" component={ Cultura } />
         <Route exact path="/contato" component={ Contato } />
       </Switch>
   )

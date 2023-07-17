@@ -2,6 +2,16 @@
   align-self: center;
 }
 
+.container-contact {
+  display: flex;
+}
+
+.container-left {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
 .container-8 {
   display: flex;
   padding: 5%;
@@ -105,7 +115,7 @@
   padding-left: 5%;
   text-align: center;
   /* padding-top: ; */
-  padding-bottom: 3%;
+  /* padding-bottom: 3%; */
   color: black;
   font-style: italic;
   
@@ -116,18 +126,10 @@
   background-color: #26A7B6;
 }
 
-/* .container-23 button {
-  background-color: #26A7B6;
-  border-radius: 5px;
-  padding: 1%;
-  width: 12%;
-  margin-top: 2%;
-  color: black;
-} */
-
 .contact-form {
-  /* max-width: 400px; */
+  max-width: 65vh;
   text-align: center;
+  margin: 0 auto;
 }
 
 .form-row {
@@ -141,6 +143,7 @@
 }
 
 .form-group label {
+  font-size: 2vh;
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
@@ -148,6 +151,7 @@
 
 .contact-form input,
 .contact-form textarea {
+  font-size: 2vh;
   width: 100%;
   padding: 10px;
   border: 1px solid 26A7B6;
@@ -166,6 +170,7 @@
   border-radius: 4px;
   cursor: pointer;
   margin-bottom: 20%;
+  font-size: 2vh;
 }
 
 .contact-form button:hover {
@@ -174,14 +179,21 @@
 
 .container-back {
   /* background-image: url("../assets/telework-5046230.jpg"); */
-  height: 50vh;
+  /* height: 50vh; */
   background-size: cover;
   /* opacity: 70%; */
 }
 
 .container-banner {
-  background-image: url("../assets/telework-5046230.jpg");
+  /* background-image: url("../assets/mockup-escritorio-ek3-1.png"); */
 }
+
+.imagem-destaque {
+  width: 100%;
+  height: 65vh;
+  object-fit: cover;
+}
+
 
 .container-back img {
   opacity: 70%;
@@ -192,13 +204,13 @@
 }
 
 .container-back {
-  padding-bottom: 45%;
+  /* padding-bottom: 45%; */
 }
 
  /* style={{borderRadius: "1px 75px"}} */
 
 
- @media (max-width: 1300px) {
+ @media (max-width: 1000px) {
   .button-sub {
     /* Outros estilos do botão */
     margin-bottom: 0;
@@ -210,21 +222,16 @@
   }
 
   .container-22 img {
-    margin-top: 100%;
+    /* margin-top: 100%; */
     width: 100%;
-  }
-
-  .container-back {
-    /* background-image: url("../assets/telework-5046230.jpg"); */
-    height: 50vh;
-    /* background-size: cover; */
-    /* opacity: 70%; */
-    /* margin-bottom: 45%; */
-    /* padding-bottom: 1px; */
   }
 
   .container-banner {
     background-image: url();
+  }
+
+  .container-contact {
+    display: block;
   }
 
 
