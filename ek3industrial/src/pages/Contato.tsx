@@ -20,7 +20,7 @@ export default function Contato(){
   const [phone, setPhone] = useState("");
   const [company, setCompany] = useState("");
   const [message, setMessage] = useState("");
-  window.scrollTo(0, 0);
+  //window.scrollTo(0, 0);*//
   const history = useHistory();
 
   function handleClick() {
