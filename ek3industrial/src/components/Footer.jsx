@@ -21,7 +21,7 @@ export default function Footer() {
           direitos reservados.</strong>
         </p>
         <p>
-          Rua Saul Brandalise, 1100. CEP: 89560-162. Videira/SC. Brasil.
+          Rua Saul Brandalise, 1100. CEP: 89560-286. Videira/SC. Brasil.
         </p>
       </div>
       <div className="footer-right">

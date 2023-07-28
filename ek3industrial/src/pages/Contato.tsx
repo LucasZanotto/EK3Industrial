@@ -75,9 +75,9 @@ export default function Contato(){
    
     </div>
 </div>
-<div>
+{/* <div>
   <img src={imageEscritorio} className="imagem-destaque" alt="Escritório" />
-</div>
+</div> */}
 
 <div className="container-contact">
   <div className="container-left">
@@ -163,7 +163,7 @@ export default function Contato(){
       <p><strong>Endereço</strong></p>
       <p>Rua Saul Brandalise, 1100, Matriz 
         <br />
-        CEP: 89560-162 | Videira, SC</p>
+        CEP: 89560-286 | Videira, SC</p>
         <a href="https://www.google.com/maps/place/EK3Industrial/@-27.0060479,-51.1517966,15z/data=!4m17!1m10!3m9!1s0x94e14ff0112b2bfd:0xb9429c205e0d1f0e!2sEK3Industrial!8m2!3d-27.0060479!4d-51.1430419!10e5!14m1!1BCgIgAQ!16s%2Fg%2F11ty8f0j9_!3m5!1s0x94e14ff0112b2bfd:0xb9429c205e0d1f0e!8m2!3d-27.0060479!4d-51.1430419!16s%2Fg%2F11ty8f0j9_" target="_blank"><button>Ver no mapa</button></a>
         <a href="https://api.whatsapp.com/send?phone=5549991156353" target="_blank" style={{color: "black"}}><p>+55 49 99115-6353</p></a>
     </div>

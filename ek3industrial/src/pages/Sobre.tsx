@@ -8,12 +8,13 @@ import imageSobre from "../assets/Captura de tela de 2023-05-31 17-23-08.png";
 import imageCult from "../assets/Captura de tela de 2023-06-13 21-33-29.png";
 import imageCoach from "../assets/Foto consultoria _ treinamento 2.jpg";
 import ek3Logo from "../assets/ek3Invi.png";
+import ek3Logo2 from "../assets/ek3logo2.png";
 import ek3Logo1 from "../assets/Captura de tela de 2023-06-13 19-37-56.png";
 import "./Sobre.css";
 import Footer from "../components/Footer";
 
 export default function Sobre() {
-  window.scrollTo(0, 0);
+  // window.scrollTo(0, 0);
   return (
     <div>
       <Header />
@@ -45,14 +46,14 @@ export default function Sobre() {
           </p>
           </div>
           </div>
-          <div className="col-lg-6 col-md-12 mb-4">
-            <img src={ek3Logo} alt="Consultoria e Treinamento" className="img-fluid rounded" />
-          </div>
+          {/* <div className="col-lg-6 col-md-12 mb-4 center">
+            <img src={ek3Logo2} alt="Consultoria e Treinamento" className="img-fluid rounded" />
+          </div> */}
         </div>
       </div>
       <div className="container-fluid back-gray">
-        <div className="row align-items-center justify-content-center" style={{backgroundColor:"#F9F9F9"}}>
-          <div className="col-lg-6 col-md-12 order-lg-2 order-md-1 mb-4">
+        <div className="row align-items-center justify-content-start" style={{backgroundColor:"#F9F9F9"}}>
+          <div className="col-lg-4 col-md-12 order-lg-2 order-md-1 mb-4">
             <div className="title-2">
               <h3><strong>A EK3 ENGENHARIA INDUSTRIAL</strong></h3>
           <p>

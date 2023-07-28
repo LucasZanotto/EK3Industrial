@@ -3,7 +3,8 @@
 }
 
 p {
-  font-size: 1em;
+  font-size: 14;
+  /* font-size: 1em; */
 }
 
 .show-more-button {
@@ -19,7 +20,9 @@ p {
 
 .container-cards {
   margin-top: 3%;
-  text-align: center;
+  text-align:center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .cards-div {
@@ -27,16 +30,16 @@ p {
   background-color: #F5F5F5;
   box-shadow: 0 2px 4px #00000033;
   display: inline-block;
-  width: 30vh; 
+  width: 35vh; 
   /* height: 20vh; */
-  margin-right: 10%; 
+  margin-right: 12%; 
 
 }
 
 .cards-div img {
   border-radius: 15px;
   /* max-height: 100%; */
-  width: 80%;
+  width: 35vh;
   object-fit: cover;
 }
 
@@ -219,15 +222,15 @@ p {
 
 .header-init {
   background-color: #007bff;
-  background-image: url("../assets/Foto principal opcao 3(1).png");
+  background-image: url("../assets/headlogo.png");
   background-size: cover;
   background-position: center; 
   /* padding-bottom: 24%; */
-  height: 65vh;
+  height: 84vh;
   background-size: cover;
   /* opacity: 1; */
   background-color: rgba(255, 255, 255, 1);
-  /* color: white; */
+  color: white;
 }
 
 /* .header-init h1 {
