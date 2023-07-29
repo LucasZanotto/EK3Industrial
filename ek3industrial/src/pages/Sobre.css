@@ -95,3 +95,9 @@
 .back-gray {
   background-color: #fff;
 }
+
+@media (max-width: 768px) {
+  .content {
+    max-width: 100%; /* Altere a largura do texto para ocupar 100% da largura da tela em dispositivos móveis */
+  }
+}

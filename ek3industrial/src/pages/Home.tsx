@@ -18,7 +18,7 @@ import imageCell from "../assets/Captura de tela de 2023-06-13 20-33-26.png";
 import imageGenerator from "../assets/geracao de energia.jpg";
 import imagePharma from "../assets/glsun-mall-WNX6uk-1LV4-unsplash.jpg";
 import imageEstrutural from "../assets/greg-sellentin-SOBE-JRyRww-unsplash.jpg";
-import imageCelulose from "../assets/celulose.jpg";
+import imageCelulose from "../assets/size_960_16_9_papel-celulose11.png";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
@@ -244,7 +244,7 @@ export default function Home() {
             src={imageInfra}
             alt="Foto de Troy Mortier na Unsplash"
             width="20%"
-            style={{ borderRadius: "5px", opacity: "70%" }}
+            style={{ borderRadius: "5px", opacity: "70%", objectFit:"cover" }}
           />
           <div
             style={{
@@ -350,7 +350,8 @@ export default function Home() {
           <img
             src={imageCosmetic}
             alt="Foto de Jason Blackeye na Unsplash"
-            style={{ borderRadius: "5px", opacity: "70%" }}
+            style={{ borderRadius: "5px", opacity: "70%", objectFit:"cover" }}
+            
           />
           <div
             style={{

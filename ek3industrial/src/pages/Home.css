@@ -30,10 +30,12 @@ p {
   background-color: #F5F5F5;
   box-shadow: 0 2px 4px #00000033;
   display: inline-block;
-  width: 35vh; 
+  width: 51vh; 
   /* height: 20vh; */
-  margin-right: 12%; 
-
+  margin-right: 0%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .cards-div img {
@@ -43,10 +45,15 @@ p {
   object-fit: cover;
 }
 
+.cards-div p {
+  margin-bottom: 0%;
+}
+
 .cards-div button {
   border-radius: 15px;
   background-color: #8C3388;
   color: white;
+  margin-top: auto;
 }
 
 .cards-div:last-child {

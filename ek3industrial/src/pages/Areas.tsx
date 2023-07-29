@@ -11,7 +11,6 @@ import { useHistory } from 'react-router-dom';
 import Footer from "../components/Footer";
 
 export default function Areas(){
-  window.scrollTo(0, 0);
   return (
     <div>
       <Header />

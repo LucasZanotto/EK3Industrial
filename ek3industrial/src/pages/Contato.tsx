@@ -20,6 +20,7 @@ export default function Contato(){
   const [phone, setPhone] = useState("");
   const [company, setCompany] = useState("");
   const [message, setMessage] = useState("");
+  const [encontrou, setEncontrou] = useState("");
   //window.scrollTo(0, 0);*//
   const history = useHistory();
 
@@ -33,7 +34,8 @@ export default function Contato(){
     formData.append("Nome", name + ' ' + sobrenome);
     formData.append("Email", email);
     formData.append("Telefone", phone);
-    formData.append("Companhia", company);
+    formData.append("Empresa", company);
+    formData.append("Encontrou através", encontrou);
     formData.append("Mensagem", message);
 
     const response = await fetch("https://formspree.io/f/moqzbpyg", {
@@ -56,6 +58,7 @@ export default function Contato(){
     setEmail('')
     setPhone('')
     setCompany('')
+    setEncontrou('')
     setMessage('')
   };
   return (
@@ -67,21 +70,22 @@ export default function Contato(){
 </div>
 <div className="container-banner">
 <div className="container-back">
-    <div className="container-23">
-      <p><strong>Se você tem um futuro projeto ou está pronto para começar o planejamento dos seus investimentos
-         internos para o próximo ano, estamos prontos para colaborar com você. Por favor preencha o formulário 
-         abaixo, para que possamos conhecê-lo um pouco melhor.</strong></p>
-    </div>
+    {/*<div className="container-23">
+      <p><strong style={{fontSize:"20px"}}>Se você tem um futuro projeto ou está pronto para começar o planejamento dos seus investimentos
+         internos para o próximo ano, estamos prontos para colaborar com você.</strong></p>
+    </div>*/}
    
     </div>
 </div>
 {/* <div>
   <img src={imageEscritorio} className="imagem-destaque" alt="Escritório" />
 </div> */}
-
+<div></div>
 <div className="container-contact">
   <div className="container-left">
   <form onSubmit={handleSubmit} className="contact-form">
+  <strong style={{textAlign:"initial"}}><p>Por favor preencha o formulário 
+         abaixo, para que possamos conhecê-lo um pouco melhor.</p></strong>
   <div className="form-row">
     <div className="form-group">
       <label htmlFor="name">Nome</label>
@@ -92,6 +96,7 @@ export default function Contato(){
         onChange={(e) => setName(e.target.value)}
         placeholder="Nome"
         required
+        style={{backgroundColor:"rgb(226, 217, 217)"}}
       />
     </div>
     <div className="form-group">
@@ -103,6 +108,7 @@ export default function Contato(){
         onChange={(e) => setSobrenome(e.target.value)}
         placeholder="Sobrenome"
         required
+        style={{backgroundColor:"rgb(226, 217, 217)"}}
       />
     </div>
   </div>
@@ -116,6 +122,7 @@ export default function Contato(){
         onChange={(e) => setEmail(e.target.value)}
         placeholder="Email"
         required
+        style={{backgroundColor:"rgb(226, 217, 217)"}}
       />
     </div>
     <div className="form-group">
@@ -127,28 +134,44 @@ export default function Contato(){
         onChange={(e) => setPhone(e.target.value)}
         placeholder="Telefone"
         required
+        style={{backgroundColor:"rgb(226, 217, 217)"}}
       />
     </div>
   </div>
   <div className="form-group">
-    <label htmlFor="company">Nome da companhia</label>
+    <label htmlFor="company">Nome da Empresa</label>
     <input
       type="text"
       id="company"
       value={company}
       onChange={(e) => setCompany(e.target.value)}
-      placeholder="Nome da companhia"
+      placeholder="Empresa"
       required
+      style={{backgroundColor:"rgb(226, 217, 217)"}}
+    />
+  </div>
+  <div className="form-group" style={{marginTop:"15px", marginBottom: "15px"}}>
+    <label htmlFor="encontrou">Como você nos encontrou?</label>
+    <input
+      type="text"
+      id="encontrou"
+      value={encontrou}
+      onChange={(e) => setCompany(e.target.value)}
+      placeholder="Google, Facebook, Instagran, referências..."
+      required
+      style={{backgroundColor:"rgb(226, 217, 217)"}}
     />
   </div>
   <div className="form-group">
     <label htmlFor="message">Mensagem</label>
     <textarea
+    
       id="message"
       value={message}
       onChange={(e) => setMessage(e.target.value)}
-      placeholder="Mensagem"
+      placeholder="ex: Estou procurando por automação e implantação de novos equipamentos em nossa empresa..."
       required
+      style={{backgroundColor:"rgb(226, 217, 217)"}}
     ></textarea>
   </div>
   <button className="" type="submit">Enviar</button>

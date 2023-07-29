@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import { useHistory, useLocation } from 'react-router-dom';
 import Header from "../components/Header";
 import imageEmpre from "../assets/engenhariaEmp.jpeg";
 import imageInsta from "../assets/1161953_instagram_icon.png";
@@ -15,6 +16,11 @@ import Footer from "../components/Footer";
 
 export default function Sobre() {
   // window.scrollTo(0, 0);
+
+  const history = useHistory();
+  const location = useLocation();
+
+    const hash = window.location.hash;
   return (
     <div>
       <Header />
@@ -51,9 +57,9 @@ export default function Sobre() {
           </div> */}
         </div>
       </div>
-      <div className="container-fluid back-gray">
-        <div className="row align-items-center justify-content-start" style={{backgroundColor:"#F9F9F9"}}>
-          <div className="col-lg-4 col-md-12 order-lg-2 order-md-1 mb-4">
+      <div className="container-fluid back-gray my-5" style={{backgroundColor:"#F9F9F9"}}>
+        <div className="row align-items-start">
+          <div className="col-lg-6 col-md-12 order-lg-2 order-md-1 mb-4">
             <div className="title-2">
               <h3><strong>A EK3 ENGENHARIA INDUSTRIAL</strong></h3>
           <p>
@@ -78,14 +84,14 @@ vincular tudo isso dentro do trabalho com nossos clientes. Nossos três <strong>
           </div>
           </div>
           <div className="col-lg-6 col-md-12 order-lg-1 order-md-2 mb-4">
-            <img src={imageSobre} alt="Projetos Industriais e Engenharia" className="img-fluid rounded" />
+            <img src={imageSobre} alt="Projetos Industriais e Engenharia" className="img-fluid rounded" style={{width:""}} />
           </div>
         </div>
       </div>
-      <div className="container-fluid">
-        <div className="row align-items-center justify-content-center">
-          <div className="col-lg-6 col-md-12 mb-4">
-            <div>
+      <div className="container-fluid my-5">
+        <div className="row align-items-start">
+          <div className="col-lg-6 col-md-12 mb-4" >
+            <div style={{width:"60vh"}} className='align-items-start content'>
               <h3><strong>LOCALIZAÇÃO</strong></h3>
 <p>Algumas pessoas tem a ânsia de sair do Brasil para <strong>conhecer</strong>, para <strong>estudar</strong>, para <strong>trabalhar</strong> ou mesmo para <strong>viver </strong>
  novas e diferentes experiências culturais.</p>
@@ -104,8 +110,8 @@ nossa equipe preparada para atuar em diversas <strong>frentes industriais</stron
           </div>
         </div>
       </div>
-      <div className="container-fluid back-gray" style={{backgroundColor:"#F9F9F9"}}>
-        <div className="row align-items-center justify-content-center">
+      <div className="container-fluid back-gray my-5" style={{backgroundColor:"#F9F9F9"}}>
+        <div className="row align-items-start">
           <div className="col-lg-6 col-md-12 order-lg-2 order-md-1 mb-4">
             <div className="title-2">
               <h3><strong>MOTIVAÇÃO</strong></h3>
