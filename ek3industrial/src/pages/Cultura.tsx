@@ -14,7 +14,7 @@ export default function Cultura(){
   <img src={imageEscritorio} className="imagem-destaque" alt="Escritório" />
 </div>
 <div className="container-content">
-    <div className="content-1" style={{ position: "absolute", top: "85%", left: "0%", right: "40%", transform: "translateY(-50%)" }}>
+    <div className="content-1">
     <h2 className="fw-bold" style={{marginTop: "4%"}}>Cultura</h2>
     <p style={{marginBottom:"4%"}}>Construímos uma cultura diversa e inclusa, onde nossa equipe se sente pertencente e mais conectada.
 Juntamente com a expertise técnica, temos um ambiente de trabalho mais plural, inovador e
@@ -47,7 +47,7 @@ que se espera deles e das competências que são avaliadas.
 <i><p style={{marginBottom:"4%"}}><strong>Nossos clientes colhem os benefícios dessa abordagem, recebendo soluções inovadoras e
 confiáveis entregues por pessoas engajadas e muito experientes.</strong></p></i>
 </div>
-<div className="content-2" style={{paddingLeft:"65%", marginRight:"3%"}}>
+<div className="content-2">
 <h2 className="fw-bold" style={{marginTop: "6%"}}>Por que escolher a EK3 ?</h2>
 <p>Com a vasta gama de empresas de engenharia atualmente, como escolher aquela em que você pode
 confiar?</p>

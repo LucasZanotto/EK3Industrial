@@ -229,7 +229,7 @@ p {
 
 .header-init {
   background-color: #007bff;
-  background-image: url("../assets/headlogo.png");
+  background-image: url("../assets/Foto principal edited 1.png");
   background-size: cover;
   background-position: center; 
   /* padding-bottom: 24%; */
@@ -237,7 +237,7 @@ p {
   background-size: cover;
   /* opacity: 1; */
   background-color: rgba(255, 255, 255, 1);
-  color: white;
+  color: black;
 }
 
 /* .header-init h1 {
@@ -426,9 +426,9 @@ p {
   }
 
   .header-init {
-    color: white;
+    color: black;
     background-color: #007bff;
-    background-image: url("../assets/headlogo.png");
+    background-image: url("../assets/Foto principal edited 1.png");
     /* padding-bottom: 24%; */
     height: 40vh;
     background-size: cover;
@@ -467,7 +467,7 @@ p {
 
   .header-init {
     opacity: 90%;
-    color: white;
+    color: black;
   }
 
   .header-letters {
@@ -533,5 +533,21 @@ p {
     .sty50 img {
       /* width: 100%; */
       /* margin-bottom: 20px; */
+    }
+    .container-cards {
+      margin-top: 3%;
+      text-align:center;
+      display: block;
+      justify-content: center;
+      align-items: center;
+    }
+    .cards-div {
+      border-radius: 15px;
+      background-color: #F5F5F5;
+      box-shadow: 0 2px 4px #00000033;
+      display: inline-block;
+      width: 40vh; 
+      /* height: 20vh; */
+      margin-right: 0%; 
     }
     }
