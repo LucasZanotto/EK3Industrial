@@ -10,45 +10,14 @@ export default function Cultura(){
   return (
     <div className="cont">
     <Header/>
+    <div className="bola-azul4"></div>
     <div>
   <img src={imageEscritorio} className="imagem-destaque" alt="Escritório" />
 </div>
 <div className="container-content">
-    <div className="content-1">
-    <h2 className="fw-bold" style={{marginTop: "4%"}}>Cultura</h2>
-    <p style={{marginBottom:"4%"}}>Construímos uma cultura diversa e inclusa, onde nossa equipe se sente pertencente e mais conectada.
-Juntamente com a expertise técnica, temos um ambiente de trabalho mais plural, inovador e
-sustentável pois nossos funcionários são valorizados e incentivados ao empoderamento.</p>
-<p>
-Nosso propósito se torna ainda mais agradável pois focamos em <strong>4 valores:</strong>
-</p>
-<p>
-<strong style={{fontSize: "20px", font: "inherit"}}>Transparência</strong> - dos planos e operações da organização para que os colaboradores possam auxiliar
-nossos clientes a tomarem a melhor decisão em seus projetos. Realizamos de forma clara, difundindo a
-capacidade das pessoas e empresas a trabalharem melhor juntas.
-</p>
-<p>
-<strong style={{fontSize: "20px"}}>Autonomia</strong> – proporcionamos maior liberdade para desempenhar, inovar e trazer novas estratégias
-para o crescimento da empresa tanto quanto nas tomadas de decisões e suas responsabilidades;
-aplicado em todas as esferas da compania.
-</p>
-<p>
-<strong style={{fontSize: "20px"}}>Confiança & Colaboração</strong> – com respeito mútuo e honestidade, trabalhamos com uma comunicação
-livre, nutrindo um ambiente onde as equipes se sentem à vontade para compartilhar ideias e focar em
-decisões.
-</p>
-<p>
-<strong style={{fontSize: "20px"}}>Performance</strong> – trabalhamos de forma consistente para manter a sinergia entre equipes, além de
-cooperar para o crescimento individual e fortalecer a relação interpessoal de cada profissional.
-Resultando em um melhor desempenho coletivo, o que naturalmente gera um impacto positivo sobre a
-nossa empresa e os projetos executados. Os colaboradores e gestores têm um bom entendimento do
-que se espera deles e das competências que são avaliadas.
-</p>
-<i><p style={{marginBottom:"4%"}}><strong>Nossos clientes colhem os benefícios dessa abordagem, recebendo soluções inovadoras e
-confiáveis entregues por pessoas engajadas e muito experientes.</strong></p></i>
-</div>
-<div className="content-2">
-<h2 className="fw-bold" style={{marginTop: "6%"}}>Por que escolher a EK3 ?</h2>
+   
+<div className="content-2" style={{paddingBottom: "6%", paddingLeft: "6%", paddingRight: "6%"}}>
+<h2 className="fw-bold" style={{marginTop: "6%", marginBottom: "3%"}}>Por que escolher a EK3 ?</h2>
 <p>Com a vasta gama de empresas de engenharia atualmente, como escolher aquela em que você pode
 confiar?</p>
     <p>Somos uma empresa <strong>Especializada</strong>. Há muitas empresas de engenharia industrial, mas poucas oferecem
@@ -62,6 +31,10 @@ papel e potencializar resultados positivos nas auditorias.</p>
 <p>Em todos os nossos trabalhos, você recebe relatórios <strong>abrangentes</strong> e <strong>transparentes</strong>, que lhe darão
 tranquilidade sobre o perfil e status do seu projeto.</p>
 </div>
+</div>
+<div className="content-3">
+  <p><strong>Entre em contato com nossa equipe e vamos criar uma solução <br />
+que cause um impacto positivo em seu próximo projeto.</strong></p>
 </div>
 <Footer />
     </div>

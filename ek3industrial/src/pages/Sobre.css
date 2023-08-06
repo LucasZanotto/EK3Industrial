@@ -2,6 +2,47 @@
   font-family: sans-serif;
 }
 
+.content-container-flex {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.content-sobre1 {
+     position: absolute;  
+    top: 85%; left: 0%; right: 40%; transform: translateY(-50%);
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.76);
+    padding-bottom: 0;
+    /* margin-left: 15%; */
+    padding: 5%;
+}
+
+..content-sobre1 p {
+  padding-left: 15%;
+}
+
+.content-sobre2 {
+  padding: 5%;
+  margin-left: 61%;
+}
+
+.content-sobre3 {
+  padding: 5%;
+}
+
+.content-sobre4 {
+  padding: 6%;
+}
+
+.content-sobre5 {
+  padding: 6%;
+  background-color: black;
+  color:rgba(255, 255, 255, 0.76);
+}
+
 .center {
   text-align: center;
 }

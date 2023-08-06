@@ -9,7 +9,7 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand">
           <img src={ek3Logo1} alt="logo" className="logo" />
@@ -37,15 +37,29 @@ export default function Header() {
                 <h6 className="mb-0"><strong>QUEM SOMOS</strong></h6>
               </Link>
             </li>
-            <li className="nav-item">
-              <Link to="/areas" className="nav-link">
+            <li className="nav-item dropdown">
+              <Link to="/areas" className="nav-link" id="navbarDropdown" role="button"  data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false">
                 <h6 className="mb-0"><strong>ÁREAS DE ATUAÇÃO</strong></h6>
               </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/cultura" className="nav-link">
-                <h6 className="mb-0"><strong>CULTURA</strong></h6>
-              </Link>
+              <ul className="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdown">
+                <li>
+                  <Link className="dropdown-item custom-dropdown-item" to="/areas/consultoria">
+                    <h6 className="mb-0"><strong>CONSULTORIA</strong></h6>
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item custom-dropdown-item" to="/areas/treinamento">
+                    <h6 className="mb-0"><strong>PPROJETOS</strong></h6>
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item custom-dropdown-item" to="/areas/empreendimento">
+                    <h6 className="mb-0"><strong>EMPREENDIMENTOS</strong></h6>
+                  </Link>
+                </li>
+              </ul>
             </li>
             <li className="nav-item">
               <Link to="/escolha" className="nav-link">

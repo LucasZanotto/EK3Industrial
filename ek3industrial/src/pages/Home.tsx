@@ -96,7 +96,7 @@ export default function Home() {
                 Seja o próximo empreendedor de sucesso com nossos serviços de
                 suporte e mentoria.
               </p>
-              <Link to="/areas" className="Linkados">
+              <Link to="/areas#conteudo" className="Linkados">
                 <button>Saiba mais</button>
               </Link>
             </div>
@@ -108,8 +108,7 @@ export default function Home() {
           <strong>Conheça um pouco mais sobre a EK3</strong>
         </h3>
         <p>
-          Adaptamos às necessidades de indústrias para todos os segmentos e
-          portes, contribuindo para o desenvolvimento e Evolução da sua empresa.
+        Conheça a essência e os valores que nos impulsionam a oferecer experiências únicas para nossos clientes.
         </p>
       </div>
       <div className="container-cards">

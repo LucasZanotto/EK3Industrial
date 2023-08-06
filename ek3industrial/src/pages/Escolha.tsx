@@ -4,11 +4,13 @@ import "./Escolha.css";
 import Footer from "../components/Footer";
 import imageEscolha from "../assets/junior-ferreira-7esRPTt38nI-unsplash.jpg";
 
+
 export default function Escolha(){
   window.scrollTo(0, 0);
   return (
     <div>
       <Header/>
+      <div className="bola-azul4"></div>
       <div className="conteudo">
     <div className="title-1">
   <h2 className="fw-bold">Por que escolher a EK3 ?</h2>

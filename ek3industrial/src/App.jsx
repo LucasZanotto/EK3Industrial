@@ -11,6 +11,9 @@ import Areas from './pages/Areas';
 import Contato from './pages/Contato';
 import Cultura from './pages/Cultura';
 import Escolha from './pages/Escolha';
+import AreasConsultoria from './pages/AreasConsultoria';
+import AreasTreinamento from './pages/AreasTreinamento';
+import AreasEmpreendimento from './pages/AreasEmpreendimento';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,7 +22,9 @@ function App() {
       <Switch>
         <Route exact path="/" component={ Home } />
         <Route exact path="/sobre" component={ Sobre } />
-        <Route exact path="/areas" component={ Areas } />
+        <Route exact path="/areas/consultoria" component={ AreasConsultoria } />
+        <Route exact path="/areas/treinamento" component={ AreasTreinamento } />
+        <Route exact path="/areas/empreendimento" component={ AreasEmpreendimento } />
         <Route exact path="/cultura" component={ Cultura } />
         <Route exact path="/escolha" component={ Cultura } />
         <Route exact path="/contato" component={ Contato } />

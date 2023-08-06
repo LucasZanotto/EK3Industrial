@@ -43,6 +43,7 @@ p {
   /* max-height: 100%; */
   width: 35vh;
   object-fit: cover;
+  margin-top: 3%;
 }
 
 .cards-div p {
@@ -54,6 +55,7 @@ p {
   background-color: #8C3388;
   color: white;
   margin-top: auto;
+  margin-bottom: 3%;
 }
 
 .cards-div:last-child {

@@ -8,8 +8,7 @@ h5{
 }
 
 .navbar {
-  background-color: #fff;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1); */
 }
 
 .nav-link {
@@ -25,7 +24,6 @@ h5{
 
 @media (max-width: 768px) {
   .navbar-collapse {
-    background-color: #fff;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
     margin-top: 1rem;
   }
@@ -55,4 +53,60 @@ nav .nav-link:hover::after {
 
 .marketing-1 {
   color: "white";
+}
+
+/* Esconder o menu dropdown por padrão */
+.dropdown-menu {
+  display: none;
+  background-color: transparent;
+}
+
+/* Mostrar o menu dropdown quando o link do dropdown estiver em hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  color: black; /* Defina a cor que você deseja para o texto do dropdown */
+}
+
+.custom-dropdown-item {
+  background-color: transparent; /* Fundo transparente */
+  color: gray; /* Cor do texto cinza */
+  padding: 0.25rem 1.5rem; /* Espaçamento interno do item do dropdown (opcional) */
+}
+
+.custom-dropdown-item:hover {
+  background-color: transparent; /* Fundo transparente ao passar o mouse (opcional) */
+}
+
+.custom-dropdown-item .nav-link {
+  background-color: transparent; /* Fundo transparente */
+  color: gray; /* Cor do texto cinza */
+  /* Outros estilos que você deseja aplicar aos itens do dropdown */
+}
+
+
+/* No seu arquivo CSS personalizado (por exemplo, Header.css) */
+.custom-dropdown-item .nav-link {
+  background-color: transparent; /* Fundo transparente */
+  color: gray !important; /* Cor do texto cinza com !important para garantir a prioridade */
+}
+
+.custom-dropdown-item .nav-link:hover,
+.custom-dropdown-item .nav-link:focus {
+  background-color: transparent; /* Fundo transparente quando hover ou focado */
+  color: gray !important; /* Cor do texto cinza */
+}
+
+
+.custom-dropdown .dropdown-item {
+  background-color: transparent; /* Fundo transparente */
+  color: gray; /* Cor do texto cinza */
+}
+
+.custom-dropdown .dropdown-item:hover,
+.custom-dropdown .dropdown-item:focus {
+  background-color: transparent; /* Fundo transparente quando hover ou focado */
+  color: rgb(100, 100, 100); /* Cor do texto cinza */
 }

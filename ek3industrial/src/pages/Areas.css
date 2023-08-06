@@ -7,6 +7,171 @@
   justify-content: center;
 }
 
+.content-consult1 {
+  padding: 10%;
+}
+
+.content-consult2 {
+  padding: 10%;
+  background-color: rgb(247, 243, 243);
+}
+
+.content-empreend1 {
+  padding: 10%;
+}
+
+.content-empreend2 {
+  padding: 8%;
+  margin-left: 49%;
+}
+
+.content-projetos1{
+  padding-left: 30%;
+  width: 100%;
+  padding: 6%;
+  background-color: rgb(247, 243, 243);
+}
+
+.content-projetos2 {
+  background-color: black;
+  color:aliceblue;
+  padding: 6%;
+  margin: 0;
+  width: 100%;
+}
+
+.content-projetos3 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.bola-roxa {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  width: 40%;
+  height: 55vh;
+  background-image: url("../assets/Bola roxa.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.bola-roxa2 {
+  position: absolute;
+  top: 1%;
+  left: 30%;
+  width: 40%;
+  height: 55vh;
+  background-image: url("../assets/Bola roxa.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.bola-roxa3 {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  width:60%;
+  height: 100%;
+  background-image: url("../assets/Bola roxa.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.bola-roxa5 {
+  position: absolute;
+  top: 180%;
+  left: 20%;
+  width:60%;
+  height: 65vh;
+  background-image: url("../assets/Bola roxa.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.bola-azul {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  width: 40%;
+  height: 55vh;
+  background-image: url("../assets/Bola aqua.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.bola-azul2 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 40%;
+  height: 100%;
+  background-image: url("../assets/Bola aqua.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.bola-azul3 {
+  position: absolute;
+  top: 36%;
+  left: 39%;
+  width:60%;
+  height: 100%;
+  background-image: url("../assets/Bola aqua.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.bola-azul4 {
+  position: absolute;
+  top: 90%;
+  left: 0%;
+  width:30%;
+  height: 40%;
+  background-image: url("../assets/Bola aqua.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.bola-azul5 {
+  position: absolute;
+  top: 165%;
+  left: 50%;
+  width:50%;
+  height: 65vh;
+  background-image: url("../assets/Bola aqua.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+}
+
 .image-1 {
   padding: 5%;
   /* height: 350px; */

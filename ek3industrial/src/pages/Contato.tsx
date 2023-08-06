@@ -70,10 +70,10 @@ export default function Contato(){
 </div>
 <div className="container-banner">
 <div className="container-back">
-    {/*<div className="container-23">
+    <div className="container-23">
       <p><strong style={{fontSize:"20px"}}>Se você tem um futuro projeto ou está pronto para começar o planejamento dos seus investimentos
          internos para o próximo ano, estamos prontos para colaborar com você.</strong></p>
-    </div>*/}
+    </div>
    
     </div>
 </div>
