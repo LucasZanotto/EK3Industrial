@@ -80,6 +80,7 @@ p {
 .carousel-caption.d-flex {
   align-items: center;
   justify-content: center;
+  /*color:#8C3388*/
 }
 
 .btn-carousel {

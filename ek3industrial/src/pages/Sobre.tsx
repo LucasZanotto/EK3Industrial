@@ -16,7 +16,7 @@ import "./Sobre.css";
 import Footer from "../components/Footer";
 
 export default function Sobre() {
-  window.scrollTo(0, 0);
+ /* window.scrollTo(0, 0);*/
 
   return (
     <div className="cont">
@@ -71,12 +71,13 @@ export default function Sobre() {
                 demandas das indústrias da região.
               </p>
               <p>
+                <p>
                 Uma empresa de engenharia e gestão{" "}
-                <strong>multidisciplinar</strong> altamente experiente. Com o
-                compromisso de fornecer garantia de qualidade e manter a
-                integridade ambiental, nossa equipe é altamente qualificada e
+                <strong>multidisciplinar</strong> altamente experiente, fornecendo garantia de qualidade e mantendo a integridade ambiental.Nossa equipe é altamente qualificada e
                 possui experiência adicional para assessorar na gestão de
-                projetos e riscos. Nosso compromisso com a segurança e o meio
+                projetos e riscos.
+                </p>
+                 Nosso compromisso com a segurança e o meio
                 ambiente se estende ao nosso próprio negócio. Oferecemos
                 soluções eficientes, baseadas em{" "}
                 <strong>inovação, sustentabilidade e tecnologia.</strong>{" "}
@@ -101,8 +102,8 @@ export default function Sobre() {
       </div>
       <div>
          <div className="content-sobre3">
-    <h2 className="fw-bold" style={{marginTop: "4%"}}>Cultura</h2>
-    <p style={{marginBottom:"4%"}}>Construímos uma cultura diversa e inclusa, onde nossa equipe se sente pertencente e mais conectada.
+    <h2 className="fw-bold" style={{marginTop: "0%"}}>Cultura</h2>
+    <p style={{marginBottom:"1%"}}>Construímos uma cultura diversa e inclusa, onde nossa equipe se sente pertencente e mais conectada.
 Juntamente com a expertise técnica, temos um ambiente de trabalho mais plural, inovador e
 sustentável pois nossos funcionários são valorizados e incentivados ao empoderamento.</p>
 <p>
@@ -205,7 +206,7 @@ confiáveis entregues por pessoas engajadas e muito experientes.</strong></p></i
         </div>
       </div>
       </div>
-    <div style={{backgroundColor:"black"}}>
+    <div className="mapa-sobre1" style={{backgroundColor:"black"}}>
   <img src={imageLocalizacao} style={{objectFit:"contain"}} className="imagem-destaque" alt="Escritório" />
 </div>
    

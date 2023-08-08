@@ -9,10 +9,16 @@
 
 .content-consult1 {
   padding: 10%;
+  margin-bottom: 10%;
 }
 
 .content-consult2 {
-  padding: 10%;
+  font-size:"16px";
+  position: relative;
+
+  z-index: -2;
+  padding: 2%;
+  margin: 0 0 0 5%;
   background-color: rgb(247, 243, 243);
 }
 
@@ -26,16 +32,21 @@
 }
 
 .content-projetos1{
+  
   padding-left: 30%;
   width: 100%;
   padding: 6%;
-  background-color: rgb(247, 243, 243);
+  padding-top: 5%;
+  padding-bottom: 3%;
+  background-color: #f7f3f3;
 }
 
 .content-projetos2 {
   background-color: black;
   color:aliceblue;
   padding: 6%;
+  padding-top: 3%;
+  padding-bottom: 2.5%;
   margin: 0;
   width: 100%;
 }
@@ -43,9 +54,9 @@
 .content-projetos3 {
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+margin-left: 7%;
   width: 100%;
-  height: 300px;
+  height: 25vh;
 }
 
 .content-wrapper {
@@ -61,7 +72,7 @@
   left: 60%;
   width: 40%;
   height: 55vh;
-  background-image: url("../assets/Bola roxa.png");
+  background-image: url("../assets/Bola aqua baixo.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -70,10 +81,10 @@
 
 .bola-roxa2 {
   position: absolute;
-  top: 1%;
+  top: 10%;
   left: 30%;
   width: 40%;
-  height: 55vh;
+  height: 65vh;
   background-image: url("../assets/Bola roxa.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -84,9 +95,9 @@
 .bola-roxa3 {
   position: absolute;
   top: 10%;
-  left: 20%;
-  width:60%;
-  height: 100%;
+  left: 36%;
+  width:38%;
+  height: 65vh;
   background-image: url("../assets/Bola roxa.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -96,11 +107,24 @@
 
 .bola-roxa5 {
   position: absolute;
-  top: 180%;
-  left: 20%;
-  width:60%;
-  height: 65vh;
+  top: 175%;
+  left: 50%;
+  width:25%;
+  height: 35vh;
   background-image: url("../assets/Bola roxa.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.bola-azul-roxo1 {
+  position: absolute;
+  top: 48%;
+  left: 40%;
+  width:30%;
+  height: 43vh;
+  background-image: url("../assets/Bola aqua_roxa.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -109,11 +133,11 @@
 
 .bola-azul {
   position: absolute;
-  top: 20%;
-  left: 30%;
+  top: 30%;
+  left: 23%;
   width: 40%;
   height: 55vh;
-  background-image: url("../assets/Bola aqua.png");
+  background-image: url("../assets/Bola aqua_roxa.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -135,11 +159,11 @@
 
 .bola-azul3 {
   position: absolute;
-  top: 36%;
-  left: 39%;
-  width:60%;
-  height: 100%;
-  background-image: url("../assets/Bola aqua.png");
+  top: 33%;
+  left: 45%;
+  width:38%;
+  height: 65vh;
+  background-image: url("../assets/Bola aqua baixo.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -148,28 +172,28 @@
 
 .bola-azul4 {
   position: absolute;
-  top: 90%;
+  top: 100%;
   left: 0%;
-  width:30%;
-  height: 40%;
-  background-image: url("../assets/Bola aqua.png");
+  width:20%;
+  height: 30vh;
+  background-image: url("../assets/Bola aqua_roxa.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  z-index: -1;
+  z-index: -1s;
 }
 
 .bola-azul5 {
   position: absolute;
   top: 165%;
-  left: 50%;
-  width:50%;
-  height: 65vh;
+  left: 60%;
+  width:30%;
+  height: 40vh;
   background-image: url("../assets/Bola aqua.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  z-index: -1;
+  z-index: -2;
 }
 
 .image-1 {

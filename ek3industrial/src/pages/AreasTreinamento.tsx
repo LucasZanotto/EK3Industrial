@@ -37,8 +37,8 @@ rigorosamente as regras e seguir todas as normas de legislação vigentes.</p>
       <div className="bola-azul3"></div>
         <div className="bola-roxa3"></div>
       <div className="content-projetos3">
-      <p>Participação direta (gestão) ou indireta (consultoria) em planejamentos e projetos multidisciplinares
-integrando várias <strong>engenharias</strong>:</p>
+      <p style={{color:"#8C3388"}}> <strong>Participação direta (gestão) ou indireta (consultoria) em <br /> planejamentos e projetos multidisciplinares
+integrando várias <strong>engenharias</strong>:</strong></p>
       </div>
       <div className="content-container-flex">
         <div className="content-projetos2">
@@ -56,11 +56,11 @@ integrando várias <strong>engenharias</strong>:</p>
               </ul>
         </div>
         <div className="content-projetos1">
-<p>Prezamos pela integridade dos clientes e seus colaboradores, temos
+<p style={{paddingBottom:"2%"}}>Prezamos pela <strong>integridade</strong> dos clientes e seus colaboradores, temos
 um alto cuidado com a segurança de todos, desde o planejamento até
 o final de execução de cada projeto, além de respeitar rigorosamente
 as regras e seguir todas as normas de legislação vigentes.</p>
-<p>Em todos os nichos, nossa prioridade é a segurança industrial em
+<p>Em todos os nichos, nossa prioridade é a <strong>segurança industrial</strong> em
 qualquer serviço que prestamos.</p>
         </div>
       </div>

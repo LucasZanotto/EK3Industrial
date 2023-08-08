@@ -41,10 +41,10 @@ otimizada e coerente.</p>
           </div>
         </div>
       </div>
-      <div className="bola-azul2"></div>
+      <div className="bola-azul-roxo1"></div>
       <div className="content-consult2">
-        <strong><p> Aqui alguns dos nossos nichos:</p>
-              <p style={{paddingBottom: "3%"}}>Personalizados para cada empresa e necessidade, conheça alguns:</p></strong>
+        <strong><h5 style={{paddingBottom: "1.5%", color: "#8C3388"}}><strong>Aqui alguns dos nossos nichos;</strong> </h5>
+              <h5 style={{paddingBottom: "3%", color: "#8C3388"}}><strong>personalizados para cada empresa e necessidade, conheça alguns: </strong></h5></strong>
               <ul>
             <li>Gestão em Projetos industriais</li>
             <li>Excelência operacional</li>
@@ -62,10 +62,6 @@ entre outros</li>
             <li>Sustentabilidade na indústria</li>
             <li>Treinamento e coaching em <strong>liderança</strong>, trabalho em equipe, segurança na indústria</li>
             <li>Perícia Judicial – Engenharia Química</li>
-            <li>Gestão em Projetos industriais</li>
-            <li>Excelência operacional</li>
-            <li>Modularização em instalações e construções</li>
-            <li>Melhoria contínua com/sem otimização de processos. Alguns dos métodos utilizados: Value Engineering, 5S, Six Sigma, custo mínimo</li>
               </ul>
       </div>
       <Footer />

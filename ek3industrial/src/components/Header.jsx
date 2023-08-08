@@ -51,7 +51,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link className="dropdown-item custom-dropdown-item" to="/areas/treinamento">
-                    <h6 className="mb-0"><strong>PPROJETOS</strong></h6>
+                    <h6 className="mb-0"><strong>PROJETOS</strong></h6>
                   </Link>
                 </li>
                 <li>

@@ -2,6 +2,11 @@
   font-family: sans-serif;
 }
 
+.mapa-sobre1 {
+  padding-top: 5%;
+  height: 85vh;
+}
+
 .content-container-flex {
   display: flex;
   margin: 0;
@@ -30,7 +35,9 @@
 }
 
 .content-sobre3 {
-  padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
 }
 
 .content-sobre4 {

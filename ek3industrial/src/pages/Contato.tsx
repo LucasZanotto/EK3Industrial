@@ -64,15 +64,15 @@ export default function Contato(){
   return (
     <div>
     <Header/>
+    <div style={{top: "30%", left: "0%", height:"27vh", width:"20%"}} className="bola-roxa2"></div>
+    <div style={{top: "46%", left: "%"}} className="bola-azul-roxo1"></div>
     <div className="title-1">
-  <h2 className="fw-bold">Contato</h2>
+  <h2 style={{marginBottom:"6%"}} className="fw-bold">Contato</h2>
   {/* <hr className="my-4" /> */}
 </div>
 <div className="container-banner">
 <div className="container-back">
     <div className="container-23">
-      <p><strong style={{fontSize:"20px"}}>Se você tem um futuro projeto ou está pronto para começar o planejamento dos seus investimentos
-         internos para o próximo ano, estamos prontos para colaborar com você.</strong></p>
     </div>
    
     </div>
@@ -84,6 +84,8 @@ export default function Contato(){
 <div className="container-contact">
   <div className="container-left">
   <form onSubmit={handleSubmit} className="contact-form">
+  <p><strong style={{fontSize:"20px"}}>Se você tem um futuro projeto ou está pronto para começar o planejamento dos seus investimentos
+         internos para o próximo ano, estamos prontos para colaborar com você.</strong></p>
   <strong style={{textAlign:"initial"}}><p>Por favor preencha o formulário 
          abaixo, para que possamos conhecê-lo um pouco melhor.</p></strong>
   <div className="form-row">
