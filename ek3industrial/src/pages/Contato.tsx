@@ -158,7 +158,7 @@ export default function Contato(){
       type="text"
       id="encontrou"
       value={encontrou}
-      onChange={(e) => setCompany(e.target.value)}
+      onChange={(e) => setEncontrou(e.target.value)}
       placeholder="Google, Facebook, Instagran, referências..."
       required
       style={{backgroundColor:"rgb(226, 217, 217)"}}
@@ -194,7 +194,7 @@ export default function Contato(){
     </div>
     </div>
 </div>
-    <Footer/>
+<Footer />
     </div>
   )
 }

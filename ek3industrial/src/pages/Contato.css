@@ -4,6 +4,7 @@
 
 .container-contact {
   display: flex;
+  margin-bottom: 15%;
 }
 
 .container-left {

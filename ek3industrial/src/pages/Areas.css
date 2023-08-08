@@ -172,7 +172,7 @@ margin-left: 7%;
 
 .bola-azul4 {
   position: absolute;
-  top: 100%;
+  top: 115%;
   left: 0%;
   width:20%;
   height: 30vh;
@@ -180,7 +180,7 @@ margin-left: 7%;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  z-index: -1s;
+  z-index: -2;
 }
 
 .bola-azul5 {
