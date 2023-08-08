@@ -15,8 +15,7 @@ import imageEscritorio from "../assets/mockup-escritorio-ek3-1.png";
 import "./Sobre.css";
 import Footer from "../components/Footer";
 
-export default function Sobre() {
-  window.scrollTo(0, 0);
+export default function SobreCultura() {
 
   return (
     <div className="cont">

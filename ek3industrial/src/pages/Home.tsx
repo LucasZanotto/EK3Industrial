@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Header from "../components/Header";
 import { Carousel } from "react-bootstrap";
 import imageCoach from "../assets/Foto consultoria _ treinamento 2.jpg";
@@ -108,42 +108,55 @@ export default function Home() {
           <strong>Conheça um pouco mais sobre a EK3</strong>
         </h3>
         <p>
-        Conheça a essência e os valores que nos impulsionam a oferecer experiências únicas para nossos clientes.
+          Conheça a essência e os valores que nos impulsionam a oferecer
+          experiências únicas para nossos clientes.
         </p>
       </div>
       <div className="container-cards">
         <div className="cards-div">
           <div>
-          <img src={imageCult} />
+            <img src={imageCult} />
           </div>
           <h3>Cultura</h3>
-          <p> <strong>Descubra como estamos moldando o futuro e impulsionando o progresso.</strong></p>
+          <p>
+            {" "}
+            <strong>
+              Descubra como estamos moldando o futuro e impulsionando o
+              progresso.
+            </strong>
+          </p>
           <Link to="/cultura">
             <button>Saiba mais</button>
           </Link>
         </div>
         <div className="cards-div">
-        <div>
-          <img src={imageSobre} />
+          <div>
+            <img src={imageSobre} />
           </div>
           <h3>Quem somos</h3>
-          <p> <strong>Conheça nossa história e junte-se à nossa jornada.</strong></p>
+          <p>
+            {" "}
+            <strong>Conheça nossa história e junte-se à nossa jornada.</strong>
+          </p>
           <Link to="/sobre">
             <button>Saiba mais</button>
           </Link>
         </div>
         <div className="cards-div">
-        <div>
-          <img src={imageGlobo} />
+          <div>
+            <img src={imageGlobo} />
           </div>
           <h3>Localização</h3>
-          <p> <strong>Descubra o que o mundo tem a oferecer.</strong></p>
+          <p>
+            {" "}
+            <strong>Descubra o que o mundo tem a oferecer.</strong>
+          </p>
           <Link to="/contato">
             <button>Saiba mais</button>
           </Link>
         </div>
       </div>
-      
+
       <div className="container48">
         <h3>
           <strong>Indústrias</strong>
@@ -162,17 +175,14 @@ export default function Home() {
           }}
         >
           <h3 style={{ fontWeight: "bold" }}>
-              <strong>Agronegócio</strong>
-            </h3>
+            <strong>Agronegócio</strong>
+          </h3>
           <img
             src={imageAgriculture}
             alt="Foto de roberto bernardi na Unsplash"
             style={{ borderRadius: "5px", opacity: "70%" }}
           />
-          <div
-          className="card-industry"
-          >
-          </div>
+          <div className="card-industry"></div>
         </div>
 
         <div
@@ -182,9 +192,9 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
-           <h3 style={{ fontWeight: "bold"}}>
-              <strong>Química</strong>
-            </h3>
+          <h3 style={{ fontWeight: "bold" }}>
+            <strong>Química</strong>
+          </h3>
           <img
             src={imageChem}
             alt="Foto de Artur Voznenko na Unsplash"
@@ -198,8 +208,7 @@ export default function Home() {
               left: "50%",
               transform: "translate(-50%, -200%)",
             }}
-          >
-          </div>
+          ></div>
         </div>
 
         <div
@@ -210,8 +219,8 @@ export default function Home() {
           }}
         >
           <h3 style={{ fontWeight: "bold" }}>
-              <strong>Alimentícia</strong>
-            </h3>
+            <strong>Alimentícia</strong>
+          </h3>
           <img
             src={imageFood}
             alt="Foto de Arshad Pooloo na Unsplash"
@@ -225,8 +234,7 @@ export default function Home() {
               left: "50%",
               transform: "translate(-50%, -200%)",
             }}
-          >
-          </div>
+          ></div>
         </div>
 
         <div
@@ -243,7 +251,7 @@ export default function Home() {
             src={imageInfra}
             alt="Foto de Troy Mortier na Unsplash"
             width="20%"
-            style={{ borderRadius: "5px", opacity: "70%", objectFit:"cover" }}
+            style={{ borderRadius: "5px", opacity: "70%", objectFit: "cover" }}
           />
           <div
             style={{
@@ -252,11 +260,218 @@ export default function Home() {
               left: "50%",
               transform: "translate(-50%, -200%)",
             }}
-          >
-          </div>
+          ></div>
         </div>
       </div>
-      {showAllImages && (<div><div className="container51" style={{display: "block"}}>
+      {showAllImages && (
+        <div>
+          <div className="container51" style={{ display: "block" }}>
+            <div
+              className="sty50"
+              style={{
+                position: "relative",
+                marginRight: "3%",
+              }}
+            >
+              <h3 style={{ fontWeight: "bold" }}>
+                <strong>Geração de Energia</strong>
+              </h3>
+              <img
+                src={imageGenerator}
+                alt="Foto de roberto bernardi na Unsplash"
+                style={{ borderRadius: "5px", opacity: "70%" }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-45%, -75%)",
+                }}
+              ></div>
+            </div>
+            <div
+              className="sty50"
+              style={{
+                position: "relative",
+                marginRight: "3%",
+              }}
+            >
+              <h3 style={{ fontWeight: "bold" }}>
+                <strong>Farma / Life Sciences</strong>
+              </h3>
+              <img
+                src={imagePharma}
+                alt="Foto de Glsun Mall na Unsplash"
+                width="20%"
+                style={{ borderRadius: "5px", opacity: "70%" }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-45%, -75%)",
+                }}
+              ></div>
+            </div>
+
+            <div
+              className="sty50"
+              style={{
+                position: "relative",
+                marginRight: "3%",
+              }}
+            >
+              <h3 style={{ fontWeight: "bold" }}>
+                <strong>Fabricação</strong>
+              </h3>
+              <img
+                src={imageManu}
+                alt="Foto de Christopher Burns na Unsplash"
+                width="20%"
+                style={{ borderRadius: "5px", opacity: "70%" }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -200%)",
+                }}
+              ></div>
+            </div>
+
+            <div
+              className="sty50"
+              style={{
+                position: "relative",
+                marginRight: "3%",
+              }}
+            >
+              <h3 style={{ fontWeight: "bold" }}>
+                <strong>Cosmética</strong>
+              </h3>
+              <img
+                src={imageCosmetic}
+                alt="Foto de Jason Blackeye na Unsplash"
+                style={{
+                  borderRadius: "5px",
+                  opacity: "70%",
+                  objectFit: "cover",
+                }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -200%)",
+                }}
+              ></div>
+            </div>
+          </div>
+          <div className="container51" style={{ display: "block" }}>
+            <div
+              className="sty50"
+              style={{
+                position: "relative",
+                marginRight: "3%",
+              }}
+            >
+              <h3 style={{ fontWeight: "bold" }}>
+                <strong>Textil</strong>
+              </h3>
+              <img
+                src={imageCell}
+                alt="Foto de roberto bernardi na Unsplash"
+                style={{ borderRadius: "5px", opacity: "70%" }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -200%)",
+                }}
+              ></div>
+            </div>
+            <div
+              className="sty50"
+              style={{
+                position: "relative",
+                marginRight: "3%",
+              }}
+            >
+              <h3 style={{ fontWeight: "bold" }}>
+                <strong>Refinaria</strong>
+              </h3>
+              <img
+                src={imageRefil}
+                alt="Foto de Victor na Unsplash"
+                style={{ borderRadius: "5px", opacity: "70%" }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -200%)",
+                }}
+              ></div>
+            </div>
+            <div
+              className="sty50"
+              style={{
+                position: "relative",
+                marginRight: "3%",
+              }}
+            >
+              <h3 style={{ fontWeight: "bold" }}>
+                <strong>Papel & Celulose</strong>
+              </h3>
+              <img
+                src={imageCelulose}
+                alt="Foto de Christopher Burns na Unsplash"
+                style={{ borderRadius: "5px", opacity: "70%" }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-45%, -115%)",
+                }}
+              ></div>
+            </div>
+            <div
+              className="sty50"
+              style={{
+                position: "relative",
+                marginRight: "3%",
+              }}
+            >
+              <h3 style={{ fontWeight: "bold" }}>
+                <strong>Infraestrutura</strong>
+              </h3>
+              <img
+                src={imageEstrutural}
+                alt="Foto de Christopher Burns na Unsplash"
+                style={{ borderRadius: "5px", opacity: "70%" }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -200%)",
+                }}
+              ></div>
+            </div>
+          </div>
+        </div>
+      )}
+      <div className="container51">
         <div
           className="sty50"
           style={{
@@ -264,9 +479,9 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Geração de Energia</strong>
-            </h3>
+          <h3 style={{ fontWeight: "bold" }}>
+            <strong>Geração de Energia</strong>
+          </h3>
           <img
             src={imageGenerator}
             alt="Foto de roberto bernardi na Unsplash"
@@ -279,8 +494,7 @@ export default function Home() {
               left: "50%",
               transform: "translate(-45%, -75%)",
             }}
-          >
-          </div>
+          ></div>
         </div>
         <div
           className="sty50"
@@ -289,9 +503,9 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Farma / Life Sciences</strong>
-            </h3>
+          <h3 style={{ fontWeight: "bold" }}>
+            <strong>Farma / Life Sciences</strong>
+          </h3>
           <img
             src={imagePharma}
             alt="Foto de Glsun Mall na Unsplash"
@@ -305,8 +519,7 @@ export default function Home() {
               left: "50%",
               transform: "translate(-45%, -75%)",
             }}
-          >
-          </div>
+          ></div>
         </div>
 
         <div
@@ -316,9 +529,9 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
-              <h3 style={{ fontWeight: "bold" }}>
-                <strong>Fabricação</strong>
-              </h3>
+          <h3 style={{ fontWeight: "bold" }}>
+            <strong>Fabricação</strong>
+          </h3>
           <img
             src={imageManu}
             alt="Foto de Christopher Burns na Unsplash"
@@ -332,8 +545,7 @@ export default function Home() {
               left: "50%",
               transform: "translate(-50%, -200%)",
             }}
-          >
-          </div>
+          ></div>
         </div>
 
         <div
@@ -343,14 +555,13 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Cosmética</strong>
-            </h3>
+          <h3 style={{ fontWeight: "bold" }}>
+            <strong>Cosmética</strong>
+          </h3>
           <img
             src={imageCosmetic}
             alt="Foto de Jason Blackeye na Unsplash"
-            style={{ borderRadius: "5px", opacity: "70%", objectFit:"cover" }}
-            
+            style={{ borderRadius: "5px", opacity: "70%" }}
           />
           <div
             style={{
@@ -359,11 +570,10 @@ export default function Home() {
               left: "50%",
               transform: "translate(-50%, -200%)",
             }}
-          >
-          </div>
+          ></div>
         </div>
       </div>
-      <div className="container51" style={{display: "block"}}>
+      <div className="container51">
         <div
           className="sty50"
           style={{
@@ -371,9 +581,9 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Textil</strong>
-            </h3>
+          <h3 style={{ fontWeight: "bold" }}>
+            <strong>Textil</strong>
+          </h3>
           <img
             src={imageCell}
             alt="Foto de roberto bernardi na Unsplash"
@@ -386,8 +596,7 @@ export default function Home() {
               left: "50%",
               transform: "translate(-50%, -200%)",
             }}
-          >
-          </div>
+          ></div>
         </div>
         <div
           className="sty50"
@@ -411,8 +620,7 @@ export default function Home() {
               left: "50%",
               transform: "translate(-50%, -200%)",
             }}
-          >
-          </div>
+          ></div>
         </div>
         <div
           className="sty50"
@@ -436,8 +644,7 @@ export default function Home() {
               left: "50%",
               transform: "translate(-45%, -115%)",
             }}
-          >
-          </div>
+          ></div>
         </div>
         <div
           className="sty50"
@@ -446,9 +653,9 @@ export default function Home() {
             marginRight: "3%",
           }}
         >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Infraestrutura</strong>
-            </h3>
+          <h3 style={{ fontWeight: "bold" }}>
+            <strong>Infraestrutura</strong>
+          </h3>
           <img
             src={imageEstrutural}
             alt="Foto de Christopher Burns na Unsplash"
@@ -461,221 +668,12 @@ export default function Home() {
               left: "50%",
               transform: "translate(-50%, -200%)",
             }}
-          >
-          </div>
-        </div>
-      </div></div>)}
-      <div className="container51">
-        <div
-          className="sty50"
-          style={{
-            position: "relative",
-            marginRight: "3%",
-          }}
-        >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Geração de Energia</strong>
-            </h3>
-          <img
-            src={imageGenerator}
-            alt="Foto de roberto bernardi na Unsplash"
-            style={{ borderRadius: "5px", opacity: "70%" }}
-          />
-          <div
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-45%, -75%)",
-            }}
-          >
-          </div>
-        </div>
-        <div
-          className="sty50"
-          style={{
-            position: "relative",
-            marginRight: "3%",
-          }}
-        >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Farma / Life Sciences</strong>
-            </h3>
-          <img
-            src={imagePharma}
-            alt="Foto de Glsun Mall na Unsplash"
-            width="20%"
-            style={{ borderRadius: "5px", opacity: "70%" }}
-          />
-          <div
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-45%, -75%)",
-            }}
-          >
-          </div>
-        </div>
-
-        <div
-          className="sty50"
-          style={{
-            position: "relative",
-            marginRight: "3%",
-          }}
-        >
-              <h3 style={{ fontWeight: "bold" }}>
-                <strong>Fabricação</strong>
-              </h3>
-          <img
-            src={imageManu}
-            alt="Foto de Christopher Burns na Unsplash"
-            width="20%"
-            style={{ borderRadius: "5px", opacity: "70%" }}
-          />
-          <div
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -200%)",
-            }}
-          >
-          </div>
-        </div>
-
-        <div
-          className="sty50"
-          style={{
-            position: "relative",
-            marginRight: "3%",
-          }}
-        >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Cosmética</strong>
-            </h3>
-          <img
-            src={imageCosmetic}
-            alt="Foto de Jason Blackeye na Unsplash"
-            style={{ borderRadius: "5px", opacity: "70%" }}
-          />
-          <div
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -200%)",
-            }}
-          >
-          </div>
-        </div>
-      </div>
-      <div className="container51">
-        <div
-          className="sty50"
-          style={{
-            position: "relative",
-            marginRight: "3%",
-          }}
-        >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Textil</strong>
-            </h3>
-          <img
-            src={imageCell}
-            alt="Foto de roberto bernardi na Unsplash"
-            style={{ borderRadius: "5px", opacity: "70%" }}
-          />
-          <div
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -200%)",
-            }}
-          >
-          </div>
-        </div>
-        <div
-          className="sty50"
-          style={{
-            position: "relative",
-            marginRight: "3%",
-          }}
-        >
-          <h3 style={{ fontWeight: "bold" }}>
-            <strong>Refinaria</strong>
-          </h3>
-          <img
-            src={imageRefil}
-            alt="Foto de Victor na Unsplash"
-            style={{ borderRadius: "5px", opacity: "70%" }}
-          />
-          <div
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -200%)",
-            }}
-          >
-          </div>
-        </div>
-        <div
-          className="sty50"
-          style={{
-            position: "relative",
-            marginRight: "3%",
-          }}
-        >
-          <h3 style={{ fontWeight: "bold" }}>
-            <strong>Papel & Celulose</strong>
-          </h3>
-          <img
-            src={imageCelulose}
-            alt="Foto de Christopher Burns na Unsplash"
-            style={{ borderRadius: "5px", opacity: "70%" }}
-          />
-          <div
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-45%, -115%)",
-            }}
-          >
-          </div>
-        </div>
-        <div
-          className="sty50"
-          style={{
-            position: "relative",
-            marginRight: "3%",
-          }}
-        >
-            <h3 style={{ fontWeight: "bold" }}>
-              <strong>Infraestrutura</strong>
-            </h3>
-          <img
-            src={imageEstrutural}
-            alt="Foto de Christopher Burns na Unsplash"
-            style={{ borderRadius: "5px", opacity: "70%" }}
-          />
-          <div
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -200%)",
-            }}
-          >
-          </div>
+          ></div>
         </div>
       </div>
       <div className="show-more-button">
-            <button onClick={handleShowAllImages}>Veja mais</button>
-          </div>
+        <button onClick={handleShowAllImages}>Veja mais</button>
+      </div>
       <Footer />
     </div>
   );

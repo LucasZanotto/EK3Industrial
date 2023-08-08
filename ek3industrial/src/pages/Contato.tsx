@@ -21,7 +21,7 @@ export default function Contato(){
   const [company, setCompany] = useState("");
   const [message, setMessage] = useState("");
   const [encontrou, setEncontrou] = useState("");
-  //window.scrollTo(0, 0);*//
+  window.scrollTo(0, 0);
   const history = useHistory();
 
   function handleClick() {
