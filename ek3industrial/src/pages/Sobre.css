@@ -5,6 +5,7 @@
 .mapa-sobre1 {
   padding-top: 5%;
   height: 85vh;
+  background-color: #3A8894;
 }
 
 .content-container-flex {
@@ -18,7 +19,7 @@
     top: 90%; left: 0%; right: 40%; transform: translateY(-50%);
     padding-left: 1%;
     padding-right: 1%;
-    background-color: black;
+    background-color: #3A8894;
     color: rgba(255, 255, 255, 0.76);
     padding-bottom: 0;
     /* margin-left: 15%; */
@@ -46,7 +47,7 @@
 
 .content-sobre5 {
   padding: 6%;
-  background-color: black;
+  background-color: #3A8894;
   color:rgba(255, 255, 255, 0.76);
 }
 
