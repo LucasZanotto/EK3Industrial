@@ -178,6 +178,7 @@ export default function Home() {
             <strong>Agronegócio</strong>
           </h3>
           <img
+          loading="lazy"
             src={imageAgriculture}
             alt="Foto de roberto bernardi na Unsplash"
             style={{ borderRadius: "5px", opacity: "70%" }}
@@ -196,6 +197,7 @@ export default function Home() {
             <strong>Química</strong>
           </h3>
           <img
+          loading="lazy"
             src={imageChem}
             alt="Foto de Artur Voznenko na Unsplash"
             width="20%"
@@ -222,6 +224,7 @@ export default function Home() {
             <strong>Alimentícia</strong>
           </h3>
           <img
+          loading="lazy"
             src={imageFood}
             alt="Foto de Arshad Pooloo na Unsplash"
             width="20%"
@@ -248,6 +251,7 @@ export default function Home() {
             <strong>Governamental</strong>
           </h3>
           <img
+          loading="lazy"
             src={imageInfra}
             alt="Foto de Troy Mortier na Unsplash"
             width="20%"
@@ -277,6 +281,7 @@ export default function Home() {
                 <strong>Geração de Energia</strong>
               </h3>
               <img
+              loading="lazy"
                 src={imageGenerator}
                 alt="Foto de roberto bernardi na Unsplash"
                 style={{ borderRadius: "5px", opacity: "70%" }}
@@ -301,6 +306,7 @@ export default function Home() {
                 <strong>Farma / Life Sciences</strong>
               </h3>
               <img
+              loading="lazy"
                 src={imagePharma}
                 alt="Foto de Glsun Mall na Unsplash"
                 width="20%"
@@ -327,6 +333,7 @@ export default function Home() {
                 <strong>Fabricação</strong>
               </h3>
               <img
+              loading="lazy"
                 src={imageManu}
                 alt="Foto de Christopher Burns na Unsplash"
                 width="20%"
@@ -353,6 +360,7 @@ export default function Home() {
                 <strong>Cosmética</strong>
               </h3>
               <img
+              loading="lazy"
                 src={imageCosmetic}
                 alt="Foto de Jason Blackeye na Unsplash"
                 style={{
@@ -383,6 +391,7 @@ export default function Home() {
                 <strong>Textil</strong>
               </h3>
               <img
+              loading="lazy"
                 src={imageCell}
                 alt="Foto de roberto bernardi na Unsplash"
                 style={{ borderRadius: "5px", opacity: "70%" }}
@@ -407,6 +416,7 @@ export default function Home() {
                 <strong>Refinaria</strong>
               </h3>
               <img
+              loading="lazy"
                 src={imageRefil}
                 alt="Foto de Victor na Unsplash"
                 style={{ borderRadius: "5px", opacity: "70%" }}
@@ -431,6 +441,7 @@ export default function Home() {
                 <strong>Papel & Celulose</strong>
               </h3>
               <img
+              loading="lazy"
                 src={imageCelulose}
                 alt="Foto de Christopher Burns na Unsplash"
                 style={{ borderRadius: "5px", opacity: "70%" }}
@@ -455,6 +466,7 @@ export default function Home() {
                 <strong>Infraestrutura</strong>
               </h3>
               <img
+              loading="lazy"
                 src={imageEstrutural}
                 alt="Foto de Christopher Burns na Unsplash"
                 style={{ borderRadius: "5px", opacity: "70%" }}
@@ -483,6 +495,7 @@ export default function Home() {
             <strong>Geração de Energia</strong>
           </h3>
           <img
+          loading="lazy"
             src={imageGenerator}
             alt="Foto de roberto bernardi na Unsplash"
             style={{ borderRadius: "5px", opacity: "70%" }}
@@ -507,6 +520,7 @@ export default function Home() {
             <strong>Farma / Life Sciences</strong>
           </h3>
           <img
+          loading="lazy"
             src={imagePharma}
             alt="Foto de Glsun Mall na Unsplash"
             width="20%"
@@ -533,6 +547,7 @@ export default function Home() {
             <strong>Fabricação</strong>
           </h3>
           <img
+          loading="lazy"
             src={imageManu}
             alt="Foto de Christopher Burns na Unsplash"
             width="20%"
@@ -559,6 +574,7 @@ export default function Home() {
             <strong>Cosmética</strong>
           </h3>
           <img
+          loading="lazy"
             src={imageCosmetic}
             alt="Foto de Jason Blackeye na Unsplash"
             style={{ borderRadius: "5px", opacity: "70%" }}
@@ -585,6 +601,7 @@ export default function Home() {
             <strong>Textil</strong>
           </h3>
           <img
+          loading="lazy"
             src={imageCell}
             alt="Foto de roberto bernardi na Unsplash"
             style={{ borderRadius: "5px", opacity: "70%" }}
@@ -609,6 +626,7 @@ export default function Home() {
             <strong>Refinaria</strong>
           </h3>
           <img
+          loading="lazy"
             src={imageRefil}
             alt="Foto de Victor na Unsplash"
             style={{ borderRadius: "5px", opacity: "70%" }}
@@ -657,6 +675,7 @@ export default function Home() {
             <strong>Infraestrutura</strong>
           </h3>
           <img
+          loading="lazy"
             src={imageEstrutural}
             alt="Foto de Christopher Burns na Unsplash"
             style={{ borderRadius: "5px", opacity: "70%" }}
