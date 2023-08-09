@@ -206,7 +206,7 @@ confiáveis entregues por pessoas engajadas e muito experientes.</strong></p></i
         </div>
       </div>
       </div>
-    <div className="mapa-sobre1" style={{backgroundColor:"#4C4959"}}>
+    <div className="mapa-sobre1" style={{backgroundColor:"#3A8894"}}>
   <img src={imageLocalizacao} style={{objectFit:"contain"}} className="imagem-destaque" alt="Escritório" />
 </div>
    
