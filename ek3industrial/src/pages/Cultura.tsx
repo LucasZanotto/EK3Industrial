@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import "./Cultura.css";
 import Footer from "../components/Footer";
 import imageCult from "../assets/imageCult2.jpeg";
-import imageEscritorio from "../assets/mockup-escritorio-ek3-1.png";
+import imageEscritorio from "../assets/SK1_3779.jpg";
 
 export default function Cultura() {
   return (
