@@ -152,18 +152,6 @@ export default function Contato(){
       style={{backgroundColor:"rgb(226, 217, 217)"}}
     />
   </div>
-  <div className="form-group" style={{marginTop:"15px", marginBottom: "15px"}}>
-    <label htmlFor="encontrou">Como você nos encontrou?</label>
-    <input
-      type="text"
-      id="encontrou"
-      value={encontrou}
-      onChange={(e) => setEncontrou(e.target.value)}
-      placeholder="Google, Facebook, Instagran, referências..."
-      required
-      style={{backgroundColor:"rgb(226, 217, 217)"}}
-    />
-  </div>
   <div className="form-group">
     <label htmlFor="message">Mensagem</label>
     <textarea
