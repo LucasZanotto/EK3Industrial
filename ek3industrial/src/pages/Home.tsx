@@ -37,10 +37,10 @@ export default function Home() {
       <div className="header-init">
         <div>
           <h2 className="header-letters">
-            <strong>A escolha certa para a sua</strong>
+            <strong>A AGILIDADE OPERACIONAL</strong>
           </h2>
           <h1 className="header-letters-2">
-            <strong>Agilidade Operacional</strong>
+            <strong>para a sua indústria</strong>
           </h1>
         </div>
       </div>

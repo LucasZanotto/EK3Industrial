@@ -59,7 +59,7 @@ export default function Cultura() {
       </div>
       <div className="content-3">
         <p>
-          <strong>
+          <strong style={{fontSize:'30PX'}}>
             Entre em contato com nossa equipe e vamos criar uma solução <br />
             que cause um impacto positivo em seu próximo projeto.
           </strong>
