@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import { Carousel } from "react-bootstrap";
 import imageCoach from "../assets/SK1_3469.jpg";
 import imageTyping from "../assets/Foto Projetos Industriais e Engenharia (1).jpg";
-import imageSobre from "../assets/Captura de tela de 2023-07-11 17-38-27.png";
+import imageSobre from "../assets/WhatsApp Image 2023-08-10 at 17.15.56 (1).jpeg";
 import imageGlobo from "../assets/brian-mcgowan-0A450BR1JWk-unsplash.jpg";
 import imageAgriculture from "../assets/Agronegócios.jpg";
 import imageFood from "../assets/arno-senoner-8V56CnwVJRE-unsplash.jpg";
