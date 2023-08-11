@@ -16,7 +16,7 @@ import "./Sobre.css";
 import Footer from "../components/Footer";
 
 export default function Sobre() {
- /* window.scrollTo(0, 0);*/
+ window.scrollTo(0, 0);
 
   return (
     <div className="cont">

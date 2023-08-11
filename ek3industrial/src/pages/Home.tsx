@@ -6,12 +6,12 @@ import imageTyping from "../assets/Foto Projetos Industriais e Engenharia (1).jp
 import imageSobre from "../assets/WhatsApp Image 2023-08-10 at 17.15.56 (1).jpeg";
 import imageGlobo from "../assets/brian-mcgowan-0A450BR1JWk-unspla (1).jpg";
 import imageAgriculture from "../assets/Agronegócios.jpg";
-import imageFood from "../assets/arno-senoner-8V56CnwVJRE-unsplash.jpg";
+import imageFood from "../assets/arno-senoner-8V56CnwVJRE-unsplas.jpg";
 import imageInfra from "../assets/troy-mortier-6OVv680DNag-unsplash.jpg";
 import imageManu from "../assets/christopher-burns-8KfCR12oeUM-unsplash.jpg";
-import imageRefil from "../assets/Refinaria.jpg";
-import imageChem from "../assets/quimica (2).jpg";
-import imageCosmetic from "../assets/cosmetica.jpg";
+import imageRefil from "../assets/Refinaria (1).jpg";
+import imageChem from "../assets/quimica (2) (1).jpg";
+import imageCosmetic from "../assets/cosmetica (1).jpg";
 import imageEmp from "../assets/empreendimentos (1).jpg";
 import imageCult from "../assets/imageCult2.jpeg";
 import imageCell from "../assets/Captura de tela de 2023-06-13 20-33-26.png";
@@ -65,7 +65,7 @@ export default function Home() {
               Transforme sua ideia em realidade com nossa expertise em projetos
               industriais e engenharia.
             </p>
-            <Link to="/areas" className="Linkados">
+            <Link to="/areas/treinamento" className="Linkados">
               <button>Saiba mais</button>
             </Link>
           </Carousel.Caption>
@@ -80,7 +80,7 @@ export default function Home() {
               Aprimore suas habilidades e leve seu negócio ao próximo nível com
               nossos serviços de consultoria e treinamentos.
             </p>
-            <Link to="/areas" className="Linkados">
+            <Link to="/areas/consultoria" className="Linkados">
               <button>Saiba mais</button>
             </Link>
           </Carousel.Caption>
@@ -96,7 +96,7 @@ export default function Home() {
                 Seja o próximo empreendedor de sucesso com nossos serviços de
                 suporte e mentoria.
               </p>
-              <Link to="/areas#conteudo" className="Linkados">
+              <Link to="/areas/empreendimento" className="Linkados">
                 <button>Saiba mais</button>
               </Link>
             </div>
