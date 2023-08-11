@@ -6,7 +6,7 @@ import imageInsta from "../assets/1161953_instagram_icon.png";
 import imageWhats from "../assets/843786_whatsapp_icon.png";
 import imageVideira from "../assets/videiraInt.jpg";
 import imageSobre from "../assets/Captura de tela de 2023-05-31 17-23-08.png";
-import imageLocalizacao from "../assets/Mapa EK3 grande.png";
+import imageLocalizacao from "../assets/Mapa EK3 grande (1).png";
 import imageCoach from "../assets/Foto consultoria _ treinamento 2.jpg";
 import ek3Logo from "../assets/ek3Invi.png";
 import ek3Logo2 from "../assets/ek3logo2.png";
@@ -207,7 +207,7 @@ confiáveis entregues por pessoas engajadas e muito experientes.</strong></p></i
       </div>
       </div>
     <div className="mapa-sobre1" style={{backgroundColor:"#3A8894"}}>
-  <img src={imageLocalizacao} style={{objectFit:"contain"}} className="imagem-destaque" alt="Escritório" />
+  <img src={imageLocalizacao} style={{objectFit:"cover"}} className="imagem-destaque" alt="Escritório" />
 </div>
    
       <Footer />

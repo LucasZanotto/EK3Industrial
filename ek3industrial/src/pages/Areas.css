@@ -68,10 +68,10 @@ margin-left: 7%;
 
 .bola-roxa {
   position: absolute;
-  top: 60%;
-  left: 60%;
-  width: 40%;
-  height: 55vh;
+  top: 50%;
+  left: 65%;
+  width: 30%;
+  height: 50vh;
   background-image: url("../assets/Bola aqua baixo.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -81,10 +81,10 @@ margin-left: 7%;
 
 .bola-roxa2 {
   position: absolute;
-  top: 10%;
+  top: 25%;
   left: 30%;
-  width: 40%;
-  height: 65vh;
+  width: 30%;
+  height: 50vh;
   background-image: url("../assets/Bola roxa grande 1.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -96,8 +96,8 @@ margin-left: 7%;
   position: absolute;
   top: 10%;
   left: 36%;
-  width:38%;
-  height: 65vh;
+  width:30%;
+  height: 50vh;
   background-image: url("../assets/Bola roxa grande 1.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -107,10 +107,10 @@ margin-left: 7%;
 
 .bola-roxa5 {
   position: absolute;
-  top: 175%;
+  top: 180%;
   left: 50%;
   width:25%;
-  height: 35vh;
+  height: 45vh;
   background-image: url("../assets/Bola roxa grande 1.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -119,11 +119,12 @@ margin-left: 7%;
 }
 
 .bola-azul-roxo1 {
+  /* copiar dessa */
   position: absolute;
-  top: 48%;
+  top: 60%;
   left: 40%;
   width:30%;
-  height: 43vh;
+  height: 45vh;
   background-image: url("../assets/Bola mix grande 1.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -135,8 +136,8 @@ margin-left: 7%;
   position: absolute;
   top: 30%;
   left: 23%;
-  width: 40%;
-  height: 55vh;
+  width: 45%;
+  height: 65vh;
   background-image: url("../assets/Bola mix grande 1.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -161,8 +162,8 @@ margin-left: 7%;
   position: absolute;
   top: 33%;
   left: 45%;
-  width:38%;
-  height: 65vh;
+  width:28%;
+  height: 50vh;
   background-image: url("../assets/Bola aqua grande.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -172,10 +173,10 @@ margin-left: 7%;
 
 .bola-azul4 {
   position: absolute;
-  top: 115%;
+  top: 130%;
   left: 0%;
-  width:20%;
-  height: 30vh;
+  width:25%;
+  height: 35vh;
   background-image: url("../assets/Bola mix grande 1.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -187,8 +188,8 @@ margin-left: 7%;
   position: absolute;
   top: 165%;
   left: 60%;
-  width:30%;
-  height: 40vh;
+  width:25%;
+  height: 45vh;
   background-image: url("../assets/Bola aqua grande 1.png");
   background-repeat: no-repeat;
   background-position: center center;

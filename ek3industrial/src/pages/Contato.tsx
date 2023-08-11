@@ -64,7 +64,7 @@ export default function Contato(){
   return (
     <div>
     <Header/>
-    <div style={{top: "30%", left: "0%", height:"27vh", width:"20%"}} className="bola-roxa2"></div>
+    <div style={{top: "30%", left: "0%", height:"45vh", width:"25%"}} className="bola-roxa2"></div>
     <div style={{top: "46%", left: "%"}} className="bola-azul-roxo1"></div>
     <div className="title-1">
   <h2 style={{marginBottom:"6%"}} className="fw-bold">Contato</h2>
