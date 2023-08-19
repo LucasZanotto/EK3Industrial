@@ -107,8 +107,8 @@ margin-left: 7%;
 
 .bola-roxa5 {
   position: absolute;
-  top: 180%;
-  left: 50%;
+  right: 500px;
+  bottom: -1100px;
   width:25%;
   height: 45vh;
   background-image: url("../assets/Bola roxa grande 1.png");
