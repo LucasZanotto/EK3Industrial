@@ -21,7 +21,7 @@ export default function AreasTreinamento(){
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-6 col-md-12 order-lg-2 order-md-1 mb-4">
             <div className="title-2">
-              <h3><strong>Projetos Industriais e Engenharia</strong></h3>
+              <h3 style={{paddingBottom:"3%"}}><strong>Projetos Industriais e Engenharia</strong></h3>
               <p>Nos projetos de engenharia em obras industriais, sejam eles de implantação ou ampliação, oferecemos
 vasta experiência e <strong>atuação</strong> internacional; foram 18 anos acompanhando projetos nos países dos
 Estados Unidos, França e Alemanha.</p>
