@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import imageEmp from "../assets/empreendimentos.jpg";
+import imageEmp from "../assets/empreendimentos (2).jpg";
 import imageCoach from "../assets/Foto consultoria _ treinamento 2.jpg";
 import imageInsta from "../assets/instagram.png";
 import imageWhats from "../assets/whatsapp.png";

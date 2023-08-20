@@ -57,6 +57,7 @@
 margin-left: 7%;
   width: 100%;
   height: 25vh;
+  font-size: 18px;
 }
 
 .content-wrapper {
@@ -70,8 +71,8 @@ margin-left: 7%;
   position: absolute;
   top: 50%;
   left: 65%;
-  width: 30%;
-  height: 50vh;
+  width: 500px;
+  height: 480px;
   background-image: url("../assets/Bola aqua baixo.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -97,7 +98,7 @@ margin-left: 7%;
   top: 10%;
   left: 36%;
   width: 600px;
-  height: 580px;
+  height: 590px;
   background-image: url("../assets/Bola roxa grande 1.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -134,10 +135,10 @@ margin-left: 7%;
 
 .bola-azul {
   position: absolute;
-  top: 30%;
-  left: 23%;
-  width: 45%;
-  height: 65vh;
+  top: 35%;
+  left: 28%;
+  width: 650px;
+  height: 550px;
   background-image: url("../assets/Bola mix grande 1.png");
   background-repeat: no-repeat;
   background-position: center center;
