@@ -69,7 +69,7 @@ margin-left: 7%;
 
 .bola-roxa {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 65%;
   width: 500px;
   height: 480px;
@@ -135,8 +135,8 @@ margin-left: 7%;
 
 .bola-azul {
   position: absolute;
-  top: 35%;
-  left: 28%;
+  top: 40%;
+  left: 30%;
   width: 650px;
   height: 550px;
   background-image: url("../assets/Bola mix grande 1.png");
