@@ -65,9 +65,9 @@ export default function Contato(){
     <div>
     <Header/>
     <div style={{top: "30%", left: "0%", height:"45vh", width:"25%"}} className="bola-roxa2"></div>
-    <div style={{top: "46%", left: "%"}} className="bola-azul-roxo1"></div>
+    {/*<div style={{top: "46%", left: "%"}} className="bola-azul-roxo1"></div>*/}
     <div className="title-1">
-  <h2 style={{marginBottom:"6%"}} className="fw-bold">Contato</h2>
+  <h2 style={{marginBottom:"2%"}} className="fw-bold">Contato</h2>
   {/* <hr className="my-4" /> */}
 </div>
 <div className="container-banner">
@@ -84,8 +84,10 @@ export default function Contato(){
 <div className="container-contact">
   <div className="container-left">
   <form onSubmit={handleSubmit} className="contact-form">
+  <div style={{alignItems:"center"}}>
   <p><strong style={{fontSize:"20px"}}>Se você tem um futuro projeto ou está pronto para começar o planejamento dos seus investimentos
          internos para o próximo ano, estamos prontos para colaborar com você.</strong></p>
+         </div>
   <strong style={{textAlign:"initial"}}><p>Por favor preencha o formulário 
          abaixo, para que possamos conhecê-lo um pouco melhor.</p></strong>
   <div className="form-row">
@@ -164,6 +166,7 @@ export default function Contato(){
       style={{backgroundColor:"rgb(226, 217, 217)"}}
     ></textarea>
   </div>
+ 
   <button className="" type="submit">Enviar</button>
 </form>
   </div>

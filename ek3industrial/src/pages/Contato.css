@@ -173,6 +173,7 @@
   cursor: pointer;
   margin-bottom: 20%;
   font-size: 2vh;
+  align-items: center;
 }
 
 .contact-form button:hover {

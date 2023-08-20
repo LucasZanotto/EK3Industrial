@@ -37,7 +37,7 @@ export default function Home() {
       <div className="header-init">
         <div>
           <h2 className="header-letters">
-            <strong>A AGILIDADE OPERACIONAL</strong>
+            <strong>AGILIDADE OPERACIONAL</strong>
           </h2>
           <h1 className="header-letters-2">
             <strong>para a sua indústria</strong>
@@ -71,7 +71,7 @@ export default function Home() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={imageCoach} alt="Second slide" />
+          <img className="d-block w-100" src={imageCoach} style={{}} alt="Second slide" />
           <Carousel.Caption className="marketing-1">
             <h3>
               <strong>Consultoria e Treinamentos</strong>
