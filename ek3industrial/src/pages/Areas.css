@@ -109,8 +109,8 @@ margin-left: 7%;
   position: absolute;
   right: 500px;
   bottom: -1100px;
-  width:500px;
-  height: 480px;
+  width:420px;
+  height: 400px;
   background-image: url("../assets/Bola roxa grande 1.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -186,10 +186,10 @@ margin-left: 7%;
 
 .bola-azul5 {
   position: absolute;
-  top: 165%;
-  left: 60%;
-  width:25%;
-  height: 45vh;
+  right: 350px;
+  bottom: -1000px;
+  width:420px;
+  height: 400px;
   background-image: url("../assets/Bola aqua grande 1.png");
   background-repeat: no-repeat;
   background-position: center center;
