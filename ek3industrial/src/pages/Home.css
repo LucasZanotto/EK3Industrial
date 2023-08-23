@@ -59,6 +59,10 @@ p {
   margin-bottom: 0%;
 }
 
+.cards-div h3 {
+  margin-top: 3%;
+}
+
 .cards-div button {
   border-radius: 15px;
   background-color: #8C3388;
