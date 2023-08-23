@@ -110,7 +110,7 @@ sustentável pois nossos funcionários são valorizados e incentivados ao empode
 Nosso propósito se torna ainda mais agradável pois focamos em <strong>4 valores:</strong>
 </p>
 <p>
-<strong style={{fontSize: "20px", font: "inherit"}}>Transparência</strong> - dos planos e operações da organização para que os colaboradores possam auxiliar
+<strong style={{fontSize: "20px"}}>Transparência</strong> - dos planos e operações da organização para que os colaboradores possam auxiliar
 nossos clientes a tomarem a melhor decisão em seus projetos. Realizamos de forma clara, difundindo a
 capacidade das pessoas e empresas a trabalharem melhor juntas.
 </p>
@@ -159,10 +159,10 @@ confiáveis entregues por pessoas engajadas e muito experientes.</strong></p></i
                 empresa.
               </p>
               <p>
-                Nos instalamos em Videira Santa Catarina, cidade natal da
+                Nos instalamos em Videira - Santa Catarina, cidade natal da
                 fundadora e <strong>polo industrial</strong> da região meio
                 oeste catarinense, região altamente desenvolvida e berço de
-                grandes <strong>potencias</strong> na indústria brasileira.
+                grandes <strong>potências</strong> na indústria brasileira.
               </p>
               <p>
                 Chegamos para auxiliar no <strong>desenvolvimento</strong> dos
@@ -187,7 +187,7 @@ confiáveis entregues por pessoas engajadas e muito experientes.</strong></p></i
                 na <strong>gestão</strong> e<strong> resultados</strong>.
               </p>
               <p>
-                O <strong>Meio-Oeste Catarinense</strong>, região onde estamos instalados, está
+                O <strong>Meio Oeste Catarinense</strong>, região onde estamos instalados, está
                 em destaque da diversidade econômica, somos privilegiados devido
                 a <strong>extensão territorial</strong> e as{" "}
                 <strong>variadas atividades industriais</strong> que impulsionam
