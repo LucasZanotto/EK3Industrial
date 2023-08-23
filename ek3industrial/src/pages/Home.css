@@ -118,6 +118,7 @@ p {
   height: 65vh;
   color: white;
   opacity: 50%;
+  object-fit: cover;
 }
 
 .carousel-caption button {

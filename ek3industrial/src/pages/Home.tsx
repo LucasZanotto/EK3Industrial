@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
 import { Carousel } from "react-bootstrap";
-import imageCoach from "../assets/SK1_3469.jpg";
+import imageCoach from "../assets/Foto consultoria _ treinamento 2.jpg";
 import imageTyping from "../assets/Foto Projetos Industriais e Engenharia (1).jpg";
 import imageSobre from "../assets/WhatsApp Image 2023-08-10 at 17.15.56 (1).jpeg";
 import imageGlobo from "../assets/brian-mcgowan-0A450BR1JWk-unspla (1).jpg";
