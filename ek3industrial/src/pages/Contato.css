@@ -130,8 +130,14 @@
 
 .contact-form {
   max-width: 65vh;
+  margin: 0 auto;
+}
+
+.contact-form button {
+  max-width: 65vh;
   text-align: center;
   margin: 0 auto;
+  background-color: #8C3388;
 }
 
 .form-row {

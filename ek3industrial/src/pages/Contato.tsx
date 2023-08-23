@@ -38,7 +38,7 @@ export default function Contato(){
     formData.append("Encontrou através", encontrou);
     formData.append("Mensagem", message);
 
-    const response = await fetch("https://formspree.io/f/moqzbpyg", {
+    const response = await fetch("https://formspree.io/f/xzblrary", {
       method: "POST",
       body: formData,
       headers: {
@@ -84,7 +84,7 @@ export default function Contato(){
 <div className="container-contact">
   <div className="container-left">
   <form onSubmit={handleSubmit} className="contact-form">
-  <div style={{alignItems:"center"}}>
+  <div style={{alignItems:"start", paddingBottom:"3%"}}>
   <p><strong style={{fontSize:"20px"}}>Se você tem um futuro projeto ou está pronto para começar o planejamento dos seus investimentos
          internos para o próximo ano, estamos prontos para colaborar com você.</strong></p>
          </div>
@@ -166,8 +166,10 @@ export default function Contato(){
       style={{backgroundColor:"rgb(226, 217, 217)"}}
     ></textarea>
   </div>
+  <div style={{textAlign:"center"}}>
  
   <button className="" type="submit">Enviar</button>
+  </div>
 </form>
   </div>
   <div className="container-20">

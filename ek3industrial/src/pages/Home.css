@@ -1,5 +1,6 @@
 * {
   font-family: sans-serif;
+  border: none;
 }
 
 p {
@@ -36,6 +37,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 3%;
 }
 
 .cards-div img {
@@ -43,6 +45,14 @@ p {
   /* max-height: 100%; */
   width: 35vh;
   object-fit: cover;
+}
+
+.no-outline {
+  outline: none;
+}
+
+.no-outline-button:focus {
+  outline: none !important;
 }
 
 .cards-div p {
@@ -54,6 +64,14 @@ p {
   background-color: #8C3388;
   color: white;
   margin-top: auto;
+  outline: none;
+  border: none;
+  padding: 4px;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .cards-div:last-child {
@@ -94,7 +112,6 @@ p {
 
 .carousel-item img {
   height: 65vh;
-  object-fit: cover;
   color: white;
   opacity: 50%;
 }

@@ -139,7 +139,7 @@ export default function Home() {
             <strong>Conheça nossa história e junte-se à nossa jornada.</strong>
           </p>
           <Link to="/sobre">
-            <button>Saiba mais</button>
+          <button className="no-outline-button" type="submit" style={{outline:"none"}}>Saiba mais</button>
           </Link>
         </div>
         <div className="cards-div">
