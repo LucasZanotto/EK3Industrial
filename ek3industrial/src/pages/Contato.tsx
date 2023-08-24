@@ -24,6 +24,10 @@ export default function Contato(){
   window.scrollTo(0, 0);
   const history = useHistory();
 
+  function enviarFormulario() {
+    alert("Formulário enviado com sucesso!");
+}
+
   function handleClick() {
     history.go('/areas');
   }
@@ -64,7 +68,7 @@ export default function Contato(){
   return (
     <div>
     <Header/>
-    <div style={{top: "30%", left: "0%", height:"45vh", width:"25%"}} className="bola-roxa2"></div>
+    <div style={{top: "30%", left: "0%", height:"400px", width:"420px"}} className="bola-roxa2"></div>
     {/*<div style={{top: "46%", left: "%"}} className="bola-azul-roxo1"></div>*/}
     <div className="title-1">
   <h2 style={{marginBottom:"2%"}} className="fw-bold">Contato</h2>
@@ -168,7 +172,7 @@ export default function Contato(){
   </div>
   <div style={{textAlign:"center"}}>
  
-  <button className="" type="submit">Enviar</button>
+  <button className="" onClick={enviarFormulario} type="submit">Enviar</button>
   </div>
 </form>
   </div>
