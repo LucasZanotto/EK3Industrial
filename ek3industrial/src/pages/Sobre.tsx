@@ -103,11 +103,11 @@ export default function Sobre() {
       <div>
          <div className="content-sobre3">
     <h2 className="fw-bold" style={{marginTop: "0%"}}>Cultura</h2>
-    <p style={{marginBottom:"1%"}}>Construímos uma cultura diversa e inclusa, onde nossa equipe se sente pertencente e mais conectada.
-Juntamente com a expertise técnica, temos um ambiente de trabalho mais plural, inovador e
-sustentável pois nossos funcionários são valorizados e incentivados ao empoderamento.</p>
+    <p style={{marginBottom:"1%"}}>Nossa cultura promove, protege e cuida do bem-estar de cada colaborador envolvido ou tocado pelo nosso trabalho. Construímos uma cultura diversa e inclusa, onde nossa equipe se sente pertencente e mais conectada. Juntamente com a expertise técnica, temos um ambiente de trabalho mais plural, inovador e sustentável pois nossos funcionários são valorizados e incentivados ao empoderamento. 
+
+</p>
 <p>
-Nosso propósito se torna ainda mais agradável pois focamos em <strong>4 valores:</strong>
+Nosso propósito se torna ainda mais agradável pois focamos em <strong>4 valores:</strong>
 </p>
 <p>
 <strong style={{fontSize: "20px"}}>Transparência</strong> - dos planos e operações da organização para que os colaboradores possam auxiliar
@@ -117,12 +117,10 @@ capacidade das pessoas e empresas a trabalharem melhor juntas.
 <p>
 <strong style={{fontSize: "20px"}}>Autonomia</strong> – proporcionamos maior liberdade para desempenhar, inovar e trazer novas estratégias
 para o crescimento da empresa tanto quanto nas tomadas de decisões e suas responsabilidades;
-aplicado em todas as esferas da compania.
+aplicado em todas as esferas da empresa. Trabalhamos com uma comunicação livre, respeito mútuo e honestidade, nutrindo um ambiente onde as equipes se sentem à vontade para compartilhar ideias e focar em decisões. 
 </p>
 <p>
-<strong style={{fontSize: "20px"}}>Confiança & Colaboração</strong> – com respeito mútuo e honestidade, trabalhamos com uma comunicação
-livre, nutrindo um ambiente onde as equipes se sentem à vontade para compartilhar ideias e focar em
-decisões.
+<strong style={{fontSize: "20px"}}>Segurança</strong> no trabalho – essencial para a realização de qualquer trabalho com resultados positivos. Esta cultura é a soma de comportamentos e posturas de todos os colaboradores em relação à segurança no trabalho da qual prezamos e reforçamos. 
 </p>
 <p>
 <strong style={{fontSize: "20px"}}>Performance</strong> – trabalhamos de forma consistente para manter a sinergia entre equipes, além de

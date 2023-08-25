@@ -4,6 +4,7 @@ import imageInsta from "../assets/1161953_instagram_icon.png";
 import imageWhats from "../assets/843786_whatsapp_icon.png";
 import imageFace from "../assets/iconFace.png";
 import imageMail from "../assets/iconMail.png";
+import imageLinkedin from "../assets/104493_linkedin_icon.png";
 import ek3Logo2 from "../assets/ek3logo2.png";
 import ek3Logo1 from "../assets/Captura de tela de 2023-06-13 19-37-56.png";
 import "./Footer.css";
@@ -36,6 +37,9 @@ export default function Footer() {
         </a>
         <a href="https://www.instagram.com/ek3industrial/" target="_blank">
           <img src={imageInsta} width="30px" />
+        </a>
+        <a href="https://www.linkedin.com/company/ek3engenhariaindustrial/about/" target="_blank">
+          <img src={imageLinkedin} width="30px" />
         </a>
         <a
           href="https://api.whatsapp.com/send?phone=5549991156353"
