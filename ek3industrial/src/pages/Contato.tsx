@@ -21,7 +21,6 @@ export default function Contato(){
   const [company, setCompany] = useState("");
   const [message, setMessage] = useState("");
   const [encontrou, setEncontrou] = useState("");
-  window.scrollTo(0, 0);
   const history = useHistory();
 
   function enviarFormulario() {
@@ -39,7 +38,6 @@ export default function Contato(){
     formData.append("Email", email);
     formData.append("Telefone", phone);
     formData.append("Empresa", company);
-    formData.append("Encontrou através", encontrou);
     formData.append("Mensagem", message);
 
     const response = await fetch("https://formspree.io/f/xzblrary", {
@@ -62,7 +60,6 @@ export default function Contato(){
     setEmail('')
     setPhone('')
     setCompany('')
-    setEncontrou('')
     setMessage('')
   };
   return (
@@ -115,7 +112,6 @@ export default function Contato(){
         value={sobrenome}
         onChange={(e) => setSobrenome(e.target.value)}
         placeholder="Sobrenome"
-        required
         style={{backgroundColor:"rgb(226, 217, 217)"}}
       />
     </div>
@@ -141,7 +137,6 @@ export default function Contato(){
         value={phone}
         onChange={(e) => setPhone(e.target.value)}
         placeholder="Telefone"
-        required
         style={{backgroundColor:"rgb(226, 217, 217)"}}
       />
     </div>
@@ -154,7 +149,6 @@ export default function Contato(){
       value={company}
       onChange={(e) => setCompany(e.target.value)}
       placeholder="Empresa"
-      required
       style={{backgroundColor:"rgb(226, 217, 217)"}}
     />
   </div>
