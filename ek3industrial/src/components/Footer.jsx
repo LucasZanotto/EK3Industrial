@@ -1,14 +1,11 @@
 import React from "react";
-import imageInvi from "../assets/MarcaIv.png";
-import imageInsta from "../assets/1161953_instagram_icon.png";
-import imageWhats from "../assets/843786_whatsapp_icon.png";
-import imageFace from "../assets/iconFace.png";
+import instagramLogo from "../assets/instagramLogo.png";
+import whatsappLogo from "../assets/whatsappLogo.png";
+import facebookLogo from "../assets/facebookLogo.png";
 import imageMail from "../assets/iconMail.png";
-import imageLinkedin from "../assets/104493_linkedin_icon.png";
+import linkedinLogo from "../assets/linkedinLogo.png";
 import ek3Logo2 from "../assets/ek3logo2.png";
-import ek3Logo1 from "../assets/Captura de tela de 2023-06-13 19-37-56.png";
 import "./Footer.css";
-import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -33,19 +30,19 @@ export default function Footer() {
           href="https://www.facebook.com/profile.php?id=100093192124939"
           target="_blank"
         >
-          <img src={imageFace} width="35px" />
+          <img src={facebookLogo} width="30px" />
         </a>
         <a href="https://www.instagram.com/ek3industrial/" target="_blank">
-          <img src={imageInsta} width="30px" />
+          <img src={instagramLogo} width="30px" />
         </a>
         <a href="https://www.linkedin.com/company/ek3engenhariaindustrial/about/" target="_blank">
-          <img src={imageLinkedin} width="30px" />
+          <img src={linkedinLogo} width="30px" />
         </a>
         <a
           href="https://api.whatsapp.com/send?phone=5549991156353"
           target="_blank"
         >
-          <img src={imageWhats} width="30px" />
+          <img src={whatsappLogo} width="30px" />
         </a>
       </div>
     </footer>

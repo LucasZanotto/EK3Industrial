@@ -1,14 +1,8 @@
 import React from "react";
 import Header from "../components/Header";
-import imageEmp from "../assets/empreendimentos.jpg";
-import imageCoach from "../assets/SK1_3469.jpg";
-import imageInsta from "../assets/instagram.png";
-import imageWhats from "../assets/whatsapp.png";
-import imageTyping from "../assets/imageProj.jpg";
-import "./Areas.css";
-import { useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+import consultoria1Image from "../assets/consultoria1Image.jpg";
 import Footer from "../components/Footer";
+import "./Areas.css";
 
 export default function AreasConsultoria(){
   window.scrollTo(0, 0);
@@ -38,7 +32,7 @@ otimizada e coerente.</p>
             </div>
           </div>
           <div className="col-lg-6 col-md-12 mb-4">
-            <img src={imageCoach} alt="Consultoria e Treinamento" className="img-fluid rounded" />
+            <img src={consultoria1Image} alt="Consultoria e Treinamento" className="img-fluid rounded" />
           </div>
         </div>
       </div>

@@ -1,14 +1,8 @@
 import React from "react";
 import Header from "../components/Header";
-import imageEmp from "../assets/empreendimentos (2).jpg";
-import imageCoach from "../assets/Foto consultoria _ treinamento 2.jpg";
-import imageInsta from "../assets/instagram.png";
-import imageWhats from "../assets/whatsapp.png";
-import imageTyping from "../assets/imageProj.jpg";
-import "./Areas.css";
-import { useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+import empreendimentosImage from "../assets/empreendimentosImage.jpg";
 import Footer from "../components/Footer";
+import "./Areas.css";
 
 export default function AreasEmpreendimento(){
   window.scrollTo(0, 0);
@@ -26,7 +20,7 @@ o planejamento de indústria.</p>
             </div>
           </div>
           <div className="col-lg-6 col-md-12 mb-4 ">
-            <img src={imageEmp} alt="Empreendimentos Industriais" className="img-fluid rounded" />
+            <img src={empreendimentosImage} alt="Empreendimentos Industriais" className="img-fluid rounded" />
           </div>
         </div>
         </div>

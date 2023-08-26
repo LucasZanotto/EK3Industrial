@@ -1,16 +1,8 @@
 import React from "react";
 import Header from "../components/Header";
-import imageEmp from "../assets/empreendimentos.jpg";
-import imageCoach from "../assets/Foto consultoria _ treinamento 2.jpg";
-import imageInsta from "../assets/instagram.png";
-import imageWhats from "../assets/whatsapp.png";
-import imageTyping from "../assets/imageProj.jpg";
-import imageBolaAzul from "../assets/Bola aqua.png";
-import imageBolaRoxa from "../assets/Bola roxa.png";
-import "./Areas.css";
-import { useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+import projetosImage from "../assets/projetosImage.jpg";
 import Footer from "../components/Footer";
+import "./Areas.css";
 
 export default function AreasTreinamento(){
   window.scrollTo(0, 0);
@@ -33,7 +25,7 @@ Estados Unidos, França e Alemanha.</p>
             </div>
           </div>
           <div className="col-lg-6 col-md-12 order-lg-1 order-md-2 mb-4">
-            <img src={imageTyping} alt="Projetos Industriais e Engenharia" className="img-fluid rounded" />
+            <img src={projetosImage} alt="Projetos Industriais e Engenharia" className="img-fluid rounded" />
           </div>
         </div>
       </div>

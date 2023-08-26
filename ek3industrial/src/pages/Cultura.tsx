@@ -2,8 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import "./Cultura.css";
 import Footer from "../components/Footer";
-import imageCult from "../assets/imageCult2.jpeg";
-import imageEscritorio from "../assets/SK1_3779.jpg";
+import capaceteImage from "../assets/capaceteImage.jpg";
 
 export default function Cultura() {
   return (
@@ -12,7 +11,7 @@ export default function Cultura() {
       <div className="bola-azul4"></div>
       <div>
         <img
-          src={imageEscritorio}
+          src={capaceteImage}
           className="imagem-destaque"
           alt="Escritório"
         />

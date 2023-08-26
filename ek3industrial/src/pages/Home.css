@@ -253,7 +253,7 @@ p {
 .header-init {
   padding-left: 5%;
   background-color: #007bff;
-  background-image: url("../assets/quimica (1).jpg");
+  background-image: url("../assets/principalImage.jpg");
   background-size: cover;
   background-position: center; 
   /* padding-bottom: 24%; */
@@ -453,7 +453,7 @@ p {
   .header-init {
     color: black;
     background-color: #007bff;
-    background-image: url("../assets/Foto principal edited 2.png");
+    background-image: url("../assets/principalImage.jpg");
     /* padding-bottom: 24%; */
     height: 40vh;
     background-size: cover;

@@ -1,10 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import imageInvi from "../assets/MarcaIv.png";
-import ek3Logo2 from "../assets/ek3logo2.png";
-import ek3Logo1 from "../assets/Captura de tela de 2023-06-13 19-37-56.png";
-import ek3Logo from "../assets/ek3Invi.png";
-import ek3Logo4 from "../assets/Captura de tela de 2023-06-27 19-16-42.png";
+import ek3Logo1 from "../assets/ek3Logo1.png";
 import "./Header.css";
 
 export default function Header() {

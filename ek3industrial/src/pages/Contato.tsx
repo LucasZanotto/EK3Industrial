@@ -1,17 +1,9 @@
 import React, { useState } from "react"
-import Header from "../components/Header";
-import imageEmpre from "../assets/engenhariaEmp.jpeg";
-import imageInsta from "../assets/instagram.png";
-import imageWhats from "../assets/whatsapp.png";
-// import imageContato from "../assets/contact.jpg"
-import googleMap from "../assets/googleMap.png"
-import imageVideira from "../assets/videiraInt.jpg"
-import imageContato from "../assets/telework-5046230.jpg"
-import imageEscritorio from "../assets/mockup-escritorio-ek3-1.png"
-import "./Contato.css";
-import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
 import { useHistory } from 'react-router-dom';
+import Header from "../components/Header";
+import videiraImage from "../assets/videiraImage.jpg"
+import Footer from "../components/Footer";
+import "./Contato.css";
 
 export default function Contato(){
   const [name, setName] = useState("");
@@ -172,7 +164,7 @@ export default function Contato(){
   </div>
   <div className="container-20">
       <div className="container-22">
-      <img  src={imageVideira} alt="Third slide" className=""/>
+      <img  src={videiraImage} alt="Third slide" className=""/>
       </div>
       <div className="container-21">
       <h3><strong>Sede da corporação</strong></h3>

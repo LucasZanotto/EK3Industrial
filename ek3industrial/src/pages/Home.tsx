@@ -1,27 +1,27 @@
 import React, { useState } from "react";
-import Header from "../components/Header";
-import { Carousel } from "react-bootstrap";
-import imageCoach from "../assets/Foto consultoria _ treinamento 2.jpg";
-import imageTyping from "../assets/Foto Projetos Industriais e Engenharia (1).jpg";
-import imageSobre from "../assets/WhatsApp Image 2023-08-10 at 17.15.56 (1).jpeg";
-import imageGlobo from "../assets/brian-mcgowan-0A450BR1JWk-unspla (1).jpg";
-import imageAgriculture from "../assets/Agronegócios.jpg";
-import imageFood from "../assets/arno-senoner-8V56CnwVJRE-unsplas.jpg";
-import imageInfra from "../assets/troy-mortier-6OVv680DNag-unsplash.jpg";
-import imageManu from "../assets/christopher-burns-8KfCR12oeUM-unsplash.jpg";
-import imageRefil from "../assets/Refinaria (1).jpg";
-import imageChem from "../assets/quimica (2) (1).jpg";
-import imageCosmetic from "../assets/cosmetica (1).jpg";
-import imageEmp from "../assets/empreendimentos (1).jpg";
-import imageCult from "../assets/imageCult2.jpeg";
-import imageCell from "../assets/Captura de tela de 2023-06-13 20-33-26.png";
-import imageGenerator from "../assets/geracao de energia-85191120.jpg";
-import imagePharma from "../assets/glsun-mall-WNX6uk-1LV4-unsplash.jpg";
-import imageEstrutural from "../assets/greg-sellentin-SOBE-JRyRww-unspl.jpg";
-import imageCelulose from "../assets/size_960_16_9_papel-celulose11.png";
-import "./Home.css";
 import { Link } from "react-router-dom";
+import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { Carousel } from "react-bootstrap";
+import consultoriaImage from "../assets/consultoriaImage.jpg";
+import projetosImage from "../assets/projetosImage.jpg";
+import sobreImage from "../assets/sobreImage.jpeg";
+import localizacaoImage from "../assets/localizacaoImage.jpg";
+import agronegocioImage from "../assets/agronegocioImage.jpg";
+import alimenticiaImage from "../assets/alimenticiaImage.jpg";
+import governamentalImage from "../assets/governamentalImage.jpg";
+import fabricacaoImage from "../assets/fabricacaoImage.jpg";
+import refinariaImage from "../assets/refinariaImage.jpg";
+import quimicaImage from "../assets/quimicaImage.jpg";
+import imageCosmetic from "../assets/cosmeticaImage.jpg";
+import empreendimentosImage from "../assets/empreendimentosImage.jpg";
+import culturaImage from "../assets/culturaImage.jpeg";
+import textilImage from "../assets/textilImage.png";
+import geracaoDeEnergiaImage from "../assets/geracaoDeEnergiaImage.jpg";
+import farmaImage from "../assets/farmaImage.jpg";
+import infraestruturaImage from "../assets/infraestruturaImage.jpg";
+import papelImage from "../assets/papelImage.png";
+import "./Home.css";
 
 export default function Home() {
   // window.scrollTo(0, 0);
@@ -56,7 +56,7 @@ export default function Home() {
       </div>
       <Carousel>
         <Carousel.Item>
-          <img className="d-block w-100" src={imageTyping} alt="First slide" />
+          <img className="d-block w-100" src={projetosImage} alt="First slide" />
           <Carousel.Caption className="marketing-1">
             <h3>
               <strong>Projetos industriais e Engenharia</strong>
@@ -71,7 +71,7 @@ export default function Home() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={imageCoach} style={{}} alt="Second slide" />
+          <img className="d-block w-100" src={consultoriaImage} style={{}} alt="Second slide" />
           <Carousel.Caption className="marketing-1">
             <h3>
               <strong>Consultoria e Treinamentos</strong>
@@ -86,7 +86,7 @@ export default function Home() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={imageEmp} alt="Third slide" />
+          <img className="d-block w-100" src={empreendimentosImage} alt="Third slide" />
           <Carousel.Caption>
             <div className="marketing-1">
               <h3>
@@ -115,7 +115,7 @@ export default function Home() {
       <div className="container-cards">
         <div className="cards-div">
           <div>
-            <img src={imageCult} />
+            <img src={culturaImage} />
           </div>
           <h3>Cultura</h3>
           <p>
@@ -131,7 +131,7 @@ export default function Home() {
         </div>
         <div className="cards-div">
           <div>
-            <img src={imageSobre} />
+            <img src={sobreImage} />
           </div>
           <h3>Quem somos</h3>
           <p>
@@ -144,7 +144,7 @@ export default function Home() {
         </div>
         <div className="cards-div">
           <div>
-            <img src={imageGlobo} />
+            <img src={localizacaoImage} />
           </div>
           <h3>Localização</h3>
           <p>
@@ -179,7 +179,7 @@ export default function Home() {
           </h3>
           <img
           loading="lazy"
-            src={imageAgriculture}
+            src={agronegocioImage}
             alt="Foto de roberto bernardi na Unsplash"
             style={{ borderRadius: "5px", opacity: "70%" }}
           />
@@ -198,7 +198,7 @@ export default function Home() {
           </h3>
           <img
           loading="lazy"
-            src={imageChem}
+            src={quimicaImage}
             alt="Foto de Artur Voznenko na Unsplash"
             width="20%"
             style={{ borderRadius: "5px", opacity: "70%" }}
@@ -225,7 +225,7 @@ export default function Home() {
           </h3>
           <img
           loading="lazy"
-            src={imageFood}
+            src={alimenticiaImage}
             alt="Foto de Arshad Pooloo na Unsplash"
             width="20%"
             style={{ borderRadius: "5px", opacity: "70%" }}
@@ -252,7 +252,7 @@ export default function Home() {
           </h3>
           <img
           loading="lazy"
-            src={imageInfra}
+            src={governamentalImage}
             alt="Foto de Troy Mortier na Unsplash"
             width="20%"
             style={{ borderRadius: "5px", opacity: "70%", objectFit: "cover" }}
@@ -282,7 +282,7 @@ export default function Home() {
               </h3>
               <img
               loading="lazy"
-                src={imageGenerator}
+                src={geracaoDeEnergiaImage}
                 alt="Foto de roberto bernardi na Unsplash"
                 style={{ borderRadius: "5px", opacity: "70%" }}
               />
@@ -307,7 +307,7 @@ export default function Home() {
               </h3>
               <img
               loading="lazy"
-                src={imagePharma}
+                src={farmaImage}
                 alt="Foto de Glsun Mall na Unsplash"
                 width="20%"
                 style={{ borderRadius: "5px", opacity: "70%" }}
@@ -334,7 +334,7 @@ export default function Home() {
               </h3>
               <img
               loading="lazy"
-                src={imageManu}
+                src={fabricacaoImage}
                 alt="Foto de Christopher Burns na Unsplash"
                 width="20%"
                 style={{ borderRadius: "5px", opacity: "70%" }}
@@ -392,7 +392,7 @@ export default function Home() {
               </h3>
               <img
               loading="lazy"
-                src={imageCell}
+                src={textilImage}
                 alt="Foto de roberto bernardi na Unsplash"
                 style={{ borderRadius: "5px", opacity: "70%" }}
               />
@@ -417,7 +417,7 @@ export default function Home() {
               </h3>
               <img
               loading="lazy"
-                src={imageRefil}
+                src={refinariaImage}
                 alt="Foto de Victor na Unsplash"
                 style={{ borderRadius: "5px", opacity: "70%" }}
               />
@@ -442,7 +442,7 @@ export default function Home() {
               </h3>
               <img
               loading="lazy"
-                src={imageCelulose}
+                src={papelImage}
                 alt="Foto de Christopher Burns na Unsplash"
                 style={{ borderRadius: "5px", opacity: "70%" }}
               />
@@ -467,7 +467,7 @@ export default function Home() {
               </h3>
               <img
               loading="lazy"
-                src={imageEstrutural}
+                src={infraestruturaImage}
                 alt="Foto de Christopher Burns na Unsplash"
                 style={{ borderRadius: "5px", opacity: "70%" }}
               />
@@ -496,7 +496,7 @@ export default function Home() {
           </h3>
           <img
           loading="lazy"
-            src={imageGenerator}
+            src={geracaoDeEnergiaImage}
             alt="Foto de roberto bernardi na Unsplash"
             style={{ borderRadius: "5px", opacity: "70%" }}
           />
@@ -521,7 +521,7 @@ export default function Home() {
           </h3>
           <img
           loading="lazy"
-            src={imagePharma}
+            src={farmaImage}
             alt="Foto de Glsun Mall na Unsplash"
             width="20%"
             style={{ borderRadius: "5px", opacity: "70%" }}
@@ -548,7 +548,7 @@ export default function Home() {
           </h3>
           <img
           loading="lazy"
-            src={imageManu}
+            src={fabricacaoImage}
             alt="Foto de Christopher Burns na Unsplash"
             width="20%"
             style={{ borderRadius: "5px", opacity: "70%" }}
@@ -602,7 +602,7 @@ export default function Home() {
           </h3>
           <img
           loading="lazy"
-            src={imageCell}
+            src={textilImage}
             alt="Foto de roberto bernardi na Unsplash"
             style={{ borderRadius: "5px", opacity: "70%" }}
           />
@@ -627,7 +627,7 @@ export default function Home() {
           </h3>
           <img
           loading="lazy"
-            src={imageRefil}
+            src={refinariaImage}
             alt="Foto de Victor na Unsplash"
             style={{ borderRadius: "5px", opacity: "70%" }}
           />
@@ -651,7 +651,7 @@ export default function Home() {
             <strong>Papel & Celulose</strong>
           </h3>
           <img
-            src={imageCelulose}
+            src={papelImage}
             alt="Foto de Christopher Burns na Unsplash"
             style={{ borderRadius: "5px", opacity: "70%" }}
           />
@@ -676,7 +676,7 @@ export default function Home() {
           </h3>
           <img
           loading="lazy"
-            src={imageEstrutural}
+            src={infraestruturaImage}
             alt="Foto de Christopher Burns na Unsplash"
             style={{ borderRadius: "5px", opacity: "70%" }}
           />
