@@ -38,8 +38,8 @@ otimizada e coerente.</p>
       </div>
       <div className="bola-azul-roxo1"></div>
       <div className="content-consult2">
-        <strong><h5 style={{paddingBottom: "1.5%", color: "#8C3388"}}><strong>Aqui alguns dos nossos nichos;</strong> </h5>
-              <h5 style={{paddingBottom: "3%", color: "#8C3388"}}><strong>personalizados para cada empresa e necessidade, conheça alguns: </strong></h5></strong>
+        <strong><h5 className="consult-head1" style={{paddingBottom: "1.5%", color: "#8C3388"}}><strong>Aqui alguns dos nossos nichos;</strong> </h5>
+              <h5 className="consult-head2" style={{paddingBottom: "3%", color: "#8C3388"}}><strong>personalizados para cada empresa e necessidade, conheça alguns: </strong></h5></strong>
               <ul>
             <li>Gestão em Projetos industriais</li>
             <li>Excelência operacional</li>

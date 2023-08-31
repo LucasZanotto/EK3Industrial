@@ -25,9 +25,9 @@
     padding: 5%;
 }
 
-..content-sobre1 p {
+/* .content-sobre1 p {
   padding-left: 15%;
-}
+} */
 
 .content-sobre2 {
   padding: 5%;
@@ -147,5 +147,138 @@
 @media (max-width: 768px) {
   .content {
     max-width: 100%; /* Altere a largura do texto para ocupar 100% da largura da tela em dispositivos móveis */
+  }
+
+  .content-container-flex {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content-sobre1 {
+      position:relative;  
+      top: 0%; left: 0%; right: 0%; transform: translateY(-0%);
+      padding-left: 0%;
+      padding-right: 0%;
+      background-color: #3A8894;
+      color: rgba(255, 255, 255, 0.76);
+      padding-bottom: 0;
+      /* margin-left: 15%; */
+      padding: 5%;
+  }
+
+  .content-sobre2 {
+    padding: 0%;
+    margin-left: 0%;
+  }
+  
+  .content-sobre3 {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+  
+  .content-sobre4 {
+    padding: 6%;
+  }
+  
+  .content-sobre5 {
+    padding: 6%;
+    background-color: #3A8894;
+    color:rgba(255, 255, 255, 0.76);
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .title-2 {
+    justify-content: flex-start;
+  }
+  
+  .container-center {
+    /* background-color: #26A7B6; */
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 3%;
+    
+  }
+  
+  .seila {
+    background-color: #26A7B6;
+    display: flex;
+  }
+  
+  .title-1 {
+    /* background-color: #f8f9fa;  */
+    margin-top: 2%;
+    text-align: center;
+  }
+  
+  .title-1 h1 {
+    /* font-size: 36px; Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    text-transform: uppercase; /* Transformar o texto em maiúsculas */
+    /* margin-bottom: 10px; */
+  }
+  
+  .title-1 hr {
+    border: none;
+    height: 3px;
+    background-color: #000000; /* Cor da linha */
+    margin: 0 auto;
+    width: 65vh;
+  }
+  
+  .info-1 {
+    /* background-color: rgb(0, 128, 117); */
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align:left;
+  }
+  
+  .info-1 h2 {
+    padding-top: 5%;
+    padding-bottom: 2%;
+  }
+  
+  .grid-1 div div img {
+    margin-top: 15%;
+    padding-left: 2%;
+    height: 25vh;
+  }
+  
+  .grid-1 div img {
+    margin-top: 5%;
+    padding-left: 2%;
+    height: 53vh;
+  }
+  
+  .info-2 img {
+    padding-top: 5%;
+  }
+  
+  .info-2 p {
+    margin: 0;
+  }
+  
+  .info-3 {
+    padding-top: 10%;
+  }
+  
+  .grid-1 {
+    display: flex;
+    padding-right: 2%;
+    margin-bottom: 10%;
+  }
+  
+  .imageCity img {
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+  }
+  
+  .back-gray {
+    background-color: #fff;
   }
 }

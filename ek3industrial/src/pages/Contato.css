@@ -220,32 +220,93 @@
 
 
  @media (max-width: 1000px) {
-  .button-sub {
-    /* Outros estilos do botão */
-    margin-bottom: 0;
-    padding-bottom: 0;
+  .contact-form {
+    max-width: 100%;
+  }
+
+  .form-group label {
+    font-size: 16px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-group {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+  }
+
+  .contact-form button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-bottom: 10%;
   }
 
   .container-20 {
-    display: block;
-    padding: 0%;
-    margin:0%;
+    margin: 0;
+    padding: 0;
   }
 
   .container-22 img {
-    /* margin-top: 100%; */
     width: 100%;
   }
 
-  .container-banner {
-    background-image: url();
-  }
-
   .container-contact {
-    margin-top: 0%;
-    padding: 0;
-    display: block;
+    display: flex;
+  flex-direction: column; /* Adicione essa linha */
+  margin-bottom: 15%;
   }
+  .container-left {
+    margin-left: 5%; /* Ajuste a margem para liberar mais espaço para o formulário */
+    margin-right: 5%;
+  }
+  
+  .contact-form {
+    max-width: 100%; /* Ocupar toda a largura disponível */
+  }
+  
+  .form-group {
+    flex-basis: 100%; /* Ocupar toda a largura disponível */
+  }
+  
+  .contact-form textarea {
+    width: 100%; /* Ocupar toda a largura disponível */
+  }
+  .form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 10px; /* Espaçamento entre os campos */
+}
+
+.contact-form button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-bottom: 10px; /* Espaçamento entre o botão e os campos */
+}
+.container-contact {
+  display: flex;
+  margin-bottom: 15%;
+}
+
+.container-left {
+  flex: 1; /* Ocupar o espaço disponível */
+  padding: 0 5%;
+}
+
+.container-20 {
+  flex: 1; /* Ocupar o espaço disponível */
+}
 
 
  }

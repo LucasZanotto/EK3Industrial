@@ -119,6 +119,19 @@ margin-left: 7%;
   z-index: -1;
 }
 
+.bola-roxa6 {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  width: 420px;
+  height: 400px;
+  background-image: url("../assets/bolaRoxaGrande.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+}
+
 .bola-azul-roxo1 {
   /* copiar dessa */
   position: absolute;
@@ -229,4 +242,196 @@ margin-left: 7%;
 .conteudo-2 {
   padding-left: -5%;
   margin-left: -11%;
+}
+
+@media (max-width: 950px) {
+  .bola-roxa {
+    display: none;
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    width: 500px;
+    height: 480px;
+    background-image: url("../assets/bolaAquaBaixo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -1;
+  }
+  
+  .bola-roxa2 {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    width: 450px;
+    height: 430px;
+    background-image: url("../assets/bolaRoxaGrande.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -1;
+  }
+  
+  .bola-roxa3 {
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 36%;
+    width: 600px;
+    height: 590px;
+    background-image: url("../assets/bolaRoxaGrande.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -1;
+  }
+  
+  .bola-roxa5 {
+    display: none;
+    position: absolute;
+    right: 15%;
+    bottom: -220%;
+    width:240px;
+    height: 210px;
+    background-image: url("../assets/bolaRoxaGrande.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -1;
+  }
+  
+  .bola-azul-roxo1 {
+    display: none;
+    /* copiar dessa */
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 450px;
+    height: 380px;
+    background-image: url("../assets/bolaMixGrande.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -1;
+  }
+  
+  .bola-azul {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    width: 650px;
+    height: 550px;
+    background-image: url("../assets/bolaMixGrande.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -1;
+  }
+  
+  .bola-azul2 {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 35%;
+    height: 100%;
+    background-image: url("../assets/bolaAquaGrande2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -1;
+  }
+  
+  .bola-azul3 {
+    display: none;
+    position: absolute;
+    top: 33%;
+    left: 45%;
+    width: 600px;
+    height: 580px;
+    background-image: url("../assets/bolaAquaGrande1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -1;
+  }
+  
+  .bola-azul4 {
+    display: none;
+    position: absolute;
+    top: 130%;
+    left: 0%;
+    width:420px;
+    height: 350px;
+    background-image: url("../assets/bolaMixGrande.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -2;
+  }
+  
+  .bola-azul5 {
+    display: none;
+    position: absolute;
+    right: 0%;
+    bottom: -210%;
+    width:240px;
+    height: 210px;
+    background-image: url("../assets/bolaAquaGrande2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -2;
+  }
+
+  .bola-roxa6 {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    width: 420px;
+    height: 400px;
+    background-image: url("../assets/bolaRoxaGrande.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  .content-consult2 {
+    font-size:"16px";
+    position: relative;
+  
+    z-index: 0;
+    padding:0%;
+    margin: 0 0 0 0%;
+    background-color: rgb(247, 243, 243);
+  }
+
+  .content-consult2 h5 {
+    margin-left: 5%;
+  }
+  .consult-head1 {
+    margin-bottom: 13%;
+  }
+  .consult-head2 {
+    margin-bottom: 28%;
+  }
+  .content-projetos3 {
+    display: flex;
+    text-align: center;
+  margin-left: 0%;
+    font-size: 18px;
+    max-width:100%;
+  }
+
+  .content-empreend2 {
+    padding: 8%;
+    margin-left: 0%;
+  }
+  .content-empreend1 {
+    padding: 5%;
+  }
 }
