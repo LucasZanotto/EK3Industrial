@@ -14,6 +14,9 @@ export default function Contato(){
   const [message, setMessage] = useState("");
   const [encontrou, setEncontrou] = useState("");
   const history = useHistory();
+  if (!name) {
+    window.scrollTo(0, 0);
+  };
 
   function enviarFormulario() {
     alert("Formulário enviado com sucesso!");
